@@ -30,7 +30,7 @@
     "output": 5.0
   },
   "request_attempts": 5,
-  "rescored_timestamp_utc": "2026-09-09T15:44:28.660246+00:00",
+  "rescored_timestamp_utc": "2026-09-09T15:52:52.820660+00:00",
   "retrieval": {
     "ckg": "natural-language question only; no answer annotations",
     "rag": {
@@ -289,7 +289,7 @@
     ],
     "total": 240
   },
-  "scoring_git_commit": "5d9a5175969af1cebc2b4826fd4a467162e12e61",
+  "scoring_git_commit": "732b43ec7d35c94e53f3f0a92c18fe667471325e",
   "seed": 20260909,
   "system_prompt_sha256": "15d1fe2ca315a0e13054ab61621da918cc6cf445d175776658285a4700cbe4e9",
   "systems": [

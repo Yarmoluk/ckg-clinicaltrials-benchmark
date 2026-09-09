@@ -14,6 +14,128 @@
   "run_id": "integrity-v2-2026-09-09T154036.564986+0000",
   "systems": {
     "ckg": {
+      "by_domain": {
+        "ct-cardiovascular": {
+          "cost_usd": 0.013721,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 409.45,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.70345,
+          "valid_json_rate": 1.0
+        },
+        "ct-gastro-hepatology": {
+          "cost_usd": 0.014143,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 420.15,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.686855,
+          "valid_json_rate": 1.0
+        },
+        "ct-hematologic-malignancies": {
+          "cost_usd": 0.014237,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 474.25,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.666735,
+          "valid_json_rate": 1.0
+        },
+        "ct-immunology-autoimmune": {
+          "cost_usd": 0.016968,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 473.4,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.707455,
+          "valid_json_rate": 1.0
+        },
+        "ct-infectious-disease-vaccines": {
+          "cost_usd": 0.014608,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 498.0,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.65484,
+          "valid_json_rate": 1.0
+        },
+        "ct-metabolic-endocrine": {
+          "cost_usd": 0.014425,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 428.25,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.696095,
+          "valid_json_rate": 1.0
+        },
+        "ct-nephrology-renal": {
+          "cost_usd": 0.014901,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 474.25,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.6829,
+          "valid_json_rate": 1.0
+        },
+        "ct-neurology-alzheimers": {
+          "cost_usd": 0.016436,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 473.0,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.710305,
+          "valid_json_rate": 1.0
+        },
+        "ct-oncology-solid-tumors": {
+          "cost_usd": 0.013451,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 437.15,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.67569,
+          "valid_json_rate": 1.0
+        },
+        "ct-psychiatry-behavioral": {
+          "cost_usd": 0.013218,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 412.9,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.69941,
+          "valid_json_rate": 1.0
+        },
+        "ct-rare-genetic": {
+          "cost_usd": 0.014501,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 435.45,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.707,
+          "valid_json_rate": 1.0
+        },
+        "ct-respiratory-pulmonary": {
+          "cost_usd": 0.013688,
+          "evidence_recall": 1.0,
+          "exact_match_rate": 1.0,
+          "mean_tokens": 440.2,
+          "n": 20,
+          "structural_f1": 1.0,
+          "token_f1_diagnostic": 0.67304,
+          "valid_json_rate": 1.0
+        }
+      },
       "by_type": {
         "T1_entity": {
           "cost_usd": 0.017901,
@@ -76,6 +198,128 @@
       "valid_json_rate": 1.0
     },
     "question_echo": {
+      "by_domain": {
+        "ct-cardiovascular": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.43087,
+          "valid_json_rate": 0.0
+        },
+        "ct-gastro-hepatology": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.455775,
+          "valid_json_rate": 0.0
+        },
+        "ct-hematologic-malignancies": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.47133,
+          "valid_json_rate": 0.0
+        },
+        "ct-immunology-autoimmune": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.440685,
+          "valid_json_rate": 0.0
+        },
+        "ct-infectious-disease-vaccines": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.50141,
+          "valid_json_rate": 0.0
+        },
+        "ct-metabolic-endocrine": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.47219,
+          "valid_json_rate": 0.0
+        },
+        "ct-nephrology-renal": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.479955,
+          "valid_json_rate": 0.0
+        },
+        "ct-neurology-alzheimers": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.44043,
+          "valid_json_rate": 0.0
+        },
+        "ct-oncology-solid-tumors": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.462365,
+          "valid_json_rate": 0.0
+        },
+        "ct-psychiatry-behavioral": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.466275,
+          "valid_json_rate": 0.0
+        },
+        "ct-rare-genetic": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.474135,
+          "valid_json_rate": 0.0
+        },
+        "ct-respiratory-pulmonary": {
+          "cost_usd": 0.0,
+          "evidence_recall": 0.0,
+          "exact_match_rate": 0.0,
+          "mean_tokens": 0.0,
+          "n": 20,
+          "structural_f1": 0.0,
+          "token_f1_diagnostic": 0.44239,
+          "valid_json_rate": 0.0
+        }
+      },
       "by_type": {
         "T1_entity": {
           "cost_usd": 0.0,
@@ -138,6 +382,128 @@
       "valid_json_rate": 0.0
     },
     "rag": {
+      "by_domain": {
+        "ct-cardiovascular": {
+          "cost_usd": 0.066987,
+          "evidence_recall": 0.425833,
+          "exact_match_rate": 0.1,
+          "mean_tokens": 3084.55,
+          "n": 20,
+          "structural_f1": 0.118182,
+          "token_f1_diagnostic": 0.181065,
+          "valid_json_rate": 1.0
+        },
+        "ct-gastro-hepatology": {
+          "cost_usd": 0.069296,
+          "evidence_recall": 0.216786,
+          "exact_match_rate": 0.15,
+          "mean_tokens": 3186.0,
+          "n": 20,
+          "structural_f1": 0.161111,
+          "token_f1_diagnostic": 0.166735,
+          "valid_json_rate": 1.0
+        },
+        "ct-hematologic-malignancies": {
+          "cost_usd": 0.066354,
+          "evidence_recall": 0.228333,
+          "exact_match_rate": 0.15,
+          "mean_tokens": 3165.3,
+          "n": 20,
+          "structural_f1": 0.15,
+          "token_f1_diagnostic": 0.113225,
+          "valid_json_rate": 1.0
+        },
+        "ct-immunology-autoimmune": {
+          "cost_usd": 0.067826,
+          "evidence_recall": 0.221286,
+          "exact_match_rate": 0.1,
+          "mean_tokens": 3101.5,
+          "n": 20,
+          "structural_f1": 0.129901,
+          "token_f1_diagnostic": 0.21978,
+          "valid_json_rate": 1.0
+        },
+        "ct-infectious-disease-vaccines": {
+          "cost_usd": 0.068685,
+          "evidence_recall": 0.311667,
+          "exact_match_rate": 0.1,
+          "mean_tokens": 3229.85,
+          "n": 20,
+          "structural_f1": 0.114286,
+          "token_f1_diagnostic": 0.1701,
+          "valid_json_rate": 1.0
+        },
+        "ct-metabolic-endocrine": {
+          "cost_usd": 0.069035,
+          "evidence_recall": 0.279107,
+          "exact_match_rate": 0.15,
+          "mean_tokens": 3120.75,
+          "n": 20,
+          "structural_f1": 0.15,
+          "token_f1_diagnostic": 0.149995,
+          "valid_json_rate": 1.0
+        },
+        "ct-nephrology-renal": {
+          "cost_usd": 0.066096,
+          "evidence_recall": 0.314167,
+          "exact_match_rate": 0.2,
+          "mean_tokens": 3070.4,
+          "n": 20,
+          "structural_f1": 0.209091,
+          "token_f1_diagnostic": 0.24425,
+          "valid_json_rate": 1.0
+        },
+        "ct-neurology-alzheimers": {
+          "cost_usd": 0.067774,
+          "evidence_recall": 0.262917,
+          "exact_match_rate": 0.1,
+          "mean_tokens": 3096.5,
+          "n": 20,
+          "structural_f1": 0.115385,
+          "token_f1_diagnostic": 0.17959,
+          "valid_json_rate": 1.0
+        },
+        "ct-oncology-solid-tumors": {
+          "cost_usd": 0.066359,
+          "evidence_recall": 0.261667,
+          "exact_match_rate": 0.15,
+          "mean_tokens": 3081.35,
+          "n": 20,
+          "structural_f1": 0.183333,
+          "token_f1_diagnostic": 0.21174,
+          "valid_json_rate": 1.0
+        },
+        "ct-psychiatry-behavioral": {
+          "cost_usd": 0.064433,
+          "evidence_recall": 0.38375,
+          "exact_match_rate": 0.1,
+          "mean_tokens": 3038.85,
+          "n": 20,
+          "structural_f1": 0.107143,
+          "token_f1_diagnostic": 0.156555,
+          "valid_json_rate": 1.0
+        },
+        "ct-rare-genetic": {
+          "cost_usd": 0.065981,
+          "evidence_recall": 0.256667,
+          "exact_match_rate": 0.05,
+          "mean_tokens": 3075.85,
+          "n": 20,
+          "structural_f1": 0.059091,
+          "token_f1_diagnostic": 0.15468,
+          "valid_json_rate": 1.0
+        },
+        "ct-respiratory-pulmonary": {
+          "cost_usd": 0.066894,
+          "evidence_recall": 0.329167,
+          "exact_match_rate": 0.15,
+          "mean_tokens": 3114.7,
+          "n": 20,
+          "structural_f1": 0.167073,
+          "token_f1_diagnostic": 0.18819,
+          "valid_json_rate": 1.0
+        }
+      },
       "by_type": {
         "T1_entity": {
           "cost_usd": 0.1628,
