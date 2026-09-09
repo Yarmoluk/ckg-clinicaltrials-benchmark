@@ -132,6 +132,21 @@ def extract_json_object(answer: str) -> dict[str, Any] | None:
             return None
 
 
+def extract_strict_json_object(answer: str) -> dict[str, Any] | None:
+    """Parse a whole response as JSON, allowing only one enclosing code fence."""
+    stripped = answer.strip()
+    if stripped.startswith("```"):
+        match = re.fullmatch(r"```(?:json)?\s*(\{.*\})\s*```", stripped, flags=re.I | re.S)
+        if not match:
+            return None
+        stripped = match.group(1)
+    try:
+        value = json.loads(stripped)
+        return value if isinstance(value, dict) else None
+    except json.JSONDecodeError:
+        return None
+
+
 def set_f1(predicted: list[str], expected: list[str]) -> dict[str, float | bool]:
     predicted_set = {canonical_label(item) for item in predicted if canonical_label(item)}
     expected_set = {canonical_label(item) for item in expected if canonical_label(item)}
@@ -238,7 +253,8 @@ def relation_score(
         "structural_recall": score["recall"],
         "structural_f1": score["f1"],
         "exact_match": bool(score["exact"]),
-        "valid_json": parsed is not None,
+        "extractable_json": parsed is not None,
+        "strict_json": extract_strict_json_object(answer) is not None,
         "expected_structural_answer": expected_value,
         "parsed_structural_answer": predicted_value,
     }
@@ -461,7 +477,10 @@ def summarize(rows: list[dict[str, Any]]) -> dict[str, Any]:
                 sum(row["context_target_coverage"] for row in values) / count, 6
             ),
             "token_f1_diagnostic": round(sum(row["token_f1_diagnostic"] for row in values) / count, 6),
-            "valid_json_rate": round(sum(row["valid_json"] for row in values) / count, 6),
+            "extractable_json_rate": round(
+                sum(row["extractable_json"] for row in values) / count, 6
+            ),
+            "strict_json_rate": round(sum(row["strict_json"] for row in values) / count, 6),
             "mean_tokens": round(sum(row["total_tokens"] for row in values) / count, 3),
             "cost_usd": round(sum(row["cost_usd"] for row in values), 6),
         }

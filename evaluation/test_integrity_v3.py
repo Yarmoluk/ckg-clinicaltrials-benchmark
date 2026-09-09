@@ -84,6 +84,13 @@ class IntegrityEvaluationTests(unittest.TestCase):
             1.0,
         )
 
+    def test_strict_json_rejects_trailing_prose(self):
+        clean = '```json\n{"labels":[]}\n```'
+        trailing = clean + "\nThe context does not support an answer."
+        self.assertIsNotNone(integrity_eval.extract_strict_json_object(clean))
+        self.assertIsNone(integrity_eval.extract_strict_json_object(trailing))
+        self.assertIsNotNone(integrity_eval.extract_json_object(trailing))
+
     def test_path_requires_correct_directed_edges(self):
         query = next(item for item in self.queries if item["type"] == "T3_path")
         expected = list(reversed(query["ground_truth"]))

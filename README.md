@@ -1,13 +1,49 @@
 # CKG ClinicalTrials.gov Benchmark
 
-![CKG ClinicalTrials.gov benchmark social card](assets/social/ckg-clinicaltrials-linkedin.png)
+<p align="center">
+  <a href="INTEGRITY_V3_REPORT.md"><img alt="Status: integrity v3" src="https://img.shields.io/badge/status-integrity--v3%20hardened-0f766e"></a>
+  <a href="REPRODUCE.md"><img alt="Reproducible benchmark" src="https://img.shields.io/badge/benchmark-reproducible-2563eb"></a>
+  <a href="REVIEW.md"><img alt="Review protocol included" src="https://img.shields.io/badge/review-protocol%20included-7c3aed"></a>
+  <img alt="Updated: 2026-09-09" src="https://img.shields.io/badge/updated-2026--09--09-16a34a">
+  <img alt="Domains: 12" src="https://img.shields.io/badge/domains-12-0891b2">
+  <img alt="Studies processed: 5,587" src="https://img.shields.io/badge/studies-5%2C587-0284c7">
+  <img alt="Graph: 2,160 nodes and 2,716 edges" src="https://img.shields.io/badge/graph-2%2C160%20nodes%20%7C%202%2C716%20edges-0d9488">
+  <img alt="Questions: 240 matched, 2,064 generated" src="https://img.shields.io/badge/questions-240%20matched%20%7C%202%2C064%20generated-4f46e5">
+  <img alt="MCP companion recommended" src="https://img.shields.io/badge/MCP-companion%20recommended-111827">
+  <a href="LICENSE"><img alt="Code license: MIT" src="https://img.shields.io/badge/code%20license-MIT-111827"></a>
+  <a href="LICENSES/DATA.md"><img alt="Data license: CC BY 4.0" src="https://img.shields.io/badge/data%20license-CC%20BY%204.0-f59e0b"></a>
+</p>
 
-![CKG ClinicalTrials.gov benchmark social card](assets/social/ckg-clinicaltrials-linkedin.png)
+<p align="center">
+  <img src="assets/social/ckg-clinicaltrials-linkedin.png" alt="CKG ClinicalTrials.gov benchmark social card" width="760">
+</p>
 
 This repository evaluates a Compressed Knowledge Graph (CKG) as an AI context
 layer over structural questions derived from ClinicalTrials.gov records. It is a
 standalone project by Daniel Yarmoluk. It does not modify, extend, or share
 authorship with the separate Yarmoluk-McCreary CKG benchmark paper.
+
+## At a Glance
+
+| Item | Current value |
+| --- | --- |
+| Primary result | Integrity-v3 hardened evaluation |
+| Corpus source | Public ClinicalTrials.gov records, normalized and frozen locally |
+| Workload | Relationship-dependent structural questions |
+| Compared systems | Annotation-blind CKG, configured raw-prose RAG, same-model no context, question echo |
+| Best-supported claim | Declared graph structure recovered the benchmark's generated relationships more accurately and with fewer model tokens than this RAG configuration |
+| Not claimed | Clinical correctness, medical safety, independent replication, or universal superiority over every RAG/GraphRAG design |
+
+## What You Can Do With This Repo
+
+- Reproduce the integrity-v3 verification without paid model calls.
+- Inspect the frozen graphs, normalized source records, query set, raw outputs,
+  aggregates, and run manifest.
+- Compare CKG traversal against the included raw-prose vector-RAG baseline.
+- Replace the public ClinicalTrials.gov corpus with an approved internal corpus
+  and rerun the same evaluation pattern.
+- Use the [MCP companion design](MCP.md) as the next step for exposing the
+  benchmark to agent clients.
 
 ## Hardened Headline Result
 
@@ -25,6 +61,8 @@ matched questions across 12 therapeutic domains:
 
 Target coverage is exact answer-label presence in retrieved context. It is a
 diagnostic, not a measure of factual entailment or relationship support.
+All model responses contained an extractable JSON object; strict whole-response
+JSON compliance was 100.00% for CKG, 51.67% for RAG, and 54.58% for no context.
 
 Against the configured vanilla RAG baseline, CKG produced:
 
@@ -82,6 +120,26 @@ freeze a representative question set, run CKG/RAG/no-context controls, and have
 subject-matter reviewers inspect the misses before any workflow is used
 operationally.
 
+## MCP Companion
+
+Yes: this benchmark should have a read-only MCP companion. The repository should
+remain the system of record, while the MCP server gives agents a clean interface
+for traversing the frozen graphs, inspecting results, and explaining scope.
+
+Recommended first tools:
+
+- `list_domains`
+- `search_concepts`
+- `get_relationship_context`
+- `compare_system_outputs`
+- `summarize_benchmark_result`
+- `explain_scope_and_limitations`
+
+The MCP should not provide clinical advice, live ClinicalTrials.gov lookup,
+write actions, payment actions, or private data access. Start with local stdio
+for reviewers, then add Streamable HTTP only when authentication and hosting are
+ready. See [MCP.md](MCP.md) for the companion design.
+
 ## Evaluation Surface
 
 - 12 therapeutic domains
@@ -115,6 +173,7 @@ Read the [hardened report](INTEGRITY_V3_REPORT.md), inspect the
 | `results/aggregate/` | Superseded first-run summaries retained as an audit trail |
 | `results/raw/full-ckg/` | All 2,064 full CKG outputs |
 | `results/raw/paired/` | Exact 240-query CKG, RAG, and no-context outputs |
+| `MCP.md` | Proposed read-only MCP companion for agent access |
 | `REVIEW.md` | Protocol for independent technical review |
 
 ## Independence and Review

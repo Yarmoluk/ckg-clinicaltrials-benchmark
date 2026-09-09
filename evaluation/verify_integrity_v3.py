@@ -171,7 +171,8 @@ def main() -> None:
             rescored = integrity_v3_eval.relation_score(row, row["predicted_answer"], concepts)
             for key in (
                 "structural_precision", "structural_recall", "structural_f1",
-                "exact_match", "valid_json", "expected_structural_answer",
+                "exact_match", "extractable_json", "strict_json",
+                "expected_structural_answer",
                 "parsed_structural_answer",
             ):
                 if row[key] != rescored[key]:

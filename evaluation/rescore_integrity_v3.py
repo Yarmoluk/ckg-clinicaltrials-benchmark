@@ -32,6 +32,7 @@ def main() -> None:
                     ROOT / "benchmark" / "domains" / domain / "learning-graph.csv"
                 )
             concepts = graph_cache[domain]
+            row.pop("valid_json", None)
             row.update(integrity_v3_eval.relation_score(row, row["predicted_answer"], concepts))
             row["token_f1_diagnostic"] = ckg_harness.token_f1(
                 row["predicted_answer"], row.get("ground_truth", [])
