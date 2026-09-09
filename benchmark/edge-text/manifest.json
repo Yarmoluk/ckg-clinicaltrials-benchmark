@@ -1,0 +1,122 @@
+{
+  "document_schema": "one document per node plus one document per typed dependency edge",
+  "domains": {
+    "ct-cardiovascular": {
+      "document_file": "ct-cardiovascular.jsonl",
+      "document_sha256": "2ad1bec7667074a78e7df5884a750e9ba198cc0cca88382d312ed9596c5b9fc2",
+      "documents": 393,
+      "edges": 213,
+      "graph_path": "benchmark/domains/ct-cardiovascular/learning-graph.csv",
+      "graph_sha256": "d58d88f10496d5505312e1d90c4923d2d3e71f785d36106ab17c6caaedd6fce5",
+      "nodes": 180
+    },
+    "ct-gastro-hepatology": {
+      "document_file": "ct-gastro-hepatology.jsonl",
+      "document_sha256": "f116bed0e02cb79f2e93257d0443ce7493616e37af440151f7fd5fdd75716bc9",
+      "documents": 405,
+      "edges": 225,
+      "graph_path": "benchmark/domains/ct-gastro-hepatology/learning-graph.csv",
+      "graph_sha256": "d696bc1cb78f19f1e5235762df1bf23e55287c2b7016099129f05aee09797e31",
+      "nodes": 180
+    },
+    "ct-hematologic-malignancies": {
+      "document_file": "ct-hematologic-malignancies.jsonl",
+      "document_sha256": "dd8e7129165007092440fce384f101a8decad6581ef48ed947e810e9227a5c54",
+      "documents": 429,
+      "edges": 249,
+      "graph_path": "benchmark/domains/ct-hematologic-malignancies/learning-graph.csv",
+      "graph_sha256": "21d70ca3a90027c64501ff1152d2f7e3dcd337013b09d4c966039d590b605249",
+      "nodes": 180
+    },
+    "ct-immunology-autoimmune": {
+      "document_file": "ct-immunology-autoimmune.jsonl",
+      "document_sha256": "5efcc0cfda782c525e8ca0662b9df90b7d76cf2fa33b137be5476675299bbca7",
+      "documents": 402,
+      "edges": 222,
+      "graph_path": "benchmark/domains/ct-immunology-autoimmune/learning-graph.csv",
+      "graph_sha256": "90b0d8c3ff49a3b2dc1641acfefb8f5d03fe5b3157215570b059645c3b760f68",
+      "nodes": 180
+    },
+    "ct-infectious-disease-vaccines": {
+      "document_file": "ct-infectious-disease-vaccines.jsonl",
+      "document_sha256": "ff9784f812fce672e0af844261a4e689da5364e414eb831983385d0331955235",
+      "documents": 435,
+      "edges": 255,
+      "graph_path": "benchmark/domains/ct-infectious-disease-vaccines/learning-graph.csv",
+      "graph_sha256": "8606ce9fd5b75ca392f72cee0972fefdae5f84229e09eb844ec69a7c5e7ee797",
+      "nodes": 180
+    },
+    "ct-metabolic-endocrine": {
+      "document_file": "ct-metabolic-endocrine.jsonl",
+      "document_sha256": "508ece0f6be80b2ef8a4ccad5ad2181858818c38a96730ef383b62443107bce6",
+      "documents": 404,
+      "edges": 224,
+      "graph_path": "benchmark/domains/ct-metabolic-endocrine/learning-graph.csv",
+      "graph_sha256": "85858f189f13249d5d23ead34effcd174e2c302511703e58688fd177337fc7e8",
+      "nodes": 180
+    },
+    "ct-nephrology-renal": {
+      "document_file": "ct-nephrology-renal.jsonl",
+      "document_sha256": "ab375e10d042f7e50c0e5b11f2ed8ea2034915acea6a9dad4d7b86cd80ac5019",
+      "documents": 406,
+      "edges": 226,
+      "graph_path": "benchmark/domains/ct-nephrology-renal/learning-graph.csv",
+      "graph_sha256": "d5b0b422694d65450e875d3eb140dcb11ea5850169cb825e840fe2959e92daaf",
+      "nodes": 180
+    },
+    "ct-neurology-alzheimers": {
+      "document_file": "ct-neurology-alzheimers.jsonl",
+      "document_sha256": "556785f9f567fe308424a4cfde102c3b38adf9da5fbfc16282c5228783f90d51",
+      "documents": 397,
+      "edges": 217,
+      "graph_path": "benchmark/domains/ct-neurology-alzheimers/learning-graph.csv",
+      "graph_sha256": "e77a710cd1570037f36a6e473249a99c0d592e8ed2bda09add7bd28fec782491",
+      "nodes": 180
+    },
+    "ct-oncology-solid-tumors": {
+      "document_file": "ct-oncology-solid-tumors.jsonl",
+      "document_sha256": "57f20c15e74325d583646dbbb7273a982d96438713f9a690c98453483c62612c",
+      "documents": 407,
+      "edges": 227,
+      "graph_path": "benchmark/domains/ct-oncology-solid-tumors/learning-graph.csv",
+      "graph_sha256": "08029280bbdde02277f585e865c29e9d0d6421b64e59fedf24b95bde34116a9d",
+      "nodes": 180
+    },
+    "ct-psychiatry-behavioral": {
+      "document_file": "ct-psychiatry-behavioral.jsonl",
+      "document_sha256": "ffea069a4a6b30130213cb26de7b6de63423e9df030e971814458636f6a6dc4e",
+      "documents": 400,
+      "edges": 220,
+      "graph_path": "benchmark/domains/ct-psychiatry-behavioral/learning-graph.csv",
+      "graph_sha256": "925467a2000a877031640c10823ef7f088eed04ec9167a8daf0be8a03bbba55e",
+      "nodes": 180
+    },
+    "ct-rare-genetic": {
+      "document_file": "ct-rare-genetic.jsonl",
+      "document_sha256": "bd970ecd48b1e7b55549e8143316b24891d5fd75adc457d32229583988fdde23",
+      "documents": 400,
+      "edges": 220,
+      "graph_path": "benchmark/domains/ct-rare-genetic/learning-graph.csv",
+      "graph_sha256": "8437e0a38d6b012fc5a90584675c66170fa4f07b351fc7e210d8d3873f662360",
+      "nodes": 180
+    },
+    "ct-respiratory-pulmonary": {
+      "document_file": "ct-respiratory-pulmonary.jsonl",
+      "document_sha256": "46086a87f76d65e310d02a4f30c670e0b5d54fd3c6afaafda5d49fd52274a59e",
+      "documents": 398,
+      "edges": 218,
+      "graph_path": "benchmark/domains/ct-respiratory-pulmonary/learning-graph.csv",
+      "graph_sha256": "3f81618d98e445cd020fe0e0ea3530847359caea3d67f30422579fc33f9245b0",
+      "nodes": 180
+    }
+  },
+  "generator_version": "edge-text-v1",
+  "source": "existing benchmark/domains/*/learning-graph.csv files only",
+  "totals": {
+    "documents": 4876,
+    "domains": 12,
+    "edges": 2716,
+    "nodes": 2160
+  },
+  "tree_sha256": "b7fbd362961523d5bfd1c2e9fcb510694bf8e8fb6816b3e8b90166628077b8c5"
+}

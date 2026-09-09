@@ -1,7 +1,7 @@
 # CKG ClinicalTrials.gov Benchmark
 
 <p align="center">
-  <a href="INTEGRITY_V3_REPORT.md"><img alt="Status: integrity v3" src="https://img.shields.io/badge/status-integrity--v3%20hardened-0f766e"></a>
+  <a href="FROZEN_RETRIEVAL_REPORT.md"><img alt="Status: frozen retrieval comparison" src="https://img.shields.io/badge/status-frozen%20retrieval%20comparison-0f766e"></a>
   <a href="REPRODUCE.md"><img alt="Reproducible benchmark" src="https://img.shields.io/badge/benchmark-reproducible-2563eb"></a>
   <a href="REVIEW.md"><img alt="Review protocol included" src="https://img.shields.io/badge/review-protocol%20included-7c3aed"></a>
   <img alt="Updated: 2026-09-09" src="https://img.shields.io/badge/updated-2026--09--09-16a34a">
@@ -24,16 +24,16 @@ Yarmoluk-McCreary CKG benchmark paper.
 
 | Item | Current value |
 | --- | --- |
-| Primary result | Integrity-v3 hardened evaluation |
+| Primary result | Frozen 240-question modern RAG / edge-text RAG / CKG comparison |
 | Corpus source | Public ClinicalTrials.gov records, normalized and frozen locally |
 | Workload | Relationship-dependent retrieval and structural questions |
-| Compared systems | Annotation-blind CKG, configured raw-prose RAG, same-model no context, question echo |
-| Best-supported claim | Declared graph structure improved relationship-aware retrieval and recovered the benchmark's generated relationships with fewer model tokens than this RAG configuration |
+| Compared systems | Modern raw-prose RAG, edge-text RAG, annotation-blind CKG, and a query-type router |
+| Best-supported claim | For these pipelines, explicit graph-derived representation plus deterministic traversal materially improves structural recovery with fewer answer-model tokens |
 | Not claimed | Clinical correctness, medical safety, independent replication, or universal superiority over every RAG/GraphRAG design |
 
 ## What You Can Do With This Repo
 
-- Reproduce the integrity-v3 verification without paid model calls.
+- Reproduce the frozen retrieval comparison without paid model calls.
 - Inspect the frozen graphs, normalized source records, query set, raw outputs,
   aggregates, and run manifest.
 - Compare relationship-aware CKG retrieval against the included raw-prose
@@ -51,7 +51,7 @@ relationships matter.
 
 | User | Start here | What to do |
 | --- | --- | --- |
-| Technical reviewer | [`INTEGRITY_V3_REPORT.md`](INTEGRITY_V3_REPORT.md) | Read the limitations first, then run the verifier against the frozen artifacts. |
+| Technical reviewer | [`FROZEN_RETRIEVAL_REPORT.md`](FROZEN_RETRIEVAL_REPORT.md) and [`ADVERSARIAL_AUDIT_V2.md`](ADVERSARIAL_AUDIT_V2.md) | Read the limitations and audit first, then rebuild both retrieval paths with the offline verifier. |
 | Life sciences team | [`benchmark/manifest.json`](benchmark/manifest.json) and [`sources/README.md`](sources/README.md) | Inspect the domain structure, relationship types, and provenance model before mapping an internal corpus. |
 | RAG or platform team | [`evaluation/`](evaluation/) | Compare the included CKG, raw-prose RAG, no-context, and question-echo controls, then substitute your own retrieval stack. |
 | Semantic-layer team | [`benchmark/domains/`](benchmark/domains/) | Treat the graphs as an example of metric-like relationships: entity, dependency, path, aggregate, and cross-concept queries. |
@@ -63,10 +63,32 @@ To verify the current result locally:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r evaluation/requirements.txt
-python evaluation/test_integrity_v3.py
+python evaluation/test_retrieval_comparison.py
+HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TOKENIZERS_PARALLELISM=false \
 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
-python evaluation/verify_integrity_v3.py
+python evaluation/verify_retrieval_comparison.py
 ```
+
+## Frozen Retrieval Comparison
+
+The follow-up comparison addresses integrity-v3's two largest retrieval
+limitations: it adds BM25+dense fusion with cross-encoder reranking, then runs
+the same stack over graph nodes and typed edges serialized as text.
+
+| System | Structural F1 | Target coverage | Mean tokens/query | Inference cost |
+| --- | ---: | ---: | ---: | ---: |
+| Modern raw-prose RAG | 0.174264 | 0.387288 | 3,023.829 | $0.775967 |
+| Edge-text RAG | 0.925485 | 0.940281 | 1,249.350 | $0.358908 |
+| **Annotation-blind CKG** | **1.000000** | **1.000000** | **447.863** | **$0.174087** |
+| Type-rule router | 0.750000 | 0.883333 | 1,450.800 | $0.421540 |
+
+Edge-text RAG recovers most of the gap in this pipeline comparison. CKG then records 35 wins,
+zero losses, and 205 ties against edge-text RAG; edge-text RAG used 2.79 times
+as many answer-model tokens. Read the [full report](FROZEN_RETRIEVAL_REPORT.md) before
+quoting the result. The experiment does not isolate representation from
+information availability, document granularity, retrieval policy, or local
+retrieval compute, and it does not test clinical correctness or establish
+universal RAG superiority.
 
 To adapt the benchmark for an internal life sciences or semantic-layer use
 case, keep the evaluation shape but replace the corpus and schema:
@@ -203,9 +225,12 @@ Read the [hardened report](INTEGRITY_V3_REPORT.md), inspect the
 | Path | Contents |
 | --- | --- |
 | `benchmark/` | Frozen graph CSVs, source provenance, query sets, and domain manifest |
+| `benchmark/edge-text/` | Frozen node and typed-edge documents derived only from graph CSVs |
 | `corpus/` | Frozen prose representation used by the RAG baseline |
 | `sources/` | Frozen normalized source records and provenance disclosure |
 | `evaluation/` | Original harnesses plus integrity-v2/v3 runners, scorers, tests, and verifiers |
+| `results/frozen-retrieval-v2/` | Current modern RAG, edge-text RAG, reused CKG, router outputs, traces, manifest, and aggregate |
+| `results/frozen-retrieval-v1/` | Invalid parser run retained as an audit trail; do not cite |
 | `results/integrity-v3/` | Current raw outputs, aggregate, and run manifest |
 | `results/integrity-v2/` | Superseded corrected run retained as an audit trail |
 | `results/aggregate/` | Superseded first-run summaries retained as an audit trail |

@@ -1,5 +1,50 @@
 # Reproducing the Evaluation
 
+## Verify the Frozen Retrieval Comparison Without API Calls
+
+The current comparison uses the exact integrity-v3 240-query set and requires
+the BGE embedding model and MiniLM cross-encoder revisions recorded in
+`results/frozen-retrieval-v2/manifest.json`.
+
+```bash
+python evaluation/test_retrieval_comparison.py
+HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TOKENIZERS_PARALLELISM=false \
+OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+python evaluation/verify_retrieval_comparison.py
+```
+
+The verifier reconstructs the frozen edge-text documents, both hybrid retrieval
+paths, every saved context and ranking, all CKG reuse and router decisions, all
+structural scores, and all aggregates. It makes no API calls. On CPU, the full
+rebuild can take 10–25 minutes.
+
+Rebuild the deterministic edge-text corpus independently:
+
+```bash
+python evaluation/build_edge_text_corpus.py
+```
+
+Run retrieval and scoring with placeholder answers and no API key:
+
+```bash
+OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+python evaluation/retrieval_comparison_eval.py
+```
+
+Make the 480 new answer-model calls only when intentionally creating a new
+replication. Use a new directory so the frozen run remains unchanged:
+
+```bash
+OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+python evaluation/retrieval_comparison_eval.py \
+  --generate \
+  --output-dir results/frozen-retrieval-v2-replication
+```
+
+The CKG branch reuses integrity-v3 raw outputs after hash, query, context, model,
+and score validation. The router reuses selected branch outputs, so neither adds
+new model calls. API output can vary between replications.
+
 ## Verify Integrity-v3 Without API Calls
 
 Install the dependencies below, then run:
