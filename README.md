@@ -14,10 +14,11 @@
   <a href="LICENSES/DATA.md"><img alt="Data license: CC BY 4.0" src="https://img.shields.io/badge/data%20license-CC%20BY%204.0-f59e0b"></a>
 </p>
 
-This repository evaluates a Compressed Knowledge Graph (CKG) as an AI context
-layer over structural questions derived from ClinicalTrials.gov records. It is a
-standalone project by Daniel Yarmoluk. It does not modify, extend, or share
-authorship with the separate Yarmoluk-McCreary CKG benchmark paper.
+This repository evaluates a Compressed Knowledge Graph (CKG) as a
+relationship-aware retrieval and context layer over structural questions derived
+from ClinicalTrials.gov records. It is a standalone project by Daniel Yarmoluk.
+It does not modify, extend, or share authorship with the separate
+Yarmoluk-McCreary CKG benchmark paper.
 
 ## At a Glance
 
@@ -25,9 +26,9 @@ authorship with the separate Yarmoluk-McCreary CKG benchmark paper.
 | --- | --- |
 | Primary result | Integrity-v3 hardened evaluation |
 | Corpus source | Public ClinicalTrials.gov records, normalized and frozen locally |
-| Workload | Relationship-dependent structural questions |
+| Workload | Relationship-dependent retrieval and structural questions |
 | Compared systems | Annotation-blind CKG, configured raw-prose RAG, same-model no context, question echo |
-| Best-supported claim | Declared graph structure recovered the benchmark's generated relationships more accurately and with fewer model tokens than this RAG configuration |
+| Best-supported claim | Declared graph structure improved relationship-aware retrieval and recovered the benchmark's generated relationships with fewer model tokens than this RAG configuration |
 | Not claimed | Clinical correctness, medical safety, independent replication, or universal superiority over every RAG/GraphRAG design |
 
 ## What You Can Do With This Repo
@@ -35,7 +36,8 @@ authorship with the separate Yarmoluk-McCreary CKG benchmark paper.
 - Reproduce the integrity-v3 verification without paid model calls.
 - Inspect the frozen graphs, normalized source records, query set, raw outputs,
   aggregates, and run manifest.
-- Compare CKG traversal against the included raw-prose vector-RAG baseline.
+- Compare relationship-aware CKG retrieval against the included raw-prose
+  vector-RAG baseline.
 - Replace the public ClinicalTrials.gov corpus with an approved internal corpus
   and rerun the same evaluation pattern.
 - Use the [MCP companion design](MCP.md) as the next step for exposing the
@@ -117,9 +119,9 @@ benchmark claim.
 
 ## What This Supports
 
-The hardened result shows that annotation-blind traversal recovers the
-structure declared in these graphs more accurately and efficiently than this
-raw-prose vector-RAG configuration.
+The hardened result shows that annotation-blind, relationship-aware retrieval
+recovers the structure declared in these graphs more accurately and efficiently
+than this raw-prose vector-RAG configuration.
 
 It is not evidence that CKG universally replaces RAG or that the generated graph
 is clinically correct. Questions and gold answers are graph-generated, and the
