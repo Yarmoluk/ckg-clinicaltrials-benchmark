@@ -83,6 +83,11 @@ class IntegrityEvaluationTests(unittest.TestCase):
         self.assertEqual(integrity_eval.relation_score(query, correct, self.concepts)["structural_f1"], 1.0)
         self.assertEqual(integrity_eval.relation_score(query, reversed_relation, self.concepts)["structural_f1"], 0.0)
 
+    def test_trial_identity_is_its_nct_identifier(self):
+        expected = ["NCT01234567 A Long Clinical Trial Title"]
+        predicted = ["NCT01234567"]
+        self.assertEqual(integrity_eval.set_f1(predicted, expected)["f1"], 1.0)
+
 
 if __name__ == "__main__":
     unittest.main()

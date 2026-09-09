@@ -66,6 +66,12 @@ def canonical(value: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", value.lower())).strip()
 
 
+def canonical_label(value: str) -> str:
+    """Use the registry identifier as the identity of a ClinicalTrials.gov study."""
+    match = re.search(r"\bNCT\d{8}\b", value.upper())
+    return match.group(0).lower() if match else canonical(value)
+
+
 def public_query(query: dict[str, Any]) -> dict[str, str]:
     """Return the only fields retrieval is allowed to inspect."""
     return {
@@ -127,8 +133,8 @@ def extract_json_object(answer: str) -> dict[str, Any] | None:
 
 
 def set_f1(predicted: list[str], expected: list[str]) -> dict[str, float | bool]:
-    predicted_set = {canonical(item) for item in predicted if canonical(item)}
-    expected_set = {canonical(item) for item in expected if canonical(item)}
+    predicted_set = {canonical_label(item) for item in predicted if canonical_label(item)}
+    expected_set = {canonical_label(item) for item in expected if canonical_label(item)}
     if not expected_set:
         exact = not predicted_set
         return {"precision": float(exact), "recall": float(exact), "f1": float(exact), "exact": exact}
@@ -146,10 +152,10 @@ def set_f1(predicted: list[str], expected: list[str]) -> dict[str, float | bool]
 
 def edge_f1(predicted: list[str], expected: list[str]) -> dict[str, float | bool]:
     predicted_edges = {
-        (canonical(left), canonical(right)) for left, right in zip(predicted, predicted[1:])
+        (canonical_label(left), canonical_label(right)) for left, right in zip(predicted, predicted[1:])
     }
     expected_edges = {
-        (canonical(left), canonical(right)) for left, right in zip(expected, expected[1:])
+        (canonical_label(left), canonical_label(right)) for left, right in zip(expected, expected[1:])
     }
     overlap = predicted_edges & expected_edges
     precision = len(overlap) / len(predicted_edges) if predicted_edges else 0.0
@@ -208,8 +214,8 @@ def relation_score(
         predicted_target = str(parsed.get("target", "")) if parsed else ""
         predicted_relation = canonical(str(parsed.get("relation", ""))) if parsed else ""
         correct = (
-            canonical(predicted_source) == canonical(source)
-            and canonical(predicted_target) == canonical(target)
+            canonical_label(predicted_source) == canonical_label(source)
+            and canonical_label(predicted_target) == canonical_label(target)
             and predicted_relation in {"depends on", "depends_on", "dependency"}
         )
         score = {
@@ -254,7 +260,7 @@ def evidence_recall(query: dict[str, Any], context: str, concepts: dict[int, ckg
     if not expected:
         return 0.0
     normalized = canonical(context)
-    found = sum(canonical(label) in normalized for label in expected)
+    found = sum(canonical_label(label) in normalized for label in expected)
     return round(found / len(expected), 6)
 
 
@@ -463,6 +469,15 @@ def comparison(left: list[dict[str, Any]], right: list[dict[str, Any]]) -> dict[
         else:
             ties += 1
     return {"wins": wins, "losses": losses, "ties": ties, "n": len(left_map)}
+
+
+def load_result_rows(directory: Path) -> list[dict[str, Any]]:
+    return [
+        json.loads(line)
+        for path in sorted(directory.glob("*.jsonl"))
+        for line in path.read_text().splitlines()
+        if line.strip()
+    ]
 
 
 def write_rows(output_dir: Path, system: str, rows: list[dict[str, Any]]) -> None:
