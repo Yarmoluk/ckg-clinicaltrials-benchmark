@@ -1,44 +1,56 @@
 # Reproducing the Evaluation
 
-## Verify Integrity-v2 Without API Calls
+## Verify Integrity-v3 Without API Calls
 
 Install the dependencies below, then run:
 
 ```bash
-python evaluation/test_integrity_eval.py
-python evaluation/verify_integrity_v2.py
+python evaluation/test_integrity_v3.py
+OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+python evaluation/verify_integrity_v3.py
 ```
 
-The integrity-v2 verifier recomputes every structural score and aggregate,
-checks paired IDs and balanced query types, reconstructs every CKG context from
-the natural-language question alone, validates the question-echo control, and
-checks hashes of all frozen input trees.
+The integrity-v3 verifier recomputes every structural score and aggregate,
+regenerates the seeded sample, validates gold structures against the graph,
+rebuilds the local RAG indexes, reconstructs every CKG and RAG context, checks
+query/model/prompt parity, validates both controls, and checks hashes of all
+frozen input trees. The thread limits avoid an Apple Accelerate/OpenMP crash
+observed on one macOS environment.
 
-## Re-run Integrity-v2
+## Re-run Integrity-v3
 
 ```bash
-python evaluation/integrity_eval.py \
-  --systems ckg rag question_echo \
+OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+python evaluation/integrity_v3_eval.py \
+  --systems ckg rag no_context question_echo \
   --workers 8 \
-  --output-dir results/integrity-v2-replication
+  --output-dir results/integrity-v3-replication
 ```
 
-The corrected sample uses four questions of each T1-T5 type per domain, for 240
-matched questions. API output can vary, so write replications to a new output
-directory and preserve the generated manifest.
+The sample uses four questions of each T1-T5 type per domain, for 240 matched
+questions and 720 paid model calls. API output can vary, so write replications
+to a new output directory and preserve the generated manifest.
 
 To validate retrieval, sampling, scoring, and local RAG indexes without paid
 model calls:
 
 ```bash
 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
-python evaluation/integrity_eval.py --dry-run
+OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+python evaluation/integrity_v3_eval.py --dry-run
 ```
 
-## Verify the Superseded First Run
+## Verify Superseded Runs
+
+Integrity-v2 remains frozen as an audit trail:
+
+```bash
+python evaluation/test_integrity_eval.py
+python evaluation/verify_integrity_v2.py
+```
 
 The original verifier also makes no API calls. Its pass establishes arithmetic
-consistency only; see `INTEGRITY_V2_REPORT.md` for the corrected methodology.
+consistency only; see `INTEGRITY_V3_REPORT.md` for the current methodology.
 
 ```bash
 python3 evaluation/verify_results.py

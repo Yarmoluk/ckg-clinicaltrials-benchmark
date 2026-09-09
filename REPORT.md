@@ -3,9 +3,9 @@
 > **Superseded as the primary result.** An independent model audit found that
 > this first run's arithmetic is reproducible but its token-overlap scorer and
 > annotation-assisted CKG retrieval do not support a relationship-reasoning
-> claim. See [INTEGRITY_V2_REPORT.md](INTEGRITY_V2_REPORT.md) for the corrected
-> annotation-blind evaluation. These original results remain frozen as an audit
-> trail.
+> claim. Integrity-v2 is also superseded. See
+> [INTEGRITY_V3_REPORT.md](INTEGRITY_V3_REPORT.md) for the current hardened
+> evaluation. These original results remain frozen as an audit trail.
 
 ## Abstract
 

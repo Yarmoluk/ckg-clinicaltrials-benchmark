@@ -1,5 +1,10 @@
 # ClinicalTrials.gov CKG Integrity-v2 Evaluation
 
+> **Superseded:** Integrity-v3 replaces this report after an adversarial audit
+> found an overstated evidence metric, permissive T1 scoring, incomplete RAG
+> reconstruction checks, and unequal retrieval-query wording. See
+> [INTEGRITY_V3_REPORT.md](INTEGRITY_V3_REPORT.md).
+
 **Run date:** September 9, 2026  
 **Scope:** Structural graph-grounded questions across 12 ClinicalTrials.gov-derived domains  
 **Model:** `claude-haiku-4-5-20251001`  

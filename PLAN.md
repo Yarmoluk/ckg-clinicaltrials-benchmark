@@ -58,3 +58,20 @@ trail and run a separate corrected evaluation.
 6. Add unit and integrity tests before any API call. Then run the minimum matched
    CKG/RAG evaluation with Claude Haiku 4.5 and publish a separate corrected
    report without modifying the Yarmoluk-McCreary paper.
+
+## Integrity-v3 Hardening Plan
+
+An adversarial model audit of integrity-v2 found that the evidence metric was
+only substring coverage, T1 ignored extra labels, RAG contexts were not rebuilt
+by the verifier, and CKG/RAG retrieval used differently worded questions.
+
+1. Use identical original query text for CKG and RAG retrieval.
+2. Add a same-model, same-prompt no-context condition.
+3. Score every T1 label and penalize extras.
+4. Rename the context diagnostic to exact target coverage and use term
+   boundaries; do not represent it as factual or relational evidence.
+5. Validate every sampled gold structure against the frozen graph.
+6. Rebuild all RAG indexes during verification and reconstruct both retrieval
+   paths from frozen inputs.
+7. Publish integrity-v3 as the headline result and retain all prior versions as
+   a visible audit trail.
