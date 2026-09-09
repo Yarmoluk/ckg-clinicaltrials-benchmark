@@ -31,7 +31,7 @@ from typing import Any
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_MANIFEST = PROJECT_ROOT / "benchmark" / "clinicaltrials" / "top12_domains.json"
+DEFAULT_MANIFEST = PROJECT_ROOT / "benchmark" / "manifest.json"
 USER_AGENT = "ckg-benchmark-clinicaltrials-probe/2026-09-08"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))

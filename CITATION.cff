@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this evaluation, please cite it as below."
+title: "CKG ClinicalTrials.gov Benchmark: Structural Context Evaluation Across 12 Therapeutic Domains"
+type: software
+authors:
+  - family-names: Yarmoluk
+    given-names: Daniel
+    affiliation: Graphify.md
+date-released: 2026-09-09
+repository-code: "https://github.com/Yarmoluk/ckg-clinicaltrials-benchmark"
+url: "https://github.com/Yarmoluk/ckg-clinicaltrials-benchmark"
+abstract: >-
+  A standalone evaluation of Compressed Knowledge Graph context against vanilla
+  RAG and no-context baselines on structural questions derived from
+  ClinicalTrials.gov records across 12 therapeutic domains.
+license: MIT

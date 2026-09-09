@@ -35,7 +35,7 @@
   ],
   "query_source": "ClinicalTrials.gov API v2-derived top-12 domain probes",
   "comparison_context": {
-    "matched_240_query_sample_report": "results/clinicaltrials/top12_claude_haiku_ckg_rag_baseline_sample.md",
+    "matched_240_query_sample_report": "results/aggregate/paired-sample.json",
     "sample_ckg_f1": 0.4691,
     "sample_rag_f1": 0.13,
     "sample_baseline_f1": 0.0784,
