@@ -14,10 +14,6 @@
   <a href="LICENSES/DATA.md"><img alt="Data license: CC BY 4.0" src="https://img.shields.io/badge/data%20license-CC%20BY%204.0-f59e0b"></a>
 </p>
 
-<p align="center">
-  <img src="assets/social/ckg-clinicaltrials-linkedin.png" alt="CKG ClinicalTrials.gov benchmark social card" width="760">
-</p>
-
 This repository evaluates a Compressed Knowledge Graph (CKG) as an AI context
 layer over structural questions derived from ClinicalTrials.gov records. It is a
 standalone project by Daniel Yarmoluk. It does not modify, extend, or share
