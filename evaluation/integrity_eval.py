@@ -311,12 +311,21 @@ def git_commit() -> str:
 def call_model(client: anthropic.Anthropic, context: str, question: str) -> tuple[str, int, int, int]:
     user_message = f"Context:\n{context}\n\nQuestion:\n{question}"
     started = time.time()
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=1024,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
-    )
+    response = None
+    for attempt in range(5):
+        try:
+            response = client.messages.create(
+                model=MODEL,
+                max_tokens=1024,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": user_message}],
+            )
+            break
+        except Exception:
+            if attempt == 4:
+                raise
+            time.sleep(2 ** attempt)
+    assert response is not None
     answer = response.content[0].text
     return (
         answer,
@@ -511,6 +520,7 @@ def main() -> None:
         "model": MODEL,
         "temperature": "provider_default",
         "max_output_tokens": 1024,
+        "request_attempts": 5,
         "system_prompt_sha256": hashlib.sha256(SYSTEM_PROMPT.encode()).hexdigest(),
         "systems": list(args.systems),
         "seed": args.seed,
