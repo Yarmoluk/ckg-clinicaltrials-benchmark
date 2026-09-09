@@ -1,5 +1,16 @@
 # Independent Review Protocol
 
+Start with `INTEGRITY_V2_REPORT.md` and run:
+
+```bash
+python evaluation/test_integrity_eval.py
+python evaluation/verify_integrity_v2.py
+```
+
+The first-run `REPORT.md` and `results/raw/paired/` artifacts are retained to
+show the defects that integrity-v2 corrects. Do not treat the original
+token-overlap result as the primary claim.
+
 This repository welcomes technical review without implying coauthorship or
 endorsement.
 

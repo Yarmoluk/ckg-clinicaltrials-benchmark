@@ -432,8 +432,10 @@ def evaluate_system(
 
 def summarize(rows: list[dict[str, Any]]) -> dict[str, Any]:
     by_type: defaultdict[str, list[dict[str, Any]]] = defaultdict(list)
+    by_domain: defaultdict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         by_type[row["type"]].append(row)
+        by_domain[row["domain"]].append(row)
 
     def block(values: list[dict[str, Any]]) -> dict[str, Any]:
         count = len(values)
@@ -450,6 +452,7 @@ def summarize(rows: list[dict[str, Any]]) -> dict[str, Any]:
 
     output = block(rows)
     output["by_type"] = {key: block(value) for key, value in sorted(by_type.items())}
+    output["by_domain"] = {key: block(value) for key, value in sorted(by_domain.items())}
     return output
 
 
