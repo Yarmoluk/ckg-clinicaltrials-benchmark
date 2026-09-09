@@ -1,11 +1,3 @@
-# CKG ClinicalTrials.gov Benchmark
-
-**Author:** Daniel Yarmoluk, Graphify.md
-
-**Run date:** September 9, 2026
-
-**Status:** Author-run, openly auditable evaluation; not independently replicated
-
 ![CKG ClinicalTrials.gov benchmark social card](assets/social/ckg-clinicaltrials-linkedin.png)
 
 This repository evaluates a Compressed Knowledge Graph (CKG) as an AI context
