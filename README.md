@@ -6,6 +6,8 @@
 
 **Status:** Author-run, openly auditable evaluation; not independently replicated
 
+![CKG ClinicalTrials.gov benchmark social card](assets/social/ckg-clinicaltrials-linkedin.png)
+
 This repository evaluates a Compressed Knowledge Graph (CKG) as an AI context
 layer over structural questions derived from ClinicalTrials.gov records. It is a
 standalone project by Daniel Yarmoluk. It does not modify, extend, or share
