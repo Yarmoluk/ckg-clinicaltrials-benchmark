@@ -39,10 +39,11 @@ full score must not be described as retrieval lift.
    question.
 3. **Same-model no-context control.** The identical model, system prompt,
    output limit, and evaluation question are run with an empty context.
-4. **Accurate context diagnostic.** `context_target_coverage` measures exact
+4. **Accurate context and format diagnostics.** `context_target_coverage` measures exact
    answer-target presence. It is not described as evidence, factual support, or
    relationship support. Exact term boundaries prevent `INTR` from matching
-   words such as `intraoperative`.
+   words such as `intraoperative`. JSON reporting distinguishes an extractable
+   object from strict whole-response JSON compliance.
 5. **Graph-validated gold.** Verification checks T1 taxonomy, T2 dependency
    sets, every T3 path edge, T4 membership sets, and every directed T5 edge
    against the frozen graph.
@@ -65,7 +66,10 @@ full score must not be described as retrieval lift.
 | T4 category aggregate | 1.000000 | 0.048553 | 0.000000 | 1.000000 | 0.065853 |
 | T5 directed relation | 1.000000 | 0.062500 | 0.020833 | 1.000000 | 0.302083 |
 
-All 720 model responses were valid JSON. CKG scored 1.0 in all 12 domains.
+All 720 model responses contained an extractable JSON object. Strict
+whole-response JSON compliance was 1.000000 for CKG, 0.516667 for RAG, and
+0.545833 for no context. The structural scorer uses the extractable object.
+CKG scored 1.0 in all 12 domains.
 
 ## Evaluation Design
 

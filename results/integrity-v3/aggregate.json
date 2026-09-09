@@ -25,121 +25,133 @@
           "context_target_coverage": 1.0,
           "cost_usd": 0.013556,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 407.8,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.70345,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.70345
         },
         "ct-gastro-hepatology": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.014063,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 419.35,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.686855,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.686855
         },
         "ct-hematologic-malignancies": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.014837,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 480.25,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.666735,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.666735
         },
         "ct-immunology-autoimmune": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.016948,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 473.2,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.707455,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.707455
         },
         "ct-infectious-disease-vaccines": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.015343,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 505.35,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.65484,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.65484
         },
         "ct-metabolic-endocrine": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.01373,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 421.3,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.696095,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.696095
         },
         "ct-nephrology-renal": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.014771,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 472.95,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.6829,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.6829
         },
         "ct-neurology-alzheimers": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.016516,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 473.8,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.710305,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.710305
         },
         "ct-oncology-solid-tumors": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.013011,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 432.75,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.67569,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.67569
         },
         "ct-psychiatry-behavioral": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.013248,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 413.2,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.69941,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.69941
         },
         "ct-rare-genetic": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.014491,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 435.35,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.707,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.707
         },
         "ct-respiratory-pulmonary": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.013573,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 439.05,
           "n": 20,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.67304,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.67304
         }
       },
       "by_type": {
@@ -147,61 +159,67 @@
           "context_target_coverage": 1.0,
           "cost_usd": 0.017881,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 305.354,
           "n": 48,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.292054,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.292054
         },
         "T2_dependency": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.017242,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 285.792,
           "n": 48,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.691575,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.691575
         },
         "T3_path": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.026056,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 351.5,
           "n": 48,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.906133,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.906133
         },
         "T4_aggregate": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.085655,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 938.146,
           "n": 48,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.856613,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.856613
         },
         "T5_cross_concept": {
           "context_target_coverage": 1.0,
           "cost_usd": 0.027253,
           "exact_match_rate": 1.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 358.521,
           "n": 48,
+          "strict_json_rate": 1.0,
           "structural_f1": 1.0,
-          "token_f1_diagnostic": 0.696865,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.696865
         }
       },
       "context_target_coverage": 1.0,
       "cost_usd": 0.174087,
       "exact_match_rate": 1.0,
+      "extractable_json_rate": 1.0,
       "mean_tokens": 447.863,
       "n": 240,
+      "strict_json_rate": 1.0,
       "structural_f1": 1.0,
-      "token_f1_diagnostic": 0.688648,
-      "valid_json_rate": 1.0
+      "token_f1_diagnostic": 0.688648
     },
     "no_context": {
       "by_domain": {
@@ -209,121 +227,133 @@
           "context_target_coverage": 0.0,
           "cost_usd": 0.007461,
           "exact_match_rate": 0.1,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 241.85,
           "n": 20,
+          "strict_json_rate": 0.5,
           "structural_f1": 0.1,
-          "token_f1_diagnostic": 0.201245,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.201245
         },
         "ct-gastro-hepatology": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.007656,
           "exact_match_rate": 0.1,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 244.8,
           "n": 20,
+          "strict_json_rate": 0.5,
           "structural_f1": 0.1,
-          "token_f1_diagnostic": 0.22822,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.22822
         },
         "ct-hematologic-malignancies": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.007925,
           "exact_match_rate": 0.1,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 248.45,
           "n": 20,
+          "strict_json_rate": 0.45,
           "structural_f1": 0.1,
-          "token_f1_diagnostic": 0.247205,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.247205
         },
         "ct-immunology-autoimmune": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.007363,
           "exact_match_rate": 0.05,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 241.75,
           "n": 20,
+          "strict_json_rate": 0.7,
           "structural_f1": 0.05,
-          "token_f1_diagnostic": 0.17419,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.17419
         },
         "ct-infectious-disease-vaccines": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.007447,
           "exact_match_rate": 0.2,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 248.75,
           "n": 20,
+          "strict_json_rate": 0.7,
           "structural_f1": 0.2,
-          "token_f1_diagnostic": 0.20508,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.20508
         },
         "ct-metabolic-endocrine": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.008073,
           "exact_match_rate": 0.2,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 247.45,
           "n": 20,
+          "strict_json_rate": 0.45,
           "structural_f1": 0.2,
-          "token_f1_diagnostic": 0.27545,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.27545
         },
         "ct-nephrology-renal": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.008208,
           "exact_match_rate": 0.15,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 256.0,
           "n": 20,
+          "strict_json_rate": 0.6,
           "structural_f1": 0.15,
-          "token_f1_diagnostic": 0.29632,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.29632
         },
         "ct-neurology-alzheimers": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.008363,
           "exact_match_rate": 0.1,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 249.75,
           "n": 20,
+          "strict_json_rate": 0.3,
           "structural_f1": 0.1,
-          "token_f1_diagnostic": 0.272735,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.272735
         },
         "ct-oncology-solid-tumors": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.007771,
           "exact_match_rate": 0.05,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 244.35,
           "n": 20,
+          "strict_json_rate": 0.5,
           "structural_f1": 0.05,
-          "token_f1_diagnostic": 0.230685,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.230685
         },
         "ct-psychiatry-behavioral": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.007135,
           "exact_match_rate": 0.2,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 238.55,
           "n": 20,
+          "strict_json_rate": 0.75,
           "structural_f1": 0.2,
-          "token_f1_diagnostic": 0.29376,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.29376
         },
         "ct-rare-genetic": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.00818,
           "exact_match_rate": 0.1,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 251.4,
           "n": 20,
+          "strict_json_rate": 0.5,
           "structural_f1": 0.1,
-          "token_f1_diagnostic": 0.193905,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.193905
         },
         "ct-respiratory-pulmonary": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.00767,
           "exact_match_rate": 0.05,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 243.7,
           "n": 20,
+          "strict_json_rate": 0.6,
           "structural_f1": 0.05,
-          "token_f1_diagnostic": 0.239345,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.239345
         }
       },
       "by_type": {
@@ -331,61 +361,67 @@
           "context_target_coverage": 0.0,
           "cost_usd": 0.015679,
           "exact_match_rate": 0.5625,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 229.062,
           "n": 48,
+          "strict_json_rate": 0.625,
           "structural_f1": 0.5625,
-          "token_f1_diagnostic": 0.221529,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.221529
         },
         "T2_dependency": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.016629,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 237.688,
           "n": 48,
+          "strict_json_rate": 0.541667,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.001488,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.001488
         },
         "T3_path": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.023098,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 275.125,
           "n": 48,
+          "strict_json_rate": 0.520833,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.602163,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.602163
         },
         "T4_aggregate": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.01601,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 229.375,
           "n": 48,
+          "strict_json_rate": 0.666667,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.003102,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.003102
         },
         "T5_cross_concept": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.021836,
           "exact_match_rate": 0.020833,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 260.75,
           "n": 48,
+          "strict_json_rate": 0.375,
           "structural_f1": 0.020833,
-          "token_f1_diagnostic": 0.36261,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.36261
         }
       },
       "context_target_coverage": 0.0,
       "cost_usd": 0.093252,
       "exact_match_rate": 0.116667,
+      "extractable_json_rate": 1.0,
       "mean_tokens": 246.4,
       "n": 240,
+      "strict_json_rate": 0.545833,
       "structural_f1": 0.116667,
-      "token_f1_diagnostic": 0.238178,
-      "valid_json_rate": 1.0
+      "token_f1_diagnostic": 0.238178
     },
     "question_echo": {
       "by_domain": {
@@ -393,121 +429,133 @@
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.43087,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.43087
         },
         "ct-gastro-hepatology": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.455775,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.455775
         },
         "ct-hematologic-malignancies": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.47133,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.47133
         },
         "ct-immunology-autoimmune": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.440685,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.440685
         },
         "ct-infectious-disease-vaccines": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.50141,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.50141
         },
         "ct-metabolic-endocrine": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.47219,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.47219
         },
         "ct-nephrology-renal": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.479955,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.479955
         },
         "ct-neurology-alzheimers": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.44043,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.44043
         },
         "ct-oncology-solid-tumors": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.462365,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.462365
         },
         "ct-psychiatry-behavioral": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.466275,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.466275
         },
         "ct-rare-genetic": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.474135,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.474135
         },
         "ct-respiratory-pulmonary": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 20,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.44239,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.44239
         }
       },
       "by_type": {
@@ -515,61 +563,67 @@
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 48,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.619035,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.619035
         },
         "T2_dependency": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 48,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.001983,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.001983
         },
         "T3_path": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 48,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.769654,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.769654
         },
         "T4_aggregate": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 48,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.000746,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.000746
         },
         "T5_cross_concept": {
           "context_target_coverage": 0.0,
           "cost_usd": 0.0,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 0.0,
           "mean_tokens": 0.0,
           "n": 48,
+          "strict_json_rate": 0.0,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.916002,
-          "valid_json_rate": 0.0
+          "token_f1_diagnostic": 0.916002
         }
       },
       "context_target_coverage": 0.0,
       "cost_usd": 0.0,
       "exact_match_rate": 0.0,
+      "extractable_json_rate": 0.0,
       "mean_tokens": 0.0,
       "n": 240,
+      "strict_json_rate": 0.0,
       "structural_f1": 0.0,
-      "token_f1_diagnostic": 0.461484,
-      "valid_json_rate": 0.0
+      "token_f1_diagnostic": 0.461484
     },
     "rag": {
       "by_domain": {
@@ -577,121 +631,133 @@
           "context_target_coverage": 0.417083,
           "cost_usd": 0.068564,
           "exact_match_rate": 0.05,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3161.2,
           "n": 20,
+          "strict_json_rate": 0.4,
           "structural_f1": 0.05,
-          "token_f1_diagnostic": 0.1599,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.1599
         },
         "ct-gastro-hepatology": {
           "context_target_coverage": 0.233452,
           "cost_usd": 0.069546,
           "exact_match_rate": 0.15,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3186.1,
           "n": 20,
+          "strict_json_rate": 0.65,
           "structural_f1": 0.17,
-          "token_f1_diagnostic": 0.13962,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.13962
         },
         "ct-hematologic-malignancies": {
           "context_target_coverage": 0.295,
           "cost_usd": 0.069288,
           "exact_match_rate": 0.15,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3213.4,
           "n": 20,
+          "strict_json_rate": 0.45,
           "structural_f1": 0.160417,
-          "token_f1_diagnostic": 0.16387,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.16387
         },
         "ct-immunology-autoimmune": {
           "context_target_coverage": 0.30825,
           "cost_usd": 0.06955,
           "exact_match_rate": 0.1,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3243.7,
           "n": 20,
+          "strict_json_rate": 0.6,
           "structural_f1": 0.103448,
-          "token_f1_diagnostic": 0.179785,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.179785
         },
         "ct-infectious-disease-vaccines": {
           "context_target_coverage": 0.2725,
           "cost_usd": 0.067821,
           "exact_match_rate": 0.15,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3240.05,
           "n": 20,
+          "strict_json_rate": 0.75,
           "structural_f1": 0.164286,
-          "token_f1_diagnostic": 0.09149,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.09149
         },
         "ct-metabolic-endocrine": {
           "context_target_coverage": 0.27625,
           "cost_usd": 0.069184,
           "exact_match_rate": 0.15,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3155.2,
           "n": 20,
+          "strict_json_rate": 0.5,
           "structural_f1": 0.15,
-          "token_f1_diagnostic": 0.12764,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.12764
         },
         "ct-nephrology-renal": {
           "context_target_coverage": 0.359167,
           "cost_usd": 0.068798,
           "exact_match_rate": 0.2,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3188.1,
           "n": 20,
+          "strict_json_rate": 0.5,
           "structural_f1": 0.208333,
-          "token_f1_diagnostic": 0.2073,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.2073
         },
         "ct-neurology-alzheimers": {
           "context_target_coverage": 0.253929,
           "cost_usd": 0.068067,
           "exact_match_rate": 0.2,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3198.15,
           "n": 20,
+          "strict_json_rate": 0.7,
           "structural_f1": 0.214286,
-          "token_f1_diagnostic": 0.15756,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.15756
         },
         "ct-oncology-solid-tumors": {
           "context_target_coverage": 0.345,
           "cost_usd": 0.069118,
           "exact_match_rate": 0.1,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3225.3,
           "n": 20,
+          "strict_json_rate": 0.5,
           "structural_f1": 0.133333,
-          "token_f1_diagnostic": 0.15675,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.15675
         },
         "ct-psychiatry-behavioral": {
           "context_target_coverage": 0.329583,
           "cost_usd": 0.069345,
           "exact_match_rate": 0.1,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3206.05,
           "n": 20,
+          "strict_json_rate": 0.45,
           "structural_f1": 0.1,
-          "token_f1_diagnostic": 0.148545,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.148545
         },
         "ct-rare-genetic": {
           "context_target_coverage": 0.282,
           "cost_usd": 0.072847,
           "exact_match_rate": 0.05,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3250.15,
           "n": 20,
+          "strict_json_rate": 0.3,
           "structural_f1": 0.062424,
-          "token_f1_diagnostic": 0.152295,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.152295
         },
         "ct-respiratory-pulmonary": {
           "context_target_coverage": 0.2775,
           "cost_usd": 0.06946,
           "exact_match_rate": 0.2,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3223.2,
           "n": 20,
+          "strict_json_rate": 0.4,
           "structural_f1": 0.2,
-          "token_f1_diagnostic": 0.20922,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.20922
         }
       },
       "by_type": {
@@ -699,61 +765,67 @@
           "context_target_coverage": 0.895833,
           "cost_usd": 0.166631,
           "exact_match_rate": 0.604167,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3291.979,
           "n": 48,
+          "strict_json_rate": 0.625,
           "structural_f1": 0.604167,
-          "token_f1_diagnostic": 0.24144,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.24144
         },
         "T2_dependency": {
           "context_target_coverage": 0.083333,
           "cost_usd": 0.169811,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3305.396,
           "n": 48,
+          "strict_json_rate": 0.375,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.011544,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.011544
         },
         "T3_path": {
           "context_target_coverage": 0.173611,
           "cost_usd": 0.173379,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3310.479,
           "n": 48,
+          "strict_json_rate": 0.354167,
           "structural_f1": 0.0,
-          "token_f1_diagnostic": 0.228652,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.228652
         },
         "T4_aggregate": {
           "context_target_coverage": 0.065853,
           "cost_usd": 0.152654,
           "exact_match_rate": 0.0,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 2863.875,
           "n": 48,
+          "strict_json_rate": 0.791667,
           "structural_f1": 0.048553,
-          "token_f1_diagnostic": 0.093256,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.093256
         },
         "T5_cross_concept": {
           "context_target_coverage": 0.302083,
           "cost_usd": 0.169113,
           "exact_match_rate": 0.0625,
+          "extractable_json_rate": 1.0,
           "mean_tokens": 3266.021,
           "n": 48,
+          "strict_json_rate": 0.4375,
           "structural_f1": 0.0625,
-          "token_f1_diagnostic": 0.214265,
-          "valid_json_rate": 1.0
+          "token_f1_diagnostic": 0.214265
         }
       },
       "context_target_coverage": 0.304143,
       "cost_usd": 0.831588,
       "exact_match_rate": 0.133333,
+      "extractable_json_rate": 1.0,
       "mean_tokens": 3207.55,
       "n": 240,
+      "strict_json_rate": 0.516667,
       "structural_f1": 0.143044,
-      "token_f1_diagnostic": 0.157831,
-      "valid_json_rate": 1.0
+      "token_f1_diagnostic": 0.157831
     }
   }
 }
