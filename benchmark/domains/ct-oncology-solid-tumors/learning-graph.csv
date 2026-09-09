@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Oncology - solid tumors clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Prostate Cancer,2,COND
+9,Breast Cancer,2,COND
+10,Colorectal Cancer,2,COND
+11,Lung Cancer,2,COND
+12,Non Small Cell Lung Cancer,2,COND
+13,Solid Tumor,2,COND
+14,"Unspecified Adult Solid Tumor, Protocol Specific",2,COND
+15,Non-small Cell Lung Cancer,2,COND
+16,Rectal Cancer,2,COND
+17,"Carcinoma, Non-Small-Cell Lung",2,COND
+18,Solid Tumors,2,COND
+19,Cancer,2,COND
+20,Advanced Solid Tumor,2,COND
+21,Metastatic Colorectal Cancer,2,COND
+22,Metastatic Breast Cancer,2,COND
+23,Triple Negative Breast Cancer,2,COND
+24,Cervical Cancer,2,COND
+25,Head and Neck Cancer,2,COND
+26,Metastatic Cancer,2,COND
+27,Colorectal Neoplasms,2,COND
+28,Breast Neoplasms,2,COND
+29,Ovarian Cancer,2,COND
+30,Melanoma,2,COND
+31,Prostate Adenocarcinoma,2,COND
+32,Stage IV Non-small Cell Lung Cancer,2,COND
+33,Advanced Solid Tumors,2,COND
+34,Prostatic Neoplasms,2,COND
+35,Hepatocellular Carcinoma,2,COND
+36,BRCA1 Mutation,2,COND
+37,Gastric Cancer,2,COND
+38,Bevacizumab,3,INTR
+39,Pembrolizumab,3,INTR
+40,"Vandetanib, Selumetinib",3,INTR
+41,laboratory biomarker analysis,3,INTR
+42,Docetaxel,3,INTR
+43,Oxaliplatin,3,INTR
+44,Olaparib,3,INTR
+45,Nivolumab,3,INTR
+46,Biospecimen Collection,3,INTR
+47,Questionnaire Administration,3,INTR
+48,Pemetrexed,3,INTR
+49,Placebo,3,INTR
+50,Capecitabine,3,INTR
+51,radiation therapy,3,INTR
+52,Irinotecan,3,INTR
+53,educational intervention,3,INTR
+54,Prednisone,3,INTR
+55,Trastuzumab,3,INTR
+56,Carboplatin,3,INTR
+57,Radiotherapy,3,INTR
+58,SCH 727965,3,INTR
+59,Ciforadenant,3,INTR
+60,Chemotherapy,3,INTR
+61,Durvalumab,3,INTR
+62,Cetuximab,3,INTR
+63,Quality-of-Life Assessment,3,INTR
+64,GT90001+KN046,3,INTR
+65,Magnetic Resonance Imaging,3,INTR
+66,cisplatin,3,INTR
+67,gemcitabine hydrochloride,3,INTR
+68,irinotecan hydrochloride,3,INTR
+69,Paclitaxel,3,INTR
+70,methoxy polyethylene glycol-epoetin beta [Mircera],3,INTR
+71,Gefitinib,3,INTR
+72,bevacizumab [Avastin],3,INTR
+73,behavioral dietary intervention,3,INTR
+74,Abiraterone,3,INTR
+75,Ipilimumab,3,INTR
+76,Biopsy,3,INTR
+77,Computed Tomography,3,INTR
+78,Overall Survival,4,OUTC
+79,Overall Survival (OS),4,OUTC
+80,Objective Response Rate (ORR),4,OUTC
+81,Safety of Elacestrant combined with PULSAR radiation therapy in preoperative setting,4,OUTC
+82,Progression-Free Survival (PFS),4,OUTC
+83,Duration of Response (DOR),4,OUTC
+84,Pharmacokinetic (PK) Endpoints,4,OUTC
+85,Secondary Endpoints,4,OUTC
+86,Progression-free survival,4,OUTC
+87,Disease-free survival,4,OUTC
+88,Objective Response Rate,4,OUTC
+89,Progression Free Survival (PFS),4,OUTC
+90,Obtain preliminary information on the clinical anti-tumor activity of intravenously administered 2B3-101 on brain met...,4,OUTC
+91,Biological effects of short-course single agent lenvatinib in estrogen receptor positive breast cancer using a window...,4,OUTC
+92,Mean difference in quality of life between carbohydrate restricted diet and non-restricted diet from baseline to 6 mo...,4,OUTC
+93,Disease Control Rate (DCR),4,OUTC
+94,Progression free survival,4,OUTC
+95,ORR,4,OUTC
+96,Response rate,4,OUTC
+97,Maximum tolerated dose,4,OUTC
+98,Disease free survival,4,OUTC
+99,Feasibility and acceptability,4,OUTC
+100,The EORTC QLQ-C30 questionnaire,4,OUTC
+101,Body Image Scale,4,OUTC
+102,Psychological distress (visual analog scale),4,OUTC
+103,PFS,4,OUTC
+104,Potency endpoint,4,OUTC
+105,Return to continence,4,OUTC
+106,Pad Weight,4,OUTC
+107,Pad Count,4,OUTC
+108,Biochemical recurrence endpoint,4,OUTC
+109,Patient intercourse satisfaction endpoint,4,OUTC
+110,Characterize the plasma PK profile,4,OUTC
+111,Safety,4,OUTC
+112,Number of Participants With Adverse Events,4,OUTC
+113,National Cancer Institute (NCI),5,SPON
+114,"University Health Network, Toronto",5,SPON
+115,Hoffmann-La Roche,5,SPON
+116,Bristol-Myers Squibb,5,SPON
+117,AstraZeneca,5,SPON
+118,Jonsson Comprehensive Cancer Center,5,SPON
+119,Fudan University,5,SPON
+120,Alliance for Clinical Trials in Oncology,5,SPON
+121,Virginia Commonwealth University,5,SPON
+122,Roswell Park Cancer Institute,5,SPON
+123,Eli Lilly and Company,5,SPON
+124,"University of Wisconsin, Madison",5,SPON
+125,St. Jude Children's Research Hospital,5,SPON
+126,"Genentech, Inc",5,SPON
+127,Merck Sharp & Dohme LLC,5,SPON
+128,Stanford University,5,SPON
+129,Memorial Sloan Kettering Cancer Center,5,SPON
+130,M.D. Anderson Cancer Center,5,SPON
+131,Ohio State University Comprehensive Cancer Center,5,SPON
+132,Intergroupe Francophone de Cancerologie Thoracique,5,SPON
+133,Abramson Cancer Center at Penn Medicine,5,SPON
+134,Massachusetts General Hospital,5,SPON
+135,H. Lee Moffitt Cancer Center and Research Institute,5,SPON
+136,The Netherlands Cancer Institute,5,SPON
+137,Tianjin Medical University Cancer Institute and Hospital,5,SPON
+138,PHASE2,6,PHASE
+139,PHASE1,6,PHASE
+140,PHASE3,6,PHASE
+141,PHASE4,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,TERMINATED,7,STATUS
+146,ACTIVE_NOT_RECRUITING,7,STATUS
+147,NOT_YET_RECRUITING,7,STATUS
+148,WITHDRAWN,7,STATUS
+149,SUSPENDED,7,STATUS
+150,ENROLLING_BY_INVITATION,7,STATUS
+151,NO_LONGER_AVAILABLE,7,STATUS
+152,APPROVED_FOR_MARKETING,7,STATUS
+153,NCT00087191 EF5 and Motexafin Lutetium in Detecting Tumor Cells in Patients With Abdominal or Non-Small Cell Lung Cancer,113|145,TRIAL
+154,NCT00098891 MS-275 and Isotretinoin in Treating Patients With Metastatic or Advanced Solid Tumors or Lymphomas,113|139|143,TRIAL
+155,NCT00655655 Everolimus and Vatalanib in Treating Patients With Advanced Solid Tumors,139|143,TRIAL
+156,NCT07341737 SL-28 for Advanced Solid Tumours,139|144,TRIAL
+157,NCT04682431 A Phase 1a/1b FIH Study of PY159 and in Combination With Pembrolizumab in Subjects With Advanced Solid Tu...,20|139|145,TRIAL
+158,NCT02595866 Testing the Addition of an Experimental Medication MK-3475 (Pembrolizumab) to Usual Anti-Retroviral Medic...,76|113|139|143,TRIAL
+159,NCT06917079 BBO-11818 in Adult Subjects With KRAS Mutant Cancer,39|139|144,TRIAL
+160,NCT02440685 A Phase 1/2 Study To Evaluate ASN002 In Relapsed/Refractory Lymphoma And Advanced Solid Tumors,88|139|145,TRIAL
+161,NCT05650879 ELVN-002 in HER2 Mutant Non-Small Cell Lung Cancer,139|146,TRIAL
+162,NCT06943521 A Study of MT-4561 in Patients With Various Advanced Solid Tumors,139|144,TRIAL
+163,NCT05902988 A Phase I/II Study of VLS-1488 in Subjects With Advanced Cancer,20|139|144,TRIAL
+164,NCT04157985 Evaluating Length of Treatment With PD-1/PD-L1 Inhibitor in Advanced Solid Tumors,33|140|143,TRIAL
+165,NCT05062889 Exploiting Circulating Tumour DNA to Intensify the Postoperative Treatment Resected Colon Cancer Patients,138|149,TRIAL
+166,NCT04262466 Safety and Efficacy of IMC-F106C as a Single Agent and in Combination With Checkpoint Inhibitors,139|146,TRIAL
+167,NCT03792750 A Study of BMS-986205 Alone and in Combination With Nivolumab in Chinese Patients With Advanced Malignant...,45|116|139|143,TRIAL
+168,NCT06981182 EQUITA - A Feasibility Trial of a Faith-placed Intervention to Increase Screening Uptake in Black Adults,9|147,TRIAL
+169,NCT03212404 Phase 1 Study of CK-301 (Cosibelimab) as a Single Agent in Subjects With Advanced Cancers,17|139|146,TRIAL
+170,NCT06131840 A Study of SGN-CEACAM5C in Adults With Advanced Solid Tumors,17|27|139|144,TRIAL
+171,NCT00859989 A Weight-Loss Program in Helping Obese Black Women Lose Weight,9|73|140,TRIAL
+172,NCT07623642 A Phase II Study of GV20-0251 in Combination With Anti-PD-1 Monoclonal Antibodies in Patients With Unrese...,138|147,TRIAL
+173,NCT07005882 Hormonal Receptor (HR)-Positive HER2 Negative Breast Cancer Patients Treated With Preoperative ELacestran...,81|138|147,TRIAL
+174,NCT06941272 A Study of Patritumab Deruxtecan in Pediatric Participants With Relapsed or Refractory Solid Tumors (MK-9...,127|139|144,TRIAL
+175,NCT06270082 Study of IK-595 in RAS- or RAF-altered Advanced Tumors,10|139|145,TRIAL
+176,NCT05700903 Contributions to Hypertension With Androgen Deprivation Therapy,8|141|145,TRIAL
+177,NCT02526368 Pilot Study of (MR) Imaging With Pyruvate (13C) to Detect High Grade Prostate Cancer,8|142|144,TRIAL
+178,NCT05566405 The Effects of Method of Anaesthesia on the Safety and Effectiveness of Radical Retropubic Prostatectomy,143,TRIAL
+179,"NCT00134069 Sorafenib, Cetuximab, and Irinotecan in Treating Patients With Advanced or Metastatic Colorectal Cancer",113|139|143,TRIAL
+180,NCT07474727 A Phase II Study of AMT-676 Combination Therapies in Advanced Colorectal Cancer,10|138|144,TRIAL

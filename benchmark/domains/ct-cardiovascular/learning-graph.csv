@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Cardiovascular disease clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Atrial Fibrillation,2,COND
+9,Stroke,2,COND
+10,Heart Failure,2,COND
+11,Hypertension,2,COND
+12,Coronary Artery Disease,2,COND
+13,Cardiovascular Diseases,2,COND
+14,Pulmonary Hypertension,2,COND
+15,Ischemic Stroke,2,COND
+16,Myocardial Infarction,2,COND
+17,Obesity,2,COND
+18,Congestive Heart Failure,2,COND
+19,Atrial Fibrillation (AF),2,COND
+20,Heart Diseases,2,COND
+21,Atrial Flutter,2,COND
+22,Coronary Disease,2,COND
+23,Heart Failure With Preserved Ejection Fraction,2,COND
+24,Diabetes Mellitus,2,COND
+25,Myocardial Ischemia,2,COND
+26,Acute Coronary Syndrome,2,COND
+27,Paroxysmal Atrial Fibrillation,2,COND
+28,Acute Ischemic Stroke,2,COND
+29,Glaucoma,2,COND
+30,Coronary Heart Disease,2,COND
+31,Chronic Kidney Disease,2,COND
+32,Persistent Atrial Fibrillation,2,COND
+33,Cerebrovascular Accident,2,COND
+34,Atherosclerosis,2,COND
+35,Ischemic Heart Disease,2,COND
+36,"Sleep Apnea, Obstructive",2,COND
+37,Ocular Hypertension,2,COND
+38,Placebo,3,INTR
+39,MRI,3,INTR
+40,Aspirin,3,INTR
+41,Stent,3,INTR
+42,Pantoprazole,3,INTR
+43,Ramipril,3,INTR
+44,Candesartan cilexetil,3,INTR
+45,Renal denervation,3,INTR
+46,Pulmonary vein isolation,3,INTR
+47,control group,3,INTR
+48,Regadenoson,3,INTR
+49,Control,3,INTR
+50,Spironolactone,3,INTR
+51,No intervention,3,INTR
+52,Propofol,3,INTR
+53,Clopidogrel,3,INTR
+54,Flecainide,3,INTR
+55,AVF,3,INTR
+56,pulsed field ablation,3,INTR
+57,Acupuncture,3,INTR
+58,Tolvaptan,3,INTR
+59,Rosuvastatin,3,INTR
+60,Olmesartan medoxomil,3,INTR
+61,"Calcium channel blockers (amlodipine, azelnidipine)",3,INTR
+62,valsartan,3,INTR
+63,irbesartan,3,INTR
+64,Publicly released hospital cardiac report cards,3,INTR
+65,Diastolic measurements during TEE,3,INTR
+66,Temporary cardiac resynchronization therapy,3,INTR
+67,EXANTA,3,INTR
+68,Transoesophageal echocardiography,3,INTR
+69,ATACAND,3,INTR
+70,clopidogrel (SR25990C),3,INTR
+71,Simvastatin,3,INTR
+72,Cardiac Resynchronization Therapy+Implantable Cardioverter Defibrillator,3,INTR
+73,magnesium L-lactate,3,INTR
+74,Ursodeoxycholic Acid,3,INTR
+75,Pregabalin,3,INTR
+76,"Imaging study, No intervention",3,INTR
+77,"MK0954, /Duration of Treatment : 5 Years",3,INTR
+78,To evaluate the effectiveness of the device,4,OUTC
+79,Blood pressure,4,OUTC
+80,All cause mortality,4,OUTC
+81,Rate of Stroke,4,OUTC
+82,NIHSS score,4,OUTC
+83,Analysis of recording of hemodynamic data at diagnosis,4,OUTC
+84,Change in Blood Pressure Variability Index,4,OUTC
+85,Adverse events,4,OUTC
+86,Composite Rate of All Death and Any MI (Q-wave and Non Q-wave),4,OUTC
+87,"Composite Rate of All Death, Any MI (Q-wave and Non Q-wave) and Any Repeat Revascularization (Percutaneous Coronary I...",4,OUTC
+88,"Composite Rate of Cardiac Death, Any MI (Q-wave and Non Q-wave) Attributed to the Target Vessel, and Target Lesion Re...",4,OUTC
+89,"Composite Rate of Cardiac Death and MI (Q-wave and Non Q-wave) Attributed to the Target Vessel, and Clinically-indica...",4,OUTC
+90,"Death (Cardiac Death, Vascular Death, and Non-cardiovascular Death)",4,OUTC
+91,Any MI (Q-wave and Non Q-wave),4,OUTC
+92,"Revascularization (Target Lesion, Target Vessel [TVR], and Non-target Vessel) (PCI and CABG)",4,OUTC
+93,Dual Antiplatelet Medication Usage,4,OUTC
+94,death,4,OUTC
+95,Major bleeding,4,OUTC
+96,All-cause mortality,4,OUTC
+97,Death (all cause and cardiac),4,OUTC
+98,MI,4,OUTC
+99,Composite of death or MI,4,OUTC
+100,Composite of cardiac death or MI,4,OUTC
+101,TVR,4,OUTC
+102,Target-lesion revascularization (TLR),4,OUTC
+103,Stent thrombosis (ARC criteria),4,OUTC
+104,Radial artery occlusion,4,OUTC
+105,Left ventricular ejection fraction,4,OUTC
+106,6 minute walk test,4,OUTC
+107,Heart rate,4,OUTC
+108,Modified Rankin Scale (MRS),4,OUTC
+109,Physical activity,4,OUTC
+110,mortality,4,OUTC
+111,Systolic Blood Pressure,4,OUTC
+112,Diastolic Blood Pressure,4,OUTC
+113,"National Heart, Lung, and Blood Institute (NHLBI)",5,SPON
+114,Duke University,5,SPON
+115,National Taiwan University Hospital,5,SPON
+116,AstraZeneca,5,SPON
+117,Abbott Medical Devices,5,SPON
+118,Wake Forest University Health Sciences,5,SPON
+119,Mayo Clinic,5,SPON
+120,Chang Gung Memorial Hospital,5,SPON
+121,VA Office of Research and Development,5,SPON
+122,Assistance Publique - Hôpitaux de Paris,5,SPON
+123,Emory University,5,SPON
+124,Sanofi,5,SPON
+125,Seoul National University Hospital,5,SPON
+126,Boston Scientific Corporation,5,SPON
+127,Icahn School of Medicine at Mount Sinai,5,SPON
+128,Assiut University,5,SPON
+129,China National Center for Cardiovascular Diseases,5,SPON
+130,Samsung Medical Center,5,SPON
+131,National Institute of Neurological Disorders and Stroke (NINDS),5,SPON
+132,"University of Maryland, Baltimore",5,SPON
+133,Sunnybrook Health Sciences Centre,5,SPON
+134,"University Health Network, Toronto",5,SPON
+135,University of Pittsburgh,5,SPON
+136,National Heart and Lung Institute,5,SPON
+137,Glaukos Corporation,5,SPON
+138,PHASE4,6,PHASE
+139,PHASE2,6,PHASE
+140,PHASE3,6,PHASE
+141,PHASE1,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,TERMINATED,7,STATUS
+146,NOT_YET_RECRUITING,7,STATUS
+147,ACTIVE_NOT_RECRUITING,7,STATUS
+148,WITHDRAWN,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,NO_LONGER_AVAILABLE,7,STATUS
+151,SUSPENDED,7,STATUS
+152,NCT03047369 The Myelin Disorders Biorepository Project,144,TRIAL
+153,NCT06955182 Dynamic Hot Spring Hydrotherapy for Gait Disorders and Balance Function Recovery After Stroke,9|146,TRIAL
+154,NCT04088682 Clinical Performance and Quality Measures for Adults With Acute ST-Elevation Myocardial Infarction in China,129|144,TRIAL
+155,NCT06215625 A Feasible Smart Upper Limb Rehabilitation Model for Patients With Stroke and Spinal Cord Injuries,9|144,TRIAL
+156,NCT04047329 Risk Factors and Impact of Anesthesia Techniques on Myocardial Infarction Following Transurethral Resecti...,120|143,TRIAL
+157,"NCT04433546 Pemziviptadil (PB1046), a Long-acting, Sustained Release Human VIP Analogue, Intended to Provide Clinical...",139|145,TRIAL
+158,NCT07528261 ACT Group for Family Caregivers of Stroke Survivors,144,TRIAL
+159,NCT06299943 Biofeedback Gait Training by Target Biomechanical Parameters in the Early Recovery Period of Stroke,9,TRIAL
+160,NCT05700903 Contributions to Hypertension With Androgen Deprivation Therapy,138|145,TRIAL
+161,NCT03569735 Nanshan Elderly Cohort Study,11|144,TRIAL
+162,NCT03188705 CES1 Carriers in the PAPI Study,20|22|40|53|132|138|143,TRIAL
+163,NCT01120379 XIENCE V® Everolimus Eluting Coronary Stent System USA Post-Approval Study (XIENCE V® USA Long Term Follo...,117|143,TRIAL
+164,NCT04387162 Prism Adaptation in Left Brain Stroke,121|143,TRIAL
+165,NCT03791580 Reducing High-Risk Geriatric Polypharmacy Via EHR Nudges: Pilot Phase,18|148,TRIAL
+166,NCT02533882 Lakeshore Examination of Activity and Disability Exercise Response Study,9|143,TRIAL
+167,NCT06923735 Nutrition Apps in Occupational Healthcare (Pilot Study of the FOODNUTRI Project),149,TRIAL
+168,NCT06604650 Community Park-Based Programs for Health Promotion: Active Older Adults Prospective Cohort Study,11|114|144,TRIAL
+169,NCT04464655 A 10-Minute Cardiovascular Magnetic Resonance Protocol for Cardiac Disease,12|144,TRIAL
+170,NCT01864603 Sustainable East Africa Research in Community Health,143,TRIAL
+171,NCT06473441 Telehealth and Home-based Exercise and Rehabilitation Therapy for Acute Coronary Syndrome,12|26|115|146,TRIAL
+172,NCT06168942 A Pivotal Investigational Device Exemption Study on Laminar Left Atrial Appendage Elimination,9|151,TRIAL
+173,NCT03231826 Arrhythmias in Post-Myocardial Infarction Patients,12|16|143,TRIAL
+174,NCT00134160 OlmeSartan and Calcium Antagonists Randomized (OSCAR) Study,11|13|60|61|138|143,TRIAL
+175,NCT07157670 Cardiovascular Complications in Patients Undergoing Allogeneic Hematopoietic Stem Cell Transplantation,122|146,TRIAL
+176,NCT06029959 Stroke and CPAP Outcome Study 3,15|143,TRIAL
+177,NCT05133362 Effects of Backward Gait Training With Exoskeleton on Motor Functions,145,TRIAL
+178,NCT04808778 Stroke Prevention in Young Adults With Sickle Cell Anemia,147,TRIAL
+179,NCT04205578 NBP in Patients With Moyamoya Disease of High Risk for Ischemic Cerebrovascular Events,140,TRIAL
+180,NCT04084574 Diet and Hypertension Management in African Americans With Chronic Kidney Disease,114|143,TRIAL

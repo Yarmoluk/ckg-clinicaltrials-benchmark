@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Rare and genetic disease clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Cystic Fibrosis,2,COND
+9,Sickle Cell Disease,2,COND
+10,Duchenne Muscular Dystrophy,2,COND
+11,Spinal Muscular Atrophy,2,COND
+12,Duchenne Muscular Dystrophy (DMD),2,COND
+13,Sickle Cell Anemia,2,COND
+14,Becker Muscular Dystrophy,2,COND
+15,Amyotrophic Lateral Sclerosis,2,COND
+16,"Muscular Atrophy, Spinal",2,COND
+17,"Muscular Dystrophy, Duchenne",2,COND
+18,Muscular Dystrophies,2,COND
+19,Neuromuscular Diseases,2,COND
+20,Rare Diseases,2,COND
+21,"Anemia, Sickle Cell",2,COND
+22,Thalassemia,2,COND
+23,Hemoglobinopathies,2,COND
+24,Muscular Dystrophy,2,COND
+25,Spinal Muscular Atrophy (SMA),2,COND
+26,Progressive Muscular Atrophy,2,COND
+27,Cystic Fibrosis (CF),2,COND
+28,Cystic Fibrosis in Children,2,COND
+29,Multiple Sclerosis,2,COND
+30,Pain,2,COND
+31,Cancer,2,COND
+32,Breast Cancer,2,COND
+33,Myasthenia Gravis,2,COND
+34,Spinal Cord Injury,2,COND
+35,Cerebral Palsy,2,COND
+36,Spinal Muscular Atrophy Type 3,2,COND
+37,Spinal Cord Injuries,2,COND
+38,Placebo,3,INTR
+39,Nusinersen,3,INTR
+40,Exercise,3,INTR
+41,prednisone,3,INTR
+42,Hydroxyurea,3,INTR
+43,Ataluren,3,INTR
+44,No Intervention,3,INTR
+45,Questionnaires,3,INTR
+46,Syde,3,INTR
+47,Cyclosporine,3,INTR
+48,Cyclophosphamide,3,INTR
+49,Coenzyme Q10,3,INTR
+50,Alemtuzumab,3,INTR
+51,Sirolimus,3,INTR
+52,Deferasirox,3,INTR
+53,sodium phenylbutyrate,3,INTR
+54,Ciprofloxacin for Inhalation,3,INTR
+55,matched placebo,3,INTR
+56,Ivacaftor,3,INTR
+57,Aerobic Training,3,INTR
+58,HT-100,3,INTR
+59,N91115,3,INTR
+60,Music Therapy,3,INTR
+61,Normal saline,3,INTR
+62,Ketamine,3,INTR
+63,DS-5141b,3,INTR
+64,Crizanlizumab,3,INTR
+65,LUM/IVA,3,INTR
+66,Eteplirsen,3,INTR
+67,Viltolarsen,3,INTR
+68,Questionnaire,3,INTR
+69,Voxelotor,3,INTR
+70,Apitegromab,3,INTR
+71,EN001,3,INTR
+72,Risdiplam,3,INTR
+73,MRI,3,INTR
+74,Breast scan using the Z-scanner,3,INTR
+75,Standard of Care,3,INTR
+76,SAT-3247,3,INTR
+77,Dynamometric measurements of muscle strength,3,INTR
+78,Blood sample,4,OUTC
+79,Associations,4,OUTC
+80,Clearance paracetamol,4,OUTC
+81,Lipid profile,4,OUTC
+82,Evaluate the long-term efficacy of apitegromab by assessing changes in motor function outcome measures at prespecifie...,4,OUTC
+83,motor function assessment after using IP 200-day and 360-day,4,OUTC
+84,Analysis of the Area under the Plasma Concentration versus Time Curve (AUC) of melphalan for HCT in pediatric patients,4,OUTC
+85,To use the MAR-Scale to determine the extent of non-adherence to specific medications indicated to treat a range of r...,4,OUTC
+86,To use the MAR-Scale to identify the top patient-reported reasons for non-adherence to specific medications indicated...,4,OUTC
+87,Pleasant drug effect,4,OUTC
+88,Drug Effects associated with cannabis ingestion,4,OUTC
+89,"Markers of disease progression and description of different phenotypes, at : muscular and functional",4,OUTC
+90,QOL,4,OUTC
+91,Patient Reported Outcome,4,OUTC
+92,Percentage Change From Baseline in Hemolysis Measures,4,OUTC
+93,Efficacy and tolerance,4,OUTC
+94,Analysis of the Area under the Plasma Concentration versus Time Curve (AUC) of thiotepa for HCT in pediatric patients,4,OUTC
+95,concentration of C-Reactive Protein,4,OUTC
+96,concentration of Calcium,4,OUTC
+97,concentration of Phosphate,4,OUTC
+98,concentration of Creatine kinase,4,OUTC
+99,concentration of Myoglobine,4,OUTC
+100,concentration of Lactate dehydrogenase,4,OUTC
+101,concentration of Alkaline phosphatase,4,OUTC
+102,Visual analogue scale (VAS),4,OUTC
+103,The Eastern Cooperative Oncology Group (ECOG) Performance Status (PS),4,OUTC
+104,Digital Mobility Monitoring Compliance,4,OUTC
+105,To evaluate the effect of BMN 351 on physical function,4,OUTC
+106,Time to Progression (TTP),4,OUTC
+107,The Effect of Oral L-glutamine on Vital Signs,4,OUTC
+108,Pharmacokinetic (PK) parameters of N91115 and its glucuronide metabolite in plasma,4,OUTC
+109,Body Mass Index,4,OUTC
+110,Evaluate the event free survival according to the AUC of melphalan,4,OUTC
+111,Event free survival according to the AUC of thiotepa,4,OUTC
+112,Custom-designed task self-efficacy questionnaire,4,OUTC
+113,National Center for Research Resources (NCRR),5,SPON
+114,Novartis Pharmaceuticals,5,SPON
+115,"National Heart, Lung, and Blood Institute (NHLBI)",5,SPON
+116,Biogen,5,SPON
+117,Assistance Publique - Hôpitaux de Paris,5,SPON
+118,Hacettepe University,5,SPON
+119,PTC Therapeutics,5,SPON
+120,Hospices Civils de Lyon,5,SPON
+121,Emory University,5,SPON
+122,National Institutes of Health Clinical Center (CC),5,SPON
+123,National Institute of Neurological Disorders and Stroke (NINDS),5,SPON
+124,Cooperative International Neuromuscular Research Group,5,SPON
+125,St. Jude Children's Research Hospital,5,SPON
+126,Washington University School of Medicine,5,SPON
+127,Vertex Pharmaceuticals Incorporated,5,SPON
+128,GlaxoSmithKline,5,SPON
+129,University of Washington,5,SPON
+130,Duke University,5,SPON
+131,Hoffmann-La Roche,5,SPON
+132,"Sarepta Therapeutics, Inc",5,SPON
+133,University Hospital Tuebingen,5,SPON
+134,FDA Office of Orphan Products Development,5,SPON
+135,Mayo Clinic,5,SPON
+136,University of Utah,5,SPON
+137,University of Miami,5,SPON
+138,PHASE2,6,PHASE
+139,PHASE1,6,PHASE
+140,PHASE3,6,PHASE
+141,PHASE4,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,TERMINATED,7,STATUS
+146,ACTIVE_NOT_RECRUITING,7,STATUS
+147,ENROLLING_BY_INVITATION,7,STATUS
+148,NOT_YET_RECRUITING,7,STATUS
+149,WITHDRAWN,7,STATUS
+150,SUSPENDED,7,STATUS
+151,NO_LONGER_AVAILABLE,7,STATUS
+152,AVAILABLE,7,STATUS
+153,NCT01793168 Rare Disease Patient Registry & Natural History Study - Coordination of Rare Diseases at Sanford,144,TRIAL
+154,NCT03655223 Early Check: Expanded Screening in Newborns,11|146,TRIAL
+155,NCT06321965 Characterization of New Phenotypes of Patients With Spinal Muscular Atrophy Treated With SMN Restoring Th...,11|89|120|144,TRIAL
+156,NCT03056144 Whole Body Vibration Therapy in Children With Spinal Muscular Atrophy,36|145,TRIAL
+157,NCT06568055 A Study of Cytomegalovirus (CMV) Infection After Kidney Transplant in Adults in the United Kingdom,44|143,TRIAL
+158,NCT06957054 Neural Biomarkers in Fragile X Syndrome,143,TRIAL
+159,NCT04589572 Extreme Lateral Interbody FusionFUSION (XLIF) Versus Posterior Lumbar Interbody Fusion (PLIF),150,TRIAL
+160,"NCT03140527 Study Assessing the Safety, Tolerability, Pharmacokinetics, Food Effect, and Drug-Drug Interactions of PT...",8|38|139|143,TRIAL
+161,NCT07136844 Gait Analysis Parameter and Upper Limb Evaluation in Adult Patients With Neurological or Metabolic Pathology,19|46|77|144,TRIAL
+162,NCT05272969 Pompe & Pain - Study to Assess Nociceptive Pain in Adult Patients With Pompe Disease,1,TRIAL
+163,NCT04089566 Study of Nusinersen (BIIB058) in Participants With Spinal Muscular Atrophy,16|39|116|140|143,TRIAL
+164,"NCT07440290 DETERMINE Trial Treatment Arm 07: Dabrafenib in Combination With Trametinib in Adult, Paediatric and Teen...",138|144,TRIAL
+165,NCT07369609 Factors Influencing Physical Activity Levels in Children With Duchenne Muscular Dystrophy: An ICF-CY-Base...,12|118|148,TRIAL
+166,NCT06605612 Development and Validation of the FBIndex to Determine the Risk of Falls for Patients With Neuromuscular...,147,TRIAL
+167,NCT06144957 SLC13A5 Deficiency Natural History Study - United States Only,147,TRIAL
+168,NCT07721155 Objective Neurocognitive Assessment of Young Children With Sickle Cell Disease by Eye-Tracking,9|143,TRIAL
+169,NCT06564974 Registry Study to Observe Long-term Safety of Vamorolone (AGAMREE®) in Patients With Duchenne Muscular Dy...,10|144,TRIAL
+170,NCT06178393 Real-World Use of Novel Treatments in Patients With Spinal Muscular Atrophy (SMA): A Multi-Site Retrospec...,11|114|143,TRIAL
+171,NCT02485938 HOPE-Duchenne (Halt cardiomyOPathy progrEssion in Duchenne),10|138|143,TRIAL
+172,NCT06167954 Safety and Usability of a Robotic Gait Device for Children and Adolescents With Neurological or Neuromusc...,35|143,TRIAL
+173,NCT05748444 The Relationship Between Diet and Glycemic Response and Inflammatory Markers in Children With Cystic Fibr...,8,TRIAL
+174,NCT04541875 Medication Adherence and Non-adherence in Adults With Rare Disease,8|85|149,TRIAL
+175,NCT04468919 Optimizing BCI-FIT: Brain Computer Interface - Functional Implementation Toolkit,15|143,TRIAL
+176,NCT04200664 Audiovestibular Function in Infratentorial Superficial Siderosis,143,TRIAL
+177,NCT07286565 Active NBS Study: Decentralised Monitoring Motor Development in Children With Duchenne Muscular Dystrophy...,12|25|46|104|144,TRIAL
+178,NCT03179631 Long-Term Outcomes of Ataluren in Duchenne Muscular Dystrophy,17|18|43|119|140|143,TRIAL
+179,NCT01878617 A Clinical and Molecular Risk-Directed Therapy for Newly Diagnosed Medulloblastoma,48|125|138|146,TRIAL
+180,NCT07374107 MIHRA - Patient-Rooted Insights for Shaping Myositis Science (PRISMS),144,TRIAL

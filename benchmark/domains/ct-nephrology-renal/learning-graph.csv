@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Nephrology and renal disease clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Acute Kidney Injury,2,COND
+9,Chronic Kidney Disease,2,COND
+10,IgA Nephropathy,2,COND
+11,Kidney Transplantation,2,COND
+12,Diabetic Nephropathy,2,COND
+13,Diabetic Nephropathies,2,COND
+14,End Stage Renal Disease,2,COND
+15,Diabetic Kidney Disease,2,COND
+16,IgA Nephropathy (IgAN),2,COND
+17,Immunoglobulin A Nephropathy,2,COND
+18,Hypertension,2,COND
+19,Kidney Diseases,2,COND
+20,Chronic Kidney Diseases,2,COND
+21,"Kidney Failure, Chronic",2,COND
+22,Anemia,2,COND
+23,Kidney Disease,2,COND
+24,Diabetes,2,COND
+25,Type 2 Diabetes,2,COND
+26,Primary IgA Nephropathy,2,COND
+27,End-Stage Renal Disease,2,COND
+28,Focal Segmental Glomerulosclerosis,2,COND
+29,Kidney Failure,2,COND
+30,Renal Transplantation,2,COND
+31,"Glomerulonephritis, IGA",2,COND
+32,Glomerulonephritis,2,COND
+33,"Diabetes Mellitus, Type 2",2,COND
+34,Diabetes Mellitus,2,COND
+35,Heart Failure,2,COND
+36,Type 2 Diabetes Mellitus,2,COND
+37,Kidney Transplant; Complications,2,COND
+38,Placebo,3,INTR
+39,Tacrolimus,3,INTR
+40,Aliskiren,3,INTR
+41,Atrasentan,3,INTR
+42,No intervention,3,INTR
+43,Methylprednisolone,3,INTR
+44,Paricalcitol,3,INTR
+45,Bortezomib,3,INTR
+46,Calcitriol,3,INTR
+47,Darbepoetin alfa,3,INTR
+48,blood sample,3,INTR
+49,Propofol,3,INTR
+50,Aminohippurate Sodium Inj 20%,3,INTR
+51,Education,3,INTR
+52,prednisone,3,INTR
+53,Cyclosporine,3,INTR
+54,Sirolimus,3,INTR
+55,Aranesp®,3,INTR
+56,Epoetin alfa,3,INTR
+57,Valsartan,3,INTR
+58,Probucol,3,INTR
+59,Ramipril,3,INTR
+60,Pioglitazone,3,INTR
+61,irbesartan,3,INTR
+62,Pyridoxamine Dihydrochloride,3,INTR
+63,Kidney transplant,3,INTR
+64,everolimus,3,INTR
+65,Exercise,3,INTR
+66,Liraglutide,3,INTR
+67,Control Group,3,INTR
+68,Losartan,3,INTR
+69,CXA-10,3,INTR
+70,Rituximab,3,INTR
+71,Hemodialysis,3,INTR
+72,Balanced crystalloid solution,3,INTR
+73,Daprodustat,3,INTR
+74,Placebos,3,INTR
+75,Empagliflozin,3,INTR
+76,Placebo oral capsule,3,INTR
+77,Sevoflurane,3,INTR
+78,Mortality,4,OUTC
+79,Effect of AP303 on ECG parameters,4,OUTC
+80,eGFR,4,OUTC
+81,Serum creatinine,4,OUTC
+82,Adverse Events,4,OUTC
+83,Secondary Aims,4,OUTC
+84,Medication Prescription,4,OUTC
+85,Death,4,OUTC
+86,HbA1c,4,OUTC
+87,proteinuria,4,OUTC
+88,Renal Perfusion,4,OUTC
+89,congestive heart failure,4,OUTC
+90,Cardiac output measurement by echocardiography after albumin,4,OUTC
+91,Renal Function in IgAN Patients,4,OUTC
+92,Length of hospital stay,4,OUTC
+93,blood pressure,4,OUTC
+94,Primary patency,4,OUTC
+95,Change from baseline in estimated GFR,4,OUTC
+96,Contrast induced nephropathy?,4,OUTC
+97,Change in creatinemia,4,OUTC
+98,% Change in creatinemia,4,OUTC
+99,Change in glomerular filtration rate compared to baseline,4,OUTC
+100,Cystatin C,4,OUTC
+101,Effective Renal Plasma Flow (ERPF),4,OUTC
+102,Renal Oxygenation,4,OUTC
+103,Serum levels of LDL cholesterol,4,OUTC
+104,Serum levels of HDL cholesterol,4,OUTC
+105,Serum levels of total cholesterol,4,OUTC
+106,number of participants with high blood pressure,4,OUTC
+107,number of participants with myocardial infarction,4,OUTC
+108,Cmax,4,OUTC
+109,Tmax,4,OUTC
+110,"investigate if Torque Teno Virus (TTV) is a clinical useful ""immunometer"", i.e. reflect overall immunosuppression of...",4,OUTC
+111,coronary artery disease,4,OUTC
+112,Secondary outcomes measures,4,OUTC
+113,Novartis Pharmaceuticals,5,SPON
+114,Seoul National University Hospital,5,SPON
+115,Assiut University,5,SPON
+116,"University of California, San Francisco",5,SPON
+117,Guangdong Provincial People's Hospital,5,SPON
+118,Centre Hospitalier Universitaire de Saint Etienne,5,SPON
+119,National Taiwan University Hospital,5,SPON
+120,Assistance Publique - Hôpitaux de Paris,5,SPON
+121,National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK),5,SPON
+122,National Institute of Allergy and Infectious Diseases (NIAID),5,SPON
+123,Mayo Clinic,5,SPON
+124,Peking University First Hospital,5,SPON
+125,"University of Colorado, Denver",5,SPON
+126,"Travere Therapeutics, Inc",5,SPON
+127,"Second Affiliated Hospital, Zhejiang University, School of Medicine",5,SPON
+128,Hoffmann-La Roche,5,SPON
+129,Leiden University Medical Center,5,SPON
+130,Hospices Civils de Lyon,5,SPON
+131,The George Institute,5,SPON
+132,Samsung Medical Center,5,SPON
+133,Sun Yat-sen University,5,SPON
+134,Northwestern University,5,SPON
+135,Calliditas Therapeutics AB,5,SPON
+136,Medical University of South Carolina,5,SPON
+137,Centre Hospitalier Universitaire de Besancon,5,SPON
+138,PHASE2,6,PHASE
+139,PHASE4,6,PHASE
+140,PHASE3,6,PHASE
+141,PHASE1,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,TERMINATED,7,STATUS
+146,NOT_YET_RECRUITING,7,STATUS
+147,ACTIVE_NOT_RECRUITING,7,STATUS
+148,WITHDRAWN,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,SUSPENDED,7,STATUS
+151,NO_LONGER_AVAILABLE,7,STATUS
+152,AVAILABLE,7,STATUS
+153,NCT06568055 A Study of Cytomegalovirus (CMV) Infection After Kidney Transplant in Adults in the United Kingdom,143,TRIAL
+154,"NCT06666283 A Study to Evaluate the Safety, Tolerability, PK and PD of AP303 in DKD Patients",15|108|141|144,TRIAL
+155,"NCT03620773 Impact of Metabolic Surgery on Pancreatic, Renal and Cardiovascular Health in Youth With Type 2 Diabetes",36|50|125|141|143,TRIAL
+156,"NCT05530356 Renal Hemodynamics, Energetics and Insulin Resistance: A Follow-up Study",25|50|125|143,TRIAL
+157,NCT07588256 New Taipei City 888 Digital Medical AI Platform for Prevention and Care of the Three Highs and Cardio-Ren...,144,TRIAL
+158,NCT05200871 Humanistic Burden of (FSGS) Focal Segmental Glomerulosclerosis and IgAN (Immunoglobulin A Nephropathy),17|28|126|143,TRIAL
+159,"NCT07614477 Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of EVER001 in Participants With Sel...",16|138|144,TRIAL
+160,NCT04328181 Comparison of Imaging Quality Between Spectral Photon Counting Computed Tomography (SPCCT) and Dual Energ...,130,TRIAL
+161,"NCT01371344 A Paediatric, Open, Follow up Study With Modigraf Examining Safety and Efficacy in de Novo Allograft Reci...",11|139|145,TRIAL
+162,NCT00025103 Chemotherapy Followed by Surgery and Radiation Therapy With or Without Stem Cell Transplant in Treating P...,138,TRIAL
+163,NCT04182607 Donor Outcomes Following Hand-Assisted and Robotic Living Donor Nephrectomy: a Retrospective Review,19|144,TRIAL
+164,NCT03996551 ExeRTiOn2- The Weight Gain Prevention Exercise in Renal Transplant Online Study,37|143,TRIAL
+165,NCT03889236 Dietary Interventions on Glycocalyx Dimensions in South Asian Patients With Diabetic Nephropathy,129|143,TRIAL
+166,NCT03569735 Nanshan Elderly Cohort Study,18|36|133|144,TRIAL
+167,NCT03534141 Mild Hypothermia and Acute Kidney Injury in Liver Transplantation,116|145,TRIAL
+168,NCT04491916 Iron Therapy in Patients With End-Stage Renal Disease,22|78,TRIAL
+169,NCT03791580 Reducing High-Risk Geriatric Polypharmacy Via EHR Nudges: Pilot Phase,148,TRIAL
+170,NCT02599844 Impact of Pediatric Acute Renal Injury in Severe Sepsis in Young Adults,8|9|148,TRIAL
+171,NCT04287985 Safety and Efficacy Study of VIS649 for IgA Nephropathy,17|138|143,TRIAL
+172,NCT03618420 Copeptin in Adolescent Participants With Type 1 Diabetes and Early Renal Hemodynamic Function,50|125|141|143,TRIAL
+173,NCT01368042 Quality of Life in Greek Hemodialysis Patients Receiving Zemplar Intravenous,9|143,TRIAL
+174,NCT07389499 A Clinical Study Evaluating the Safety and Efficacy of GT719 Universal Cell Injection in the Treatment of...,16|142|146,TRIAL
+175,NCT07106125 Antibiotics for Kidney Transplant Recipients,116|139|146,TRIAL
+176,NCT06676384 Which of the Commonly Available and Approved Drugs in Addition to Standard of Care Can Significantly Impr...,10|139|144,TRIAL
+177,NCT05562362 Study to Evaluate the Pharmacokinetics of Oral Sparsentan Suspension,126|141|143,TRIAL
+178,NCT05246618 FIH Phase I/IIa Trial Evaluating Safety of TUM012 to Minimize Ischemic Reperfusion Injury in Kidney Trans...,37|38|82|141|143,TRIAL
+179,NCT05124184 Retrospective Post-Market Clinical Follow-Up Study of GORE-TEX® Vascular Grafts and GORE® PROPATEN® Vascu...,143,TRIAL
+180,NCT03929887 KOrea Renal Biobank NEtwoRk System TOward NExt-generation Analysis,85|114|144,TRIAL

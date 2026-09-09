@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Immunology and autoimmune disease clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Rheumatoid Arthritis,2,COND
+9,Atopic Dermatitis,2,COND
+10,Psoriasis,2,COND
+11,Systemic Lupus Erythematosus,2,COND
+12,Ulcerative Colitis,2,COND
+13,Crohn Disease,2,COND
+14,Inflammatory Bowel Diseases,2,COND
+15,Lupus Nephritis,2,COND
+16,Plaque Psoriasis,2,COND
+17,Crohn's Disease,2,COND
+18,Psoriatic Arthritis,2,COND
+19,Eczema,2,COND
+20,Inflammatory Bowel Disease,2,COND
+21,"Dermatitis, Atopic",2,COND
+22,"Arthritis, Rheumatoid",2,COND
+23,Psoriasis Vulgaris,2,COND
+24,Atopic Dermatitis (AD),2,COND
+25,SLE (Systemic Lupus),2,COND
+26,Ankylosing Spondylitis,2,COND
+27,Atopic Dermatitis Eczema,2,COND
+28,Osteoarthritis,2,COND
+29,Systemic Lupus Erythematosus (SLE),2,COND
+30,Ulcerative Colitis (UC),2,COND
+31,Asthma,2,COND
+32,"Eczema, Atopic",2,COND
+33,Juvenile Idiopathic Arthritis,2,COND
+34,Rheumatoid Arthritis (RA),2,COND
+35,Food Allergy,2,COND
+36,Lupus,2,COND
+37,Colorectal Cancer,2,COND
+38,Placebo,3,INTR
+39,Methotrexate,3,INTR
+40,Adalimumab,3,INTR
+41,Dupilumab,3,INTR
+42,ATN-103,3,INTR
+43,Rituximab,3,INTR
+44,Secukinumab,3,INTR
+45,Etanercept,3,INTR
+46,HL-300,3,INTR
+47,Placebos,3,INTR
+48,Vitamin D,3,INTR
+49,Sirukumab,3,INTR
+50,Iguratimod,3,INTR
+51,no intervention,3,INTR
+52,Abatacept,3,INTR
+53,Tofacitinib,3,INTR
+54,M5049,3,INTR
+55,natalizumab,3,INTR
+56,tacrolimus,3,INTR
+57,Ocrelizumab,3,INTR
+58,Infliximab,3,INTR
+59,BTT1023,3,INTR
+60,Dipeptide Alanyl-Glutamine,3,INTR
+61,Masitinib,3,INTR
+62,Azathioprine,3,INTR
+63,Belimumab 10 mg/kg,3,INTR
+64,Mycophenolate Mofetil,3,INTR
+65,Certolizumab Pegol,3,INTR
+66,Bimekizumab,3,INTR
+67,Vehicle Cream,3,INTR
+68,Ixekizumab,3,INTR
+69,Ustekinumab,3,INTR
+70,Fecal microbiota transplantation,3,INTR
+71,Vehicle ointment,3,INTR
+72,Colonoscopy,3,INTR
+73,blood sample,3,INTR
+74,Standard of Care,3,INTR
+75,SHR0302 tablets、Placebo,3,INTR
+76,SFA002,3,INTR
+77,IBI112,3,INTR
+78,"Difference in inflammatory response to dupilumab between Caucasian, Asian and African American patients with atopic d...",4,OUTC
+79,Adverse events,4,OUTC
+80,Proportion of subjects who achieve ≥50% overall improvement in Eczema Area and Severity Index (EASI) score,4,OUTC
+81,Proportion of subjects who achieve an Investigators' Global Assessment (IGA) score of 0 or 1,4,OUTC
+82,Proportion of subjects who achieve Investigators' Global Assessment (IGA) score reduction of ≥2,4,OUTC
+83,Percent change in Scoring Atopic Dermatitis (SCORAD) score,4,OUTC
+84,Pharmacokinetics of BCD-089,4,OUTC
+85,To evaluate the safety and tolerability of HL-300 ointment after single and multiple topical doses in healthy adult v...,4,OUTC
+86,Number of Participants Experiencing a Mild/Moderate or Severe Safety of Estrogens in Lupus Erythematosus National Ass...,4,OUTC
+87,VAS Score,4,OUTC
+88,Pharmacodynamics of BCD-089,4,OUTC
+89,Pharmacokinetics parameters,4,OUTC
+90,Evaluate preliminary clinical response to SC291,4,OUTC
+91,Safety and tolerability,4,OUTC
+92,Immunogenicity,4,OUTC
+93,Mean Change From the 6 Months Prior to Treatment With Adalimumab to the 6 Months After Beginning Treatment With Adali...,4,OUTC
+94,Eczema Area and Severity Index (EASI),4,OUTC
+95,Number of Participants Experiencing a Severe Safety of Estrogens in Lupus Erythematosus National Assessment-Systemic...,4,OUTC
+96,Clinical features,4,OUTC
+97,Radiographic Evaluation,4,OUTC
+98,Modified Harris Hip Score,4,OUTC
+99,The Secondary efficacy endpoints are the percentage of subjects in each treatment group with: ≥1 point improvement in...,4,OUTC
+100,Renal remission rate,4,OUTC
+101,Efficacy of the treatment with regard to rheumatic changes measured with Visual Analog Scale (VAS) on visits 1 to 7 c...,4,OUTC
+102,Low RA activity,4,OUTC
+103,Physician Global Assessment (PGA),4,OUTC
+104,All-cause mortality,4,OUTC
+105,BSA,4,OUTC
+106,DLQI,4,OUTC
+107,Change in Pain,4,OUTC
+108,Change in Physical Function - Chair Stands,4,OUTC
+109,Change in Physical Function - 6 Minute Walk,4,OUTC
+110,Change in Physical Limitations,4,OUTC
+111,Change in Physical Activity,4,OUTC
+112,Change in Arthritis Management Self-efficacy,4,OUTC
+113,Novartis Pharmaceuticals,5,SPON
+114,Amgen,5,SPON
+115,Assiut University,5,SPON
+116,National Institute of Allergy and Infectious Diseases (NIAID),5,SPON
+117,Pfizer,5,SPON
+118,Sanofi,5,SPON
+119,Bristol-Myers Squibb,5,SPON
+120,GlaxoSmithKline,5,SPON
+121,Eli Lilly and Company,5,SPON
+122,Astellas Pharma Inc,5,SPON
+123,LEO Pharma,5,SPON
+124,"Genentech, Inc",5,SPON
+125,MedImmune LLC,5,SPON
+126,AstraZeneca,5,SPON
+127,"Sixth Affiliated Hospital, Sun Yat-sen University",5,SPON
+128,Biogen,5,SPON
+129,"Janssen Research & Development, LLC",5,SPON
+130,Tuen Mun Hospital,5,SPON
+131,Northwestern University,5,SPON
+132,Wake Forest University Health Sciences,5,SPON
+133,"AbbVie (prior sponsor, Abbott)",5,SPON
+134,"Second Affiliated Hospital, Zhejiang University, School of Medicine",5,SPON
+135,Ain Shams University,5,SPON
+136,Hoffmann-La Roche,5,SPON
+137,Abbott,5,SPON
+138,PHASE2,6,PHASE
+139,PHASE3,6,PHASE
+140,PHASE1,6,PHASE
+141,PHASE4,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,TERMINATED,7,STATUS
+146,NOT_YET_RECRUITING,7,STATUS
+147,ACTIVE_NOT_RECRUITING,7,STATUS
+148,WITHDRAWN,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,NO_LONGER_AVAILABLE,7,STATUS
+151,SUSPENDED,7,STATUS
+152,NCT03047369 The Myelin Disorders Biorepository Project,144,TRIAL
+153,NCT03921411 A Pharmacokinetics and Safety Study of Nemolizumab in Adolescent Participants With Atopic Dermatitis (AD),9|138|143,TRIAL
+154,"NCT03922607 A Study to Evaluate the Pharmacokinetics, Safety and Tolerability of ABBV-157 in Healthy Volunteers and i...",10|140|143,TRIAL
+155,"NCT03426995 First-time-in-Human (FTIH) Study to Evaluate Safety, Tolerability, Pharmacokinetics and Pharmacodynamics...",22|38|120|140|145,TRIAL
+156,NCT00697593 ChangE From Any Systemic psoriasiS therapY to Raptiva,141|145,TRIAL
+157,NCT06998693 A Single-Center Observational Study on the Impact of Symptom Assessment Timing on the Short-Term Efficacy...,143,TRIAL
+158,NCT05226143 A Study of an Eczema Spot Treatment in Providing Eczema Symptoms Relief and Lasting Itch Relief to Affect...,21|143,TRIAL
+159,"NCT05186805 Maximal Use Study of Tapinarof Cream, 1% in Pediatric Subjects With Extensive Atopic Dermatitis",9|138|143,TRIAL
+160,"NCT04433546 Pemziviptadil (PB1046), a Long-acting, Sustained Release Human VIP Analogue, Intended to Provide Clinical...",138|145,TRIAL
+161,NCT04154033 Treatment of Chronic Itch in Atopic Dermatitis With Topical Naltrexone,9|138|148,TRIAL
+162,NCT02246686 Efficacy/Safety Pilot Study to Investigate Iberogast N's Efficacy in Mild to Moderate Colitis Ulcerosa Pa...,38|138|145,TRIAL
+163,NCT05289544 Phone-Based Based Walk With Ease Program for Adults With Arthritis,107|143,TRIAL
+164,NCT07703215 NPQ Plus Supplementation for Skin Health and Antioxidant Status,9|19|143,TRIAL
+165,NCT07150000 Clinical Assessment for Rheumatologic Disease - Research and Advancement in Safety and Efficacy,34|144,TRIAL
+166,NCT04647708 Study of M5049 in CLE and SLE Participants,11|54|140|143,TRIAL
+167,"NCT04366544 Effects of an 8-day Advanced Meditation, Samyama on Physical, Psychological and Spiritual Wellbeing ,and...",143,TRIAL
+168,NCT07692165 A Phase Ib/IIa Study of INT-210 Capsules in Participants With Active Ulcerative Colitis,30|140|144,TRIAL
+169,NCT07564596 A Phase 1b/2a Study of Budoprutug in Systemic Lupus Erythematosus (SLE),140|144,TRIAL
+170,NCT05458531 Monitoring of Inflammatory Conditions,13|143,TRIAL
+171,NCT07765329 Higher-Dose Dexamethasone Improves Breathing and Shortens NICU Stay in Preterm Babies,143,TRIAL
+172,NCT06986382 Phase 1b/2a Trial of Allogeneic HSCT From an HLA-partially Matched Related or Unrelated Donor After TCRab...,13|140|146,TRIAL
+173,NCT06857227 A Study of GNC-038 Tetra-specific Antibody Injection in Patients With Rheumatoid Arthritis,8|38|140|144,TRIAL
+174,"NCT04992546 Phase 2a Study of the Safety, Tolerability, and Pharmacokinetics of Topically Administered PRN473 (SAR444...",9|38|138|143,TRIAL
+175,NCT02993471 A Study of Ixekizumab in Participants With Plaque Psoriasis,10|68|121|140|143,TRIAL
+176,NCT02822495 Expanded Access Protocol for Tabelecleucel for Patients With Epstein-Barr Virus-Associated Viremia or Mal...,150,TRIAL
+177,NCT01590966 Scintigraphic Detection of the Biodistribution of Tumor Necrosis Factor With a Radiolabeled Anti-TNFα in...,8|139|143,TRIAL
+178,NCT06339957 Rheumatology Diet Study,144,TRIAL
+179,NCT06235710 Prevalence of Musculoskeletal Complaints in Nursing Home Residents,8|143,TRIAL
+180,NCT05451277 At the Heart of the Matter - Speckle Tracking Echocardiography in Lupus Mothers and Their Offspring,11,TRIAL

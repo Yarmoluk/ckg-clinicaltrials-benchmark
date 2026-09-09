@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Infectious disease and vaccines clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Influenza,2,COND
+9,HIV Infections,2,COND
+10,COVID-19,2,COND
+11,Hepatitis B,2,COND
+12,Respiratory Syncytial Virus Infections,2,COND
+13,Chronic Hepatitis B,2,COND
+14,HIV,2,COND
+15,Covid19,2,COND
+16,RSV Infection,2,COND
+17,Respiratory Syncytial Virus (RSV),2,COND
+18,Respiratory Syncytial Virus,2,COND
+19,"Hepatitis B, Chronic",2,COND
+20,HIV Infection,2,COND
+21,Hepatitis C,2,COND
+22,Pneumonia,2,COND
+23,SARS-CoV-2,2,COND
+24,Respiratory Syncytial Virus Infection,2,COND
+25,Bronchiolitis,2,COND
+26,Hepatocellular Carcinoma,2,COND
+27,HIV/AIDS,2,COND
+28,Respiratory Viral Infection,2,COND
+29,Corona Virus Infection,2,COND
+30,Influenza Infection,2,COND
+31,Liver Cirrhosis,2,COND
+32,"Influenza, Human",2,COND
+33,Virus Diseases,2,COND
+34,SARS-CoV-2 Infection,2,COND
+35,Respiratory Syncytial Viruses,2,COND
+36,Pertussis,2,COND
+37,Liver Fibrosis,2,COND
+38,Placebo,3,INTR
+39,Entecavir,3,INTR
+40,EDP-938,3,INTR
+41,Influenza vaccine,3,INTR
+42,Nirsevimab,3,INTR
+43,Zidovudine,3,INTR
+44,Fluarix,3,INTR
+45,albinterferon alfa-2b,3,INTR
+46,Adjuvanted influenza A(H1N1) vaccine,3,INTR
+47,ALX-0171,3,INTR
+48,Hydroxychloroquine,3,INTR
+49,Ribavirin,3,INTR
+50,Rates of HIV testing and receipt of results,3,INTR
+51,Sexual risk reduction; HIV knowledge improvement,3,INTR
+52,Clevudine,3,INTR
+53,Adefovir,3,INTR
+54,Lamivudine,3,INTR
+55,MVA-NP+M1,3,INTR
+56,Engerix-B,3,INTR
+57,mRNA-1345,3,INTR
+58,Acyclovir,3,INTR
+59,Tenofovir,3,INTR
+60,Hepatitis B Vaccine (Recombinant),3,INTR
+61,"Influenza vaccine (whole virion, Vero cell derived)",3,INTR
+62,peginterferon alfa-2a [Pegasys],3,INTR
+63,Blood sample,3,INTR
+64,Presatovir,3,INTR
+65,Tenofovir disoproxil,3,INTR
+66,Peginterferon alfa-2a,3,INTR
+67,Biospecimen Collection,3,INTR
+68,one dose of Influenza Vaccine,3,INTR
+69,Telbivudine,3,INTR
+70,"Fluzone Quadrivalent vaccine, No Preservative",3,INTR
+71,Lumicitabine,3,INTR
+72,JNJ-53718678,3,INTR
+73,Lenvatinib,3,INTR
+74,Baricitinib,3,INTR
+75,Vemlidy,3,INTR
+76,Respiratory Syncytial Vaccine,3,INTR
+77,RSVpreF,3,INTR
+78,UCSD Shortness of Breath Questionnaire,4,OUTC
+79,Complete blood count (CBC),4,OUTC
+80,Respiratory Syncytial Virus (RSV) Lower Respiratory Tract Disease (LRTD) Symptoms as Assessed by Respiratory Infectio...,4,OUTC
+81,Number of Subjects With at Least One Pneumonia Event,4,OUTC
+82,Immunogenicity (neutralizing antibody titers and antigen specific binding antibody titers),4,OUTC
+83,"Number of seropositive subjects for anti-pertussis toxoids (PT), anti-filamentous hemagglutinin (FHA) and anti-pertac...",4,OUTC
+84,"Antibody concentrations for anti-pertussis toxoids (PT), anti-filamentous hemagglutinin (FHA) and anti-pertactin (PRN...",4,OUTC
+85,Occurrence of clinical safety laboratory abnormalities reported for samples,4,OUTC
+86,Percentage of Subjects With Anti-H1 Stalk Enzyme-linked Immunosorbent Assay (ELISA) Antibody Concentration Equal or A...,4,OUTC
+87,Part B: Number of Participants With Abnormal Clinically Significant Electrocardiogram (ECG) Results Per Investigator'...,4,OUTC
+88,Percentage of Participants With Overall Improvement in the National Institute of Allergy and Infectious Diseases Ordi...,4,OUTC
+89,Neutralizing antibody level,4,OUTC
+90,Viral Load,4,OUTC
+91,Mortality,4,OUTC
+92,Serum Hemagglutination-inhibition (HI) Antibody Titer Against Each of the 3 Vaccine Influenza Strains,4,OUTC
+93,Number of Subjects With Any Solicited Local Symptoms,4,OUTC
+94,Number of Subjects With Any Solicited Systemic Symptoms and Other Indicators of Reactogenicity,4,OUTC
+95,Mean Geometric Increase (MGI) for Anti-H2 Full Length HA ELISA Antibody Post-vaccination Concentration Compared to Pr...,4,OUTC
+96,Mean Geometric Increase (MGI) for Anti-H18 Full Length HA ELISA Antibody Post-vaccination Concentration Compared to P...,4,OUTC
+97,Mean Geometric Increase (MGI) for RG Reassortant Virus (H5N8) Antibody Post-vaccination Concentration Compared to Pre...,4,OUTC
+98,Number of Participants With Serious Adverse Events (SAEs),4,OUTC
+99,Percentage of subjects with vaccine virus detected by nasal wash assessed by Polymerase Chain Reaction (PCR),4,OUTC
+100,Overall survival (OS),4,OUTC
+101,Serious adverse events (SAEs),4,OUTC
+102,Percentage of Participants at Each Clinical Status Using the National Institute of Allergy and Infectious Diseases Or...,4,OUTC
+103,SSC: Respiratory Syncytial Virus Subgroup A (RSV A) and RSV B neutralizing titers from participants who received 1 do...,4,OUTC
+104,Number of seroprotected subjects for anti-Hepatitis B surface antigen (anti-HBs) antibodies,4,OUTC
+105,Antibody concentrations for anti-Hepatitis B surface antigen (anti-HBs) antibodies,4,OUTC
+106,Number of seroprotected subjects for anti-diphtheria (anti-D) and anti-tetanus (anti-T) antibodies,4,OUTC
+107,Antibody concentrations for anti-diphtheria (anti-D) and anti-tetanus (anti-T) antibodies,4,OUTC
+108,Number of seroprotected subjects for anti-polyribosyl ribitol phosphate (anti-PRP),4,OUTC
+109,Antibody concentrations for anti-polyribosyl ribitol phosphate (anti-PRP),4,OUTC
+110,Number of Subjects With Unsolicited Adverse Events (AEs),4,OUTC
+111,Number of Subjects With Serious Adverse Events (SAEs),4,OUTC
+112,HBsAg seroconversion,4,OUTC
+113,National Institute of Allergy and Infectious Diseases (NIAID),5,SPON
+114,GlaxoSmithKline,5,SPON
+115,"Sanofi Pasteur, a Sanofi Company",5,SPON
+116,Hoffmann-La Roche,5,SPON
+117,National Taiwan University Hospital,5,SPON
+118,Gilead Sciences,5,SPON
+119,University of Washington,5,SPON
+120,Bristol-Myers Squibb,5,SPON
+121,Assistance Publique - Hôpitaux de Paris,5,SPON
+122,"Enanta Pharmaceuticals, Inc",5,SPON
+123,Pfizer,5,SPON
+124,Merck Sharp & Dohme LLC,5,SPON
+125,University of Oxford,5,SPON
+126,Columbia University,5,SPON
+127,"Janssen Research & Development, LLC",5,SPON
+128,Hospices Civils de Lyon,5,SPON
+129,"ModernaTX, Inc",5,SPON
+130,Abbott,5,SPON
+131,"University of North Carolina, Chapel Hill",5,SPON
+132,"ANRS, Emerging Infectious Diseases",5,SPON
+133,Fred Hutchinson Cancer Center,5,SPON
+134,Chinese University of Hong Kong,5,SPON
+135,Crucell Holland BV,5,SPON
+136,MedImmune LLC,5,SPON
+137,Novartis Vaccines,5,SPON
+138,PHASE2,6,PHASE
+139,PHASE3,6,PHASE
+140,PHASE1,6,PHASE
+141,PHASE4,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,TERMINATED,7,STATUS
+145,RECRUITING,7,STATUS
+146,ACTIVE_NOT_RECRUITING,7,STATUS
+147,WITHDRAWN,7,STATUS
+148,NOT_YET_RECRUITING,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,NO_LONGER_AVAILABLE,7,STATUS
+151,SUSPENDED,7,STATUS
+152,NCT02415842 A Laboratory Evaluation of the Humoral Immune Response in Adults and Children to the H1 Hemagglutinin (HA...,86|114|143,TRIAL
+153,NCT04225897 A Study to Learn About the Effects of Sisunatovir in Infants With Respiratory Syncytial Virus Lower Respi...,17|38|123|138|144,TRIAL
+154,NCT05608005 Study on Two Adjuvanted Dose Levels of Panblok H7+MF59 Compared for Immunogenicity and Safety With an Una...,8|115|140|143,TRIAL
+155,"NCT05035212 Study to Evaluate the Efficacy, Immunogenicity, and Safety of RSVpreF in Adults",38|77|123|139|146,TRIAL
+156,NCT06534892 An Extension and Crossover Vaccination Study on the Immune Response and Safety of a Vaccine Against Respi...,12|114|139|146,TRIAL
+157,"NCT00289796 Assess Feasibility of an Acellular Pertussis Vaccine (Pa) Given Soon After Birth, Followed by 3-dose Prim...",11|83|114|138|143,TRIAL
+158,NCT02595866 Testing the Addition of an Experimental Medication MK-3475 (Pembrolizumab) to Usual Anti-Retroviral Medic...,140|143,TRIAL
+159,NCT05330975 A Study of mRNA-1345 Vaccine Targeting Respiratory Syncytial Virus (RSV) in Adults ≥50 Years of Age,18|38|57|129|139|143,TRIAL
+160,NCT06573281 A Study on the Safety and Immune Response to an mRNA-based RSV Investigational Vaccine in Healthy Adults...,12|114|140|143,TRIAL
+161,NCT02298179 A Study to Evaluate the Safety and Ability of the Vaccine to Induce Antibodies Against the Respiratory Sy...,17|114|140|143,TRIAL
+162,"NCT04433546 Pemziviptadil (PB1046), a Long-acting, Sustained Release Human VIP Analogue, Intended to Provide Clinical...",138|144,TRIAL
+163,NCT03698279 Safety and Immunogenicity of Different Dosages of High-Dose Quadrivalent Influenza Vaccine in Children 6...,8|115|138|143,TRIAL
+164,NCT05622331 Burden of Respiratory Syncytial Virus (RSV) in Children in Sweden (BRICS): A Retrospective Study in Sweden,17|115|143,TRIAL
+165,NCT06604767 Study of a Respiratory Syncytial Virus/Human Metapneumovirus/Parainfluenza Virus Type 3 Vaccine Candidate...,24|115|140|143,TRIAL
+166,NCT03473002 A Safety and Immunogenicity Study of Intranasal Sendai Virus Vectored Respiratory Syncytial Virus (SeVRSV...,24|38|113|140|143,TRIAL
+167,NCT07190105 Vagal Approaches on Long COVID-19,143,TRIAL
+168,NCT06451341 IMplementation of CAB+RPV LA for People With HIV in Non-Metropolitan Areas,14|146,TRIAL
+169,NCT05553301 Safety and Immunogenicity of Quadrivalent Influenza mRNA Vaccine MRT5407 in Adult Participants18 Years of...,115|140|143,TRIAL
+170,NCT02143401 Navitoclax and Sorafenib Tosylate in Treating Patients With Relapsed or Refractory Solid Tumors,140|143,TRIAL
+171,NCT00100048 A Study to Evaluate the Safety and Efficacy of an Investigational Drug in HIV Infected Patients (0518-004...,9|124|138|143,TRIAL
+172,NCT03636906 Respiratory Syncytial Virus (RSV) Investigational Vaccine in Infants Aged 6 and 7 Months Likely to be Une...,12|114|140|143,TRIAL
+173,NCT06397768 Co-administration Study of an Investigational Live-Attenuated Respiratory Syncytial Virus Vaccine in Infa...,115|139|144,TRIAL
+174,NCT05370040 THEMBA II T-Cell Vaccine: Vaccination With saRNA COVID-19 Vaccines,10|140|144,TRIAL
+175,NCT04858425 Safety and Efficacy of Niclosamide in Patients With COVID-19 With Gastrointestinal Infection,15|38|138|144,TRIAL
+176,NCT04090658 A Study to Test GlaxoSmithKline's (GSK) Respiratory Syncytial Virus RSV Candidate Vaccine's Safety and Im...,12|38|114|140|143,TRIAL
+177,"NCT02016924 Study of Cobicistat-Boosted Atazanavir (ATV/co), Cobicistat-Boosted Darunavir (DRV/co) and Emtricitabine/...",9|118|138|146,TRIAL
+178,NCT01999842 Immunogenicity and Safety Study of GlaxoSmithKline (GSK) Biologicals' Influenza Vaccine(s) GSK3206641A an...,8|114|140|143,TRIAL
+179,NCT04809948 Effects of COVID 19 Vaccine on Egyptian Population,1,TRIAL
+180,"NCT03755778 Drug-Drug Interaction Study Between EDP-938, Itraconazole, Rifampin, and Quinidine in Healthy Subjects",16|40|122|140|143,TRIAL

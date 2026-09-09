@@ -1,0 +1,288 @@
+{
+  "n_queries": 2064,
+  "macro_f1": 0.5139307170542635,
+  "mean_tokens": 277.2049418604651,
+  "total_cost_usd": 1.202403,
+  "macro_rds": 0.002203591657779932,
+  "f1_by_type": {
+    "T1_entity": 0.2866188333333334,
+    "T2_dependency": 0.5455066666666666,
+    "T3_path": 0.8656683333333333,
+    "T4_aggregate": 0.8970425925925926,
+    "T5_cross_concept": 0.449334649122807
+  },
+  "f1_by_hop": {
+    "0": 0.3797343220338983,
+    "1": 0.5039778409090909,
+    "2": 0.8505545454545455,
+    "3": 0.9287293103448276
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "domains": 12,
+  "domain_ids": [
+    "ct-oncology-solid-tumors",
+    "ct-hematologic-malignancies",
+    "ct-cardiovascular",
+    "ct-neurology-alzheimers",
+    "ct-immunology-autoimmune",
+    "ct-infectious-disease-vaccines",
+    "ct-metabolic-endocrine",
+    "ct-rare-genetic",
+    "ct-respiratory-pulmonary",
+    "ct-gastro-hepatology",
+    "ct-nephrology-renal",
+    "ct-psychiatry-behavioral"
+  ],
+  "query_source": "ClinicalTrials.gov API v2-derived top-12 domain probes",
+  "comparison_context": {
+    "matched_240_query_sample_report": "results/clinicaltrials/top12_claude_haiku_ckg_rag_baseline_sample.md",
+    "sample_ckg_f1": 0.4691,
+    "sample_rag_f1": 0.13,
+    "sample_baseline_f1": 0.0784,
+    "sample_ckg_vs_rag_f1_ratio": 3.61,
+    "sample_rag_over_ckg_tokens": 13.94,
+    "sample_rag_over_ckg_cost": 7.52
+  },
+  "by_domain": {
+    "ct-oncology-solid-tumors": {
+      "n_queries": 172,
+      "macro_f1": 0.5343133720930232,
+      "mean_tokens": 271.97093023255815,
+      "total_cost_usd": 0.098507,
+      "macro_rds": 0.0023273816860465116,
+      "f1_by_type": {
+        "T1_entity": 0.280576,
+        "T2_dependency": 0.597942,
+        "T3_path": 0.8913760000000001,
+        "T4_aggregate": 0.9159444444444443,
+        "T5_cross_concept": 0.45916052631578946
+      },
+      "f1_by_hop": {
+        "0": 0.37749661016949154,
+        "1": 0.5380136363636363,
+        "2": 0.881775,
+        "3": 0.92978
+      }
+    },
+    "ct-hematologic-malignancies": {
+      "n_queries": 172,
+      "macro_f1": 0.5246866279069767,
+      "mean_tokens": 289.6220930232558,
+      "total_cost_usd": 0.103971,
+      "macro_rds": 0.002161794534883721,
+      "f1_by_type": {
+        "T1_entity": 0.284872,
+        "T2_dependency": 0.586388,
+        "T3_path": 0.862772,
+        "T4_aggregate": 0.8893888888888889,
+        "T5_cross_concept": 0.4502447368421053
+      },
+      "f1_by_hop": {
+        "0": 0.3770864406779661,
+        "1": 0.5275988636363637,
+        "2": 0.84055,
+        "3": 0.9516600000000001
+      }
+    },
+    "ct-cardiovascular": {
+      "n_queries": 172,
+      "macro_f1": 0.5123941860465117,
+      "mean_tokens": 265.09302325581393,
+      "total_cost_usd": 0.097676,
+      "macro_rds": 0.002278917674418605,
+      "f1_by_type": {
+        "T1_entity": 0.293326,
+        "T2_dependency": 0.5352020000000001,
+        "T3_path": 0.8699479999999999,
+        "T4_aggregate": 0.9158555555555554,
+        "T5_cross_concept": 0.43984210526315787
+      },
+      "f1_by_hop": {
+        "0": 0.38828813559322034,
+        "1": 0.49402386363636364,
+        "2": 0.86144,
+        "3": 0.90398
+      }
+    },
+    "ct-neurology-alzheimers": {
+      "n_queries": 172,
+      "macro_f1": 0.5104860465116279,
+      "mean_tokens": 270.18023255813955,
+      "total_cost_usd": 0.097267,
+      "macro_rds": 0.0021932698837209305,
+      "f1_by_type": {
+        "T1_entity": 0.29436,
+        "T2_dependency": 0.536602,
+        "T3_path": 0.845956,
+        "T4_aggregate": 0.8774777777777777,
+        "T5_cross_concept": 0.4528763157894737
+      },
+      "f1_by_hop": {
+        "0": 0.38331016949152547,
+        "1": 0.5004477272727272,
+        "2": 0.8214349999999999,
+        "3": 0.94404
+      }
+    },
+    "ct-immunology-autoimmune": {
+      "n_queries": 172,
+      "macro_f1": 0.4892098837209302,
+      "mean_tokens": 281.8662790697674,
+      "total_cost_usd": 0.103649,
+      "macro_rds": 0.0020491493023255813,
+      "f1_by_type": {
+        "T1_entity": 0.276344,
+        "T2_dependency": 0.476228,
+        "T3_path": 0.87048,
+        "T4_aggregate": 0.9139666666666666,
+        "T5_cross_concept": 0.43494210526315785
+      },
+      "f1_by_hop": {
+        "0": 0.37360847457627117,
+        "1": 0.4584,
+        "2": 0.8568,
+        "3": 0.9252
+      }
+    },
+    "ct-infectious-disease-vaccines": {
+      "n_queries": 172,
+      "macro_f1": 0.5144837209302326,
+      "mean_tokens": 305.1046511627907,
+      "total_cost_usd": 0.108546,
+      "macro_rds": 0.0020959583720930233,
+      "f1_by_type": {
+        "T1_entity": 0.28160399999999997,
+        "T2_dependency": 0.525466,
+        "T3_path": 0.878036,
+        "T4_aggregate": 0.9038999999999999,
+        "T5_cross_concept": 0.4750447368421053
+      },
+      "f1_by_hop": {
+        "0": 0.37653050847457625,
+        "1": 0.5036931818181819,
+        "2": 0.864475,
+        "3": 0.9322800000000001
+      }
+    },
+    "ct-metabolic-endocrine": {
+      "n_queries": 172,
+      "macro_f1": 0.4996802325581395,
+      "mean_tokens": 276.11046511627904,
+      "total_cost_usd": 0.100715,
+      "macro_rds": 0.002141230406976744,
+      "f1_by_type": {
+        "T1_entity": 0.279398,
+        "T2_dependency": 0.532794,
+        "T3_path": 0.838044,
+        "T4_aggregate": 0.9131888888888889,
+        "T5_cross_concept": 0.4254105263157895
+      },
+      "f1_by_hop": {
+        "0": 0.3760779661016949,
+        "1": 0.48642386363636364,
+        "2": 0.8147249999999999,
+        "3": 0.93132
+      }
+    },
+    "ct-rare-genetic": {
+      "n_queries": 172,
+      "macro_f1": 0.5171726744186046,
+      "mean_tokens": 273.34302325581393,
+      "total_cost_usd": 0.097299,
+      "macro_rds": 0.0022633958479532164,
+      "f1_by_type": {
+        "T1_entity": 0.298458,
+        "T2_dependency": 0.563266,
+        "T3_path": 0.8655360000000001,
+        "T4_aggregate": 0.8030666666666666,
+        "T5_cross_concept": 0.4474078947368421
+      },
+      "f1_by_hop": {
+        "0": 0.3754322033898305,
+        "1": 0.5132363636363636,
+        "2": 0.85975,
+        "3": 0.9079666666666667
+      }
+    },
+    "ct-respiratory-pulmonary": {
+      "n_queries": 172,
+      "macro_f1": 0.5212127906976745,
+      "mean_tokens": 272.95348837209303,
+      "total_cost_usd": 0.098744,
+      "macro_rds": 0.002251243953488372,
+      "f1_by_type": {
+        "T1_entity": 0.307166,
+        "T2_dependency": 0.523762,
+        "T3_path": 0.880368,
+        "T4_aggregate": 0.9151333333333334,
+        "T5_cross_concept": 0.46991578947368423
+      },
+      "f1_by_hop": {
+        "0": 0.39990677966101695,
+        "1": 0.5005102272727272,
+        "2": 0.866925,
+        "3": 0.93414
+      }
+    },
+    "ct-gastro-hepatology": {
+      "n_queries": 172,
+      "macro_f1": 0.5140459302325581,
+      "mean_tokens": 281.25581395348837,
+      "total_cost_usd": 0.102012,
+      "macro_rds": 0.002177686337209302,
+      "f1_by_type": {
+        "T1_entity": 0.289618,
+        "T2_dependency": 0.578612,
+        "T3_path": 0.851104,
+        "T4_aggregate": 0.8874,
+        "T5_cross_concept": 0.4142157894736842
+      },
+      "f1_by_hop": {
+        "0": 0.38080508474576275,
+        "1": 0.5076227272727273,
+        "2": 0.83439,
+        "3": 0.9179600000000001
+      }
+    },
+    "ct-nephrology-renal": {
+      "n_queries": 172,
+      "macro_f1": 0.5188296511627907,
+      "mean_tokens": 270.74418604651163,
+      "total_cost_usd": 0.09744799999999999,
+      "macro_rds": 0.002266342151162791,
+      "f1_by_type": {
+        "T1_entity": 0.262018,
+        "T2_dependency": 0.567766,
+        "T3_path": 0.8669119999999999,
+        "T4_aggregate": 0.9132,
+        "T5_cross_concept": 0.4699447368421053
+      },
+      "f1_by_hop": {
+        "0": 0.36135084745762713,
+        "1": 0.525525,
+        "2": 0.85296,
+        "3": 0.92272
+      }
+    },
+    "ct-psychiatry-behavioral": {
+      "n_queries": 172,
+      "macro_f1": 0.510653488372093,
+      "mean_tokens": 268.2151162790698,
+      "total_cost_usd": 0.096569,
+      "macro_rds": 0.002237077441860465,
+      "f1_by_type": {
+        "T1_entity": 0.291686,
+        "T2_dependency": 0.522052,
+        "T3_path": 0.867488,
+        "T4_aggregate": 0.9159888888888889,
+        "T5_cross_concept": 0.45301052631578953
+      },
+      "f1_by_hop": {
+        "0": 0.3869186440677966,
+        "1": 0.49223863636363635,
+        "2": 0.8505100000000001,
+        "3": 0.9353999999999999
+      }
+    }
+  }
+}

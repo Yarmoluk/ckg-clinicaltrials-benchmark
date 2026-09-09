@@ -1,0 +1,152 @@
+{
+  "version": "2026-09-08",
+  "source": "ClinicalTrials.gov API v2",
+  "description": "Commercially useful ClinicalTrials.gov probe domains for expanding CKG vs RAG vs GraphRAG validation beyond GLP-1. This is a pragmatic top-12 target set for trial-intelligence buyers, not a live-ranked ClinicalTrials.gov volume report.",
+  "api_base": "https://clinicaltrials.gov/api/v2/studies",
+  "domains": [
+    {
+      "id": "ct-oncology-solid-tumors",
+      "label": "Oncology - solid tumors",
+      "rationale": "Highest-value clinical-trial intelligence market; strong need for line-of-therapy, biomarker, endpoint, and comparator context.",
+      "queries": [
+        {"field": "query.cond", "term": "non-small cell lung cancer"},
+        {"field": "query.cond", "term": "breast cancer"},
+        {"field": "query.cond", "term": "colorectal cancer"},
+        {"field": "query.cond", "term": "prostate cancer"},
+        {"field": "query.cond", "term": "solid tumor"}
+      ]
+    },
+    {
+      "id": "ct-hematologic-malignancies",
+      "label": "Hematologic malignancies",
+      "rationale": "Dense trial activity across myeloma, leukemia, lymphoma, cell therapy, bispecifics, and MRD endpoints.",
+      "queries": [
+        {"field": "query.cond", "term": "multiple myeloma"},
+        {"field": "query.cond", "term": "leukemia"},
+        {"field": "query.cond", "term": "lymphoma"},
+        {"field": "query.cond", "term": "acute myeloid leukemia"},
+        {"field": "query.cond", "term": "chronic lymphocytic leukemia"}
+      ]
+    },
+    {
+      "id": "ct-cardiovascular",
+      "label": "Cardiovascular disease",
+      "rationale": "Large outcomes-trial market with complex endpoint, risk-factor, device, and comorbidity relationships.",
+      "queries": [
+        {"field": "query.cond", "term": "heart failure"},
+        {"field": "query.cond", "term": "atrial fibrillation"},
+        {"field": "query.cond", "term": "coronary artery disease"},
+        {"field": "query.cond", "term": "hypertension"},
+        {"field": "query.cond", "term": "stroke"}
+      ]
+    },
+    {
+      "id": "ct-neurology-alzheimers",
+      "label": "Neurology and neurodegeneration",
+      "rationale": "High ambiguity around disease staging, endpoints, biomarkers, and trial inclusion criteria.",
+      "queries": [
+        {"field": "query.cond", "term": "Alzheimer disease"},
+        {"field": "query.cond", "term": "Parkinson disease"},
+        {"field": "query.cond", "term": "multiple sclerosis"},
+        {"field": "query.cond", "term": "epilepsy"},
+        {"field": "query.cond", "term": "migraine"}
+      ]
+    },
+    {
+      "id": "ct-immunology-autoimmune",
+      "label": "Immunology and autoimmune disease",
+      "rationale": "Commercially active biologics/JAK/TYK2 space with reusable pathways, endpoints, and population definitions.",
+      "queries": [
+        {"field": "query.cond", "term": "rheumatoid arthritis"},
+        {"field": "query.cond", "term": "psoriasis"},
+        {"field": "query.cond", "term": "inflammatory bowel disease"},
+        {"field": "query.cond", "term": "lupus"},
+        {"field": "query.cond", "term": "atopic dermatitis"}
+      ]
+    },
+    {
+      "id": "ct-infectious-disease-vaccines",
+      "label": "Infectious disease and vaccines",
+      "rationale": "Broad trial landscape where status, population, strain/variant, prophylaxis, and endpoint context matter.",
+      "queries": [
+        {"field": "query.cond", "term": "COVID-19"},
+        {"field": "query.cond", "term": "influenza"},
+        {"field": "query.cond", "term": "HIV"},
+        {"field": "query.cond", "term": "respiratory syncytial virus"},
+        {"field": "query.cond", "term": "hepatitis B"}
+      ]
+    },
+    {
+      "id": "ct-metabolic-endocrine",
+      "label": "Metabolic and endocrine disease",
+      "rationale": "Adjacent to GLP-1 with strong payer, outcomes, endpoint, and comorbidity structure.",
+      "queries": [
+        {"field": "query.cond", "term": "type 2 diabetes"},
+        {"field": "query.cond", "term": "obesity"},
+        {"field": "query.cond", "term": "nonalcoholic steatohepatitis"},
+        {"field": "query.cond", "term": "dyslipidemia"},
+        {"field": "query.cond", "term": "thyroid disease"}
+      ]
+    },
+    {
+      "id": "ct-rare-genetic",
+      "label": "Rare and genetic disease",
+      "rationale": "Strong fit for source-grounded context because patient populations, mutations, endpoints, and eligibility are specialized.",
+      "queries": [
+        {"field": "query.cond", "term": "rare disease"},
+        {"field": "query.cond", "term": "Duchenne muscular dystrophy"},
+        {"field": "query.cond", "term": "cystic fibrosis"},
+        {"field": "query.cond", "term": "sickle cell disease"},
+        {"field": "query.cond", "term": "spinal muscular atrophy"}
+      ]
+    },
+    {
+      "id": "ct-respiratory-pulmonary",
+      "label": "Respiratory and pulmonary disease",
+      "rationale": "Large condition set with devices, biologics, symptom scores, exacerbation outcomes, and imaging/functional endpoints.",
+      "queries": [
+        {"field": "query.cond", "term": "asthma"},
+        {"field": "query.cond", "term": "COPD"},
+        {"field": "query.cond", "term": "pulmonary fibrosis"},
+        {"field": "query.cond", "term": "pulmonary hypertension"},
+        {"field": "query.cond", "term": "sleep apnea"}
+      ]
+    },
+    {
+      "id": "ct-gastro-hepatology",
+      "label": "Gastroenterology and hepatology",
+      "rationale": "Strong overlap between immune disease, metabolic disease, liver disease, biomarkers, and histologic endpoints.",
+      "queries": [
+        {"field": "query.cond", "term": "Crohn disease"},
+        {"field": "query.cond", "term": "ulcerative colitis"},
+        {"field": "query.cond", "term": "MASH"},
+        {"field": "query.cond", "term": "cirrhosis"},
+        {"field": "query.cond", "term": "hepatocellular carcinoma"}
+      ]
+    },
+    {
+      "id": "ct-nephrology-renal",
+      "label": "Nephrology and renal disease",
+      "rationale": "Good fit for outcome-chain reasoning across CKD, diabetic kidney disease, transplant, endpoints, and comorbid risk.",
+      "queries": [
+        {"field": "query.cond", "term": "chronic kidney disease"},
+        {"field": "query.cond", "term": "diabetic kidney disease"},
+        {"field": "query.cond", "term": "kidney transplant"},
+        {"field": "query.cond", "term": "IgA nephropathy"},
+        {"field": "query.cond", "term": "acute kidney injury"}
+      ]
+    },
+    {
+      "id": "ct-psychiatry-behavioral",
+      "label": "Psychiatry and behavioral health",
+      "rationale": "Difficult trial-intelligence domain because endpoints, scales, comorbidities, and eligibility criteria are highly textual.",
+      "queries": [
+        {"field": "query.cond", "term": "major depressive disorder"},
+        {"field": "query.cond", "term": "schizophrenia"},
+        {"field": "query.cond", "term": "bipolar disorder"},
+        {"field": "query.cond", "term": "anxiety disorder"},
+        {"field": "query.cond", "term": "substance use disorder"}
+      ]
+    }
+  ]
+}

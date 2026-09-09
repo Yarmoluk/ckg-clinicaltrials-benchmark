@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Respiratory and pulmonary disease clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Asthma,2,COND
+9,Cystic Fibrosis,2,COND
+10,Pulmonary Hypertension,2,COND
+11,Obstructive Sleep Apnea,2,COND
+12,COPD,2,COND
+13,Chronic Obstructive Pulmonary Disease,2,COND
+14,Pulmonary Arterial Hypertension,2,COND
+15,"Pulmonary Disease, Chronic Obstructive",2,COND
+16,Heart Failure,2,COND
+17,Idiopathic Pulmonary Fibrosis,2,COND
+18,Obesity,2,COND
+19,Hypertension,2,COND
+20,Sleep Apnea,2,COND
+21,Pulmonary Fibrosis,2,COND
+22,Chronic Obstructive Pulmonary Disease (COPD),2,COND
+23,"Sleep Apnea, Obstructive",2,COND
+24,Interstitial Lung Disease,2,COND
+25,Sleep Apnea Syndromes,2,COND
+26,Obstructive Sleep Apnea (OSA),2,COND
+27,Obstructive Sleep Apnea Syndrome,2,COND
+28,Sleep Disordered Breathing,2,COND
+29,Obstructive Sleep Apnoea,2,COND
+30,Cystic Fibrosis (CF),2,COND
+31,Asthma in Children,2,COND
+32,Cardiovascular Diseases,2,COND
+33,"Hypertension, Pulmonary",2,COND
+34,Bronchial Asthma,2,COND
+35,Quality of Life,2,COND
+36,Diabetes Mellitus,2,COND
+37,Chronic Thromboembolic Pulmonary Hypertension,2,COND
+38,Placebo,3,INTR
+39,CNTO 3157 or placebo,3,INTR
+40,Allergovac depot,3,INTR
+41,BIBF 1120,3,INTR
+42,Sildenafil,3,INTR
+43,CPAP,3,INTR
+44,Pirfenidone,3,INTR
+45,Tiotropium,3,INTR
+46,Inhaled PT005,3,INTR
+47,Respimat,3,INTR
+48,Omalizumab,3,INTR
+49,Pulmonary rehabilitation,3,INTR
+50,Continuous positive airway pressure (CPAP),3,INTR
+51,HSK44459,3,INTR
+52,treprostinil sodium,3,INTR
+53,IMA-638,3,INTR
+54,Eszopiclone,3,INTR
+55,Ambrisentan,3,INTR
+56,Olive oil,3,INTR
+57,Salbutamol,3,INTR
+58,Polysomnography,3,INTR
+59,Tadalafil,3,INTR
+60,Bosentan,3,INTR
+61,Tiotropium + Olodaterol,3,INTR
+62,MAD,3,INTR
+63,QGE031,3,INTR
+64,Ivacaftor,3,INTR
+65,Montelukast 5 mg chewable tablets,3,INTR
+66,Standard care,3,INTR
+67,Pulmonary endarterectomy,3,INTR
+68,Epworth Sleepiness Scale,3,INTR
+69,Acetazolamide,3,INTR
+70,Continuous Positive Airway Pressure,3,INTR
+71,High Flow Nasal Cannula,3,INTR
+72,LUM/IVA,3,INTR
+73,Exercise,3,INTR
+74,Treprostinil Palmitil Inhalation Powder,3,INTR
+75,Breast scan using the Z-scanner,3,INTR
+76,Sotatercept,3,INTR
+77,Soluble recombinantly produced IL-4R,3,INTR
+78,Dyspnea,4,OUTC
+79,Adverse events,4,OUTC
+80,Health-related quality of life,4,OUTC
+81,Physical activity,4,OUTC
+82,Body composition,4,OUTC
+83,dismobility score calculated from the results reported in secondary outcomes,4,OUTC
+84,Weight (Kg),4,OUTC
+85,Height (cm),4,OUTC
+86,Body fat percentage (%),4,OUTC
+87,Waist circumference (cm),4,OUTC
+88,Hip circumference (cm),4,OUTC
+89,Brachial circumference (cm),4,OUTC
+90,Calf circumference (cm),4,OUTC
+91,Body Mass Index (Kg/m²),4,OUTC
+92,T-score (DS),4,OUTC
+93,Z-score (DS),4,OUTC
+94,Fat mass,4,OUTC
+95,Fat-free mass (%),4,OUTC
+96,Fat mas index (Kg/m²),4,OUTC
+97,Ratio of android to gynoid fat mass,4,OUTC
+98,Visceral adipose tissue (Kg),4,OUTC
+99,Fat-free mass index (kg/m²),4,OUTC
+100,Appendicular fat-free mass index (Kg/m²),4,OUTC
+101,Bone mass (Kg),4,OUTC
+102,Daily caloric intake (Kcal/24h),4,OUTC
+103,Daily protein intake (in g and as a percentage of total caloric intake),4,OUTC
+104,Daily carbohydrate intake (in g and as a percentage of total caloric intake),4,OUTC
+105,Daily fat intake (in g and as a percentage of total caloric intake),4,OUTC
+106,Nutritional status assessment,4,OUTC
+107,Risk of undernutrition,4,OUTC
+108,Basic biology,4,OUTC
+109,Maximum voluntary isometric strength of the quadriceps muscles at 45° (Nm),4,OUTC
+110,Maximum voluntary isokinetic strength of the quadriceps muscles at 60°/s (Nm),4,OUTC
+111,Maximum voluntary isokinetic strength of the quadriceps muscles at 240°/s (Nm),4,OUTC
+112,Maximum voluntary isokinetic strength of the quadriceps muscles at 30°/s (eccentric contraction) (Nm),4,OUTC
+113,AstraZeneca,5,SPON
+114,Boehringer Ingelheim,5,SPON
+115,Novartis Pharmaceuticals,5,SPON
+116,Assistance Publique - Hôpitaux de Paris,5,SPON
+117,United Therapeutics,5,SPON
+118,University of Texas Southwestern Medical Center,5,SPON
+119,GlaxoSmithKline,5,SPON
+120,Gilead Sciences,5,SPON
+121,Papworth Hospital NHS Foundation Trust,5,SPON
+122,Brigham and Women's Hospital,5,SPON
+123,Hospices Civils de Lyon,5,SPON
+124,Imperial College London,5,SPON
+125,Vertex Pharmaceuticals Incorporated,5,SPON
+126,Mayo Clinic,5,SPON
+127,Actelion,5,SPON
+128,National Jewish Health,5,SPON
+129,University of Washington,5,SPON
+130,NYU Langone Health,5,SPON
+131,Sanofi,5,SPON
+132,University of Chicago,5,SPON
+133,"University of California, San Francisco",5,SPON
+134,Johns Hopkins University,5,SPON
+135,Merck Sharp & Dohme LLC,5,SPON
+136,University of British Columbia,5,SPON
+137,"University Hospital, Antwerp",5,SPON
+138,PHASE2,6,PHASE
+139,PHASE3,6,PHASE
+140,PHASE1,6,PHASE
+141,PHASE4,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,TERMINATED,7,STATUS
+146,WITHDRAWN,7,STATUS
+147,NOT_YET_RECRUITING,7,STATUS
+148,ACTIVE_NOT_RECRUITING,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,SUSPENDED,7,STATUS
+151,"NCT03140527 Study Assessing the Safety, Tolerability, Pharmacokinetics, Food Effect, and Drug-Drug Interactions of PT...",9|38|140|143,TRIAL
+152,NCT05989698 Validation of the C-mo System - Cough Monitoring,8|144,TRIAL
+153,"NCT07342803 Efficacy, Safety, and Pharmacokinetics of LP-003 Injection in Allergic Asthma Patients",48|138|144,TRIAL
+154,"NCT06502379 A Single and Multiple Ascending Dose Study to Investigate the Safety, Tolerability, and Pharmacokinetics...",38|113|140|143,TRIAL
+155,NCT03330301 D-tecting Disease - From Exposure to Vitamin D During Critical Periods of Life,18|143,TRIAL
+156,NCT07707245 Identification of Diagnostic and Prognostic Biomarkers in the Pathological Continuum of Bronco Chronic Ob...,12|144,TRIAL
+157,"NCT01453023 Inhaled Fluticasone Furoate/Vilanterol Safety and Tolerability, PK and PD Study",8|119|138|143,TRIAL
+158,NCT06136533 The Effect of Sarcopenic Obesity on Sleep in Individuals With Obesity Hypoventilation Syndrome,18,TRIAL
+159,NCT05748444 The Relationship Between Diet and Glycemic Response and Inflammatory Markers in Children With Cystic Fibr...,9,TRIAL
+160,NCT05197400 Comparison of the Effect of Supine and Prone Position on the Ultrasonographic Airway Measurements,11|143,TRIAL
+161,NCT05050045 Echocardiographic Screening of Healthy Neonates for Measuring Pulmonary Artery Pressure,143,TRIAL
+162,NCT06377345 Remote Patient Monitoring Solution for Chronic Respiratory Disease Management,8|66|144,TRIAL
+163,"NCT06101459 A Study About Association Between Microbiome, Metabolome and Clinical Characteristics in COPD Patients",13|147,TRIAL
+164,NCT04283994 Project to Improve Communication About Serious Illness--Hospital Study: Comparative Effectiveness Trial (...,129|143,TRIAL
+165,NCT02703207 Neurocognitive and Health Impact of Sleep Apnea in Elderly Veterans With Comorbid COPD,11|144,TRIAL
+166,NCT05259280 Observational Study of the Wellinks Solution Impact on Quality of Life and Clinical Outcomes in Patients...,12|13|143,TRIAL
+167,"NCT07120503 Study to Evaluate the Safety, Pharmacology and Efficacy of WIN378 in Adults With Moderate or Severe Asthma",38|138|148,TRIAL
+168,NCT02966665 : Vascular Function in Health and Disease,13|140|144,TRIAL
+169,NCT00147810 Adult Asthma Surveillance and Intervention in a Managed Care Setting,8|143,TRIAL
+170,NCT06068309 Efficacy of CareAide® App in Improving Adherence in Adults With Chronic Diseases,143,TRIAL
+171,NCT04739488 Breathibg Exercises and Inhaler Trainingfor Chronic Obstructive Pulmonary Disease (COPD) Patients,12|143,TRIAL
+172,NCT04375280 Evaluation of Impaired Mobility in Chronic Illness Constitution of a Cohort,83|144,TRIAL
+173,NCT04029311 Comparison of Two Techniques of Combination Therapy for Treatment of Obstructive Sleep Apnea (OSA),143,TRIAL
+174,NCT03504605 Impact of Parental Perfectionistic Cognitions Self-compassion Intervention Effects on Shame in Child Heal...,143,TRIAL
+175,NCT02707640 A Study to Assess the Safety and Tolerability of N-Acetylcysteine When Administered With Pirfenidone to P...,17|138|143,TRIAL
+176,NCT07157670 Cardiovascular Complications in Patients Undergoing Allogeneic Hematopoietic Stem Cell Transplantation,116|147,TRIAL
+177,NCT07152990 Prevalence of Nocturnal Hypoventilation in Obese Subjects Fiited With Continuous Positive Airway Pressure...,18|147,TRIAL
+178,NCT07029750 Long-term Effects of Lipoabdominoplasty on Pulmonary Function and Sleep Apnea Risk in Obese Subjects,11|18|143,TRIAL
+179,NCT06146101 RePOSA-Revealing the Efficacy of IHL-42X Use in Patients With OSA,11|138|143,TRIAL
+180,NCT06029959 Stroke and CPAP Outcome Study 3,50|129|143,TRIAL

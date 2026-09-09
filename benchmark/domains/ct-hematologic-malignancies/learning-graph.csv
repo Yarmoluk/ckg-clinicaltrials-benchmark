@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Hematologic malignancies clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Multiple Myeloma,2,COND
+9,Leukemia,2,COND
+10,Acute Myeloid Leukemia,2,COND
+11,Lymphoma,2,COND
+12,Chronic Lymphocytic Leukemia,2,COND
+13,Myelodysplastic Syndromes,2,COND
+14,Acute Lymphoblastic Leukemia,2,COND
+15,Non-Hodgkin's Lymphoma,2,COND
+16,Myelodysplastic Syndrome,2,COND
+17,Acute Myelogenous Leukemia,2,COND
+18,Multiple Myeloma and Plasma Cell Neoplasm,2,COND
+19,Small Lymphocytic Lymphoma,2,COND
+20,Recurrent Small Lymphocytic Lymphoma,2,COND
+21,Recurrent Grade 1 Follicular Lymphoma,2,COND
+22,Recurrent Grade 2 Follicular Lymphoma,2,COND
+23,Non-Hodgkin Lymphoma,2,COND
+24,Chronic Myelogenous Leukemia,2,COND
+25,Chronic Myeloproliferative Disorders,2,COND
+26,Recurrent Grade 3 Follicular Lymphoma,2,COND
+27,Recurrent Mantle Cell Lymphoma,2,COND
+28,Refractory Multiple Myeloma,2,COND
+29,Recurrent Marginal Zone Lymphoma,2,COND
+30,Splenic Marginal Zone Lymphoma,2,COND
+31,Anaplastic Large Cell Lymphoma,2,COND
+32,Chronic Myeloid Leukemia,2,COND
+33,Hodgkin Lymphoma,2,COND
+34,"Lymphoma, Non-Hodgkin",2,COND
+35,"Leukemia, Myeloid, Acute",2,COND
+36,AML,2,COND
+37,Extranodal Marginal Zone B-cell Lymphoma of Mucosa-associated Lymphoid Tissue,2,COND
+38,Cyclophosphamide,3,INTR
+39,Dexamethasone,3,INTR
+40,Fludarabine,3,INTR
+41,laboratory biomarker analysis,3,INTR
+42,Rituximab,3,INTR
+43,Venetoclax,3,INTR
+44,Cytarabine,3,INTR
+45,Conditioning regimen with half-matched (haploidentical) stem cell transplant,3,INTR
+46,peripheral blood stem cell transplantation,3,INTR
+47,Lenalidomide,3,INTR
+48,Biospecimen Collection,3,INTR
+49,Etoposide,3,INTR
+50,Obinutuzumab,3,INTR
+51,Methotrexate,3,INTR
+52,Dasatinib,3,INTR
+53,Melphalan,3,INTR
+54,Azacitidine,3,INTR
+55,Carfilzomib,3,INTR
+56,Bendamustine,3,INTR
+57,pharmacological study,3,INTR
+58,Prednisone,3,INTR
+59,allogeneic hematopoietic stem cell transplantation,3,INTR
+60,Pomalidomide,3,INTR
+61,Nivolumab,3,INTR
+62,Ibrutinib,3,INTR
+63,Computed Tomography,3,INTR
+64,Pembrolizumab,3,INTR
+65,aldesleukin,3,INTR
+66,filgrastim,3,INTR
+67,therapeutic allogeneic lymphocytes,3,INTR
+68,allogeneic bone marrow transplantation,3,INTR
+69,Idarubicin,3,INTR
+70,Busulfan,3,INTR
+71,SCH 727965,3,INTR
+72,Decitabine,3,INTR
+73,Bone Marrow Biopsy,3,INTR
+74,Daratumumab,3,INTR
+75,vincristine sulfate,3,INTR
+76,bortezomib,3,INTR
+77,polymerase chain reaction,3,INTR
+78,Overall Survival (OS),4,OUTC
+79,Duration of response (DOR),4,OUTC
+80,Overall Survival,4,OUTC
+81,Progression Free Survival (PFS),4,OUTC
+82,Overall response rate (ORR),4,OUTC
+83,Venous thromboembolism (VTE)- related death,4,OUTC
+84,Symptomatic deep-vein thrombosis (DVT),4,OUTC
+85,Pulmonary embolism (PE),4,OUTC
+86,Event-free survival (EFS),4,OUTC
+87,Progression-free survival (PFS),4,OUTC
+88,Time to response (TTR),4,OUTC
+89,Bone marrow examination,4,OUTC
+90,Overall response rate (ORR) per 2003 IWG criteria,4,OUTC
+91,Progression-free survival,4,OUTC
+92,Peripheral blood cell count,4,OUTC
+93,Overall Response Rate,4,OUTC
+94,Blood response,4,OUTC
+95,Duration of Response,4,OUTC
+96,Event-free survival,4,OUTC
+97,Hippocampal function measured with virtual water maze test,4,OUTC
+98,"Efficacy of combination plerixafor with granulocyte-colony stimulating factor, Daunorubicin and Cytarabine",4,OUTC
+99,Objective Response Rate (ORR),4,OUTC
+100,Incidence of adverse events,4,OUTC
+101,Complete response rate (CR),4,OUTC
+102,Complete Response Rate,4,OUTC
+103,Hippocampal morphology measured by MRI,4,OUTC
+104,Progression Free Survival,4,OUTC
+105,Changes in Frequency of Regulatory Cell Population,4,OUTC
+106,HRQL: Change From Baseline in European Organization for Research and Treatment of Cancer Quality of Life Cancer Speci...,4,OUTC
+107,Difference in quality of life between oral decitabine/cedazuridine and subcutaneous azacitidine as assessed using the...,4,OUTC
+108,Best pharmacokinetic (PK) indicator of response to treatment in patients with AML - Biological endpoint,4,OUTC
+109,pharmacokinetic (PK) similarity,4,OUTC
+110,Safety: Electrocardiography,4,OUTC
+111,Safety,4,OUTC
+112,National Cancer Institute (NCI),5,SPON
+113,M.D. Anderson Cancer Center,5,SPON
+114,Bristol-Myers Squibb,5,SPON
+115,AbbVie,5,SPON
+116,Fred Hutchinson Cancer Center,5,SPON
+117,Massachusetts General Hospital,5,SPON
+118,City of Hope Medical Center,5,SPON
+119,Novartis Pharmaceuticals,5,SPON
+120,Hoffmann-La Roche,5,SPON
+121,Children's Oncology Group,5,SPON
+122,Memorial Sloan Kettering Cancer Center,5,SPON
+123,St. Jude Children's Research Hospital,5,SPON
+124,Celgene,5,SPON
+125,University of Nebraska,5,SPON
+126,German CLL Study Group,5,SPON
+127,The Cleveland Clinic,5,SPON
+128,PETHEMA Foundation,5,SPON
+129,University of Washington,5,SPON
+130,Merck Sharp & Dohme LLC,5,SPON
+131,Technische Universität Dresden,5,SPON
+132,Stanford University,5,SPON
+133,Sanofi,5,SPON
+134,Assiut University,5,SPON
+135,University of Rochester,5,SPON
+136,Alliance for Clinical Trials in Oncology,5,SPON
+137,PHASE2,6,PHASE
+138,PHASE1,6,PHASE
+139,PHASE3,6,PHASE
+140,EARLY_PHASE1,6,PHASE
+141,PHASE4,6,PHASE
+142,COMPLETED,7,STATUS
+143,RECRUITING,7,STATUS
+144,TERMINATED,7,STATUS
+145,ACTIVE_NOT_RECRUITING,7,STATUS
+146,WITHDRAWN,7,STATUS
+147,NOT_YET_RECRUITING,7,STATUS
+148,SUSPENDED,7,STATUS
+149,NO_LONGER_AVAILABLE,7,STATUS
+150,ENROLLING_BY_INVITATION,7,STATUS
+151,NCT00112593 Fludarabine and Total-Body Irradiation Followed By Donor Stem Cell Transplant and Cyclosporine and Mycoph...,116|142,TRIAL
+152,NCT00087191 EF5 and Motexafin Lutetium in Detecting Tumor Cells in Patients With Abdominal or Non-Small Cell Lung Cancer,112|144,TRIAL
+153,NCT00089271 17-DMAG in Treating Patients With Metastatic or Unresectable Solid Tumors or Lymphomas,31|41|112|138|142,TRIAL
+154,NCT01231919 MK2206 in Treating Younger Patients With Recurrent or Refractory Solid Tumors or Leukemia,112|138|142,TRIAL
+155,NCT00098891 MS-275 and Isotretinoin in Treating Patients With Metastatic or Advanced Solid Tumors or Lymphomas,31|112|138|142,TRIAL
+156,"NCT04314401 National Cancer Institute ""Cancer Moonshot Biobank""",10|48|63|112|145,TRIAL
+157,NCT04106700 Prophylaxis With Apixaban in Transplant Eligible Patients With Multiple Myeloma Receiving Induction Thera...,83|137|144,TRIAL
+158,"NCT00052520 Biological Therapy in Treating Patients With Advanced Myelodysplastic Syndrome, Acute or Chronic Myeloid...",65|67|116|138|142,TRIAL
+159,NCT02595866 Testing the Addition of an Experimental Medication MK-3475 (Pembrolizumab) to Usual Anti-Retroviral Medic...,112|138|142,TRIAL
+160,NCT02520791 Anti-ICOS Monoclonal Antibody MEDI-570 in Treating Patients With Relapsed or Refractory Peripheral T-cell...,112|138|145,TRIAL
+161,NCT00054639 Oblimersen Sodium and Rituximab in Treating Patients With Recurrent B-cell Non-Hodgkin Lymphoma,37|112|137|142,TRIAL
+162,NCT02440685 A Phase 1/2 Study To Evaluate ASN002 In Relapsed/Refractory Lymphoma And Advanced Solid Tumors,138|144,TRIAL
+163,"NCT00795002 Alvocidib, Cytarabine, and Mitoxantrone in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia",112|137|142,TRIAL
+164,NCT07652476 Neurocognitive Assessment in Long-Term Survivors of Lymphoma,147,TRIAL
+165,NCT03914625 A Study to Investigate Blinatumomab in Combination With Chemotherapy in Patients With Newly Diagnosed B-L...,112|139|145,TRIAL
+166,NCT03749018 Nivolumab With DA-REPOCH Chemotherapy Regimen in Treating Patients With Aggressive B-Cell Non-Hodgkin's L...,38|87|137|145,TRIAL
+167,NCT00566696 Mismatched Family Member Donor Transplantation for Children and Young Adults With High Risk Hematological...,123|137|142,TRIAL
+168,NCT05857969 Ex Vivo Drug Sensitivity Testing and Multi-Omics Profiling,138|143,TRIAL
+169,NCT00813501 Immunologic Diagnostic Blood Test in Predicting Side-Effects in Patients Undergoing a Donor Stem Cell Tra...,25|118|144,TRIAL
+170,"NCT04659044 Polatuzumab Vedotin, Venetoclax, and Rituximab and Hyaluronidase Human for the Treatment of Relapsed or R...",21|42|137|144,TRIAL
+171,NCT01787409 Cholecalciferol in Improving Survival in Patients With Newly Diagnosed Cancer With Vitamin D Insufficiency,31|145,TRIAL
+172,NCT00716911 Measuring Changes in Blood in Patients at High Risk of Cytomegalovirus Infection After Undergoing Donor B...,9|25|77|118|142,TRIAL
+173,NCT03297606 Canadian Profiling and Targeted Agent Utilization Trial (CAPTUR),8|34|52|137|143,TRIAL
+174,"NCT01119066 HLA-Compatible Related or Unrelated Donors With CD34+ Enriched, T-cell Depleted Peripheral Blood Stem Cel...",14|17|122|137|142,TRIAL
+175,NCT00956475 Quality of Life in Younger Leukemia and Lymphoma Survivors,142,TRIAL
+176,"NCT00017472 Monoclonal Antibody Therapy in Treating Patients With Chronic Lymphocytic Leukemia, Lymphocytic Lymphoma...",37|41|112|138|142,TRIAL
+177,NCT03739606 Flotetuzumab in Treating Patients With Recurrent or Refractory CD123 Positive Blood Cancer,118|137|146,TRIAL
+178,NCT03212404 Phase 1 Study of CK-301 (Cosibelimab) as a Single Agent in Subjects With Advanced Cancers,138|145,TRIAL
+179,NCT02203773 Study of ABT-199 (GDC-0199) in Combination With Azacitidine or Decitabine (Chemo Combo) in Subjects With...,17|115|138|144,TRIAL
+180,"NCT00602225 Clofarabine, Cytarabine, and G-CSF in Treating Patients With Relapsed or Refractory Acute Myeloid Leukemia",10|129|138|142,TRIAL

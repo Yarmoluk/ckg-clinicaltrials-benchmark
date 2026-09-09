@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Neurology and neurodegeneration clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Multiple Sclerosis,2,COND
+9,Parkinson Disease,2,COND
+10,Epilepsy,2,COND
+11,Migraine,2,COND
+12,Alzheimer Disease,2,COND
+13,Alzheimer's Disease,2,COND
+14,Parkinson's Disease,2,COND
+15,Mild Cognitive Impairment,2,COND
+16,Dementia,2,COND
+17,Migraine Disorders,2,COND
+18,Chronic Migraine,2,COND
+19,"Multiple Sclerosis, Relapsing-Remitting",2,COND
+20,Headache,2,COND
+21,Migraine Without Aura,2,COND
+22,Stroke,2,COND
+23,Relapsing Remitting Multiple Sclerosis,2,COND
+24,"Chronic Migraine, Headache",2,COND
+25,Depression,2,COND
+26,Fatigue,2,COND
+27,Episodic Migraine,2,COND
+28,Alzheimer Disease (AD),2,COND
+29,Healthy,2,COND
+30,"Epilepsy, Temporal Lobe",2,COND
+31,Relapsing-remitting Multiple Sclerosis,2,COND
+32,Balance,2,COND
+33,Memory Disorders,2,COND
+34,Vestibular Migraine,2,COND
+35,"Headache, Migraine",2,COND
+36,Migraine Headache,2,COND
+37,Cognitive Impairment,2,COND
+38,Placebo,3,INTR
+39,Levetiracetam,3,INTR
+40,pregabalin,3,INTR
+41,JNJ-39393406,3,INTR
+42,ADX10059,3,INTR
+43,dimebon,3,INTR
+44,Exercise,3,INTR
+45,Galcanezumab,3,INTR
+46,Usual Care,3,INTR
+47,Pembrolizumab,3,INTR
+48,Atogepant,3,INTR
+49,MRI,3,INTR
+50,PACAP38,3,INTR
+51,sodium valproate,3,INTR
+52,Teriflunomide,3,INTR
+53,methylprednisolone,3,INTR
+54,Safinamide,3,INTR
+55,topiramate,3,INTR
+56,alprazolam,3,INTR
+57,Interferon beta-1a,3,INTR
+58,Fingolimod,3,INTR
+59,Erenumab,3,INTR
+60,Sham tDCS,3,INTR
+61,dimethyl fumarate,3,INTR
+62,Acupuncture,3,INTR
+63,Brivaracetam,3,INTR
+64,blood sample,3,INTR
+65,foliglurax,3,INTR
+66,Tricaprilin,3,INTR
+67,Greater occipital nerve block,3,INTR
+68,Blood samples for PK,3,INTR
+69,AI-empowered voice-interactive chatbot,3,INTR
+70,Paper migraine diary,3,INTR
+71,Estrogen,3,INTR
+72,Ginkgo Biloba,3,INTR
+73,Atorvastatin calcium,3,INTR
+74,RNS® System implantation,3,INTR
+75,RNS® System responsive stimulation,3,INTR
+76,"Blood sampling, skin biopsy",3,INTR
+77,escitalopram oxalate antidepressant,3,INTR
+78,Annualized relapse rate on study compared to annualized relapse rate in the year prior to natalizumab initiation on f...,4,OUTC
+79,Severity of relapses,4,OUTC
+80,Proportion of relapse free patients,4,OUTC
+81,3-month confirmed EDSS progression,4,OUTC
+82,MSFC,4,OUTC
+83,Quality of life,4,OUTC
+84,To assess the safety and tolerability of vormatrigine in adults with focal or primary generalized tonic-clonic seizures,4,OUTC
+85,Survey the validity of a specific diagnostic protocol for the evaluation of the visual condition in patients with PD,4,OUTC
+86,Overall Survival (OS),4,OUTC
+87,Responder rate,4,OUTC
+88,intraindividual variation (ie IIV) in reaction times across the trials of the Attention Network Test (ANT),4,OUTC
+89,Inspection of orthoptic condition in patients with PD,4,OUTC
+90,dismobility score calculated from the results reported in secondary outcomes,4,OUTC
+91,Weight (Kg),4,OUTC
+92,Height (cm),4,OUTC
+93,Body fat percentage (%),4,OUTC
+94,Waist circumference (cm),4,OUTC
+95,Hip circumference (cm),4,OUTC
+96,Brachial circumference (cm),4,OUTC
+97,Calf circumference (cm),4,OUTC
+98,Body Mass Index (Kg/m²),4,OUTC
+99,Body composition,4,OUTC
+100,T-score (DS),4,OUTC
+101,Z-score (DS),4,OUTC
+102,Fat mass,4,OUTC
+103,Fat-free mass (%),4,OUTC
+104,Fat mas index (Kg/m²),4,OUTC
+105,Ratio of android to gynoid fat mass,4,OUTC
+106,Visceral adipose tissue (Kg),4,OUTC
+107,Fat-free mass index (kg/m²),4,OUTC
+108,Appendicular fat-free mass index (Kg/m²),4,OUTC
+109,Bone mass (Kg),4,OUTC
+110,Daily caloric intake (Kcal/24h),4,OUTC
+111,Daily protein intake (in g and as a percentage of total caloric intake),4,OUTC
+112,Daily carbohydrate intake (in g and as a percentage of total caloric intake),4,OUTC
+113,GlaxoSmithKline,5,SPON
+114,Danish Headache Center,5,SPON
+115,Pfizer,5,SPON
+116,Novartis Pharmaceuticals,5,SPON
+117,Mayo Clinic,5,SPON
+118,"University of Colorado, Denver",5,SPON
+119,Brigham and Women's Hospital,5,SPON
+120,Merck Sharp & Dohme LLC,5,SPON
+121,Assiut University,5,SPON
+122,National Institute of Neurological Disorders and Stroke (NINDS),5,SPON
+123,Eli Lilly and Company,5,SPON
+124,"University Hospital, Strasbourg, France",5,SPON
+125,AbbVie,5,SPON
+126,Hospices Civils de Lyon,5,SPON
+127,"Xuanwu Hospital, Beijing",5,SPON
+128,National Institute on Aging (NIA),5,SPON
+129,UCB Pharma,5,SPON
+130,Biogen,5,SPON
+131,"University of California, San Francisco",5,SPON
+132,"University Hospital, Clermont-Ferrand",5,SPON
+133,"Teva Branded Pharmaceutical Products R&D, Inc",5,SPON
+134,Assistance Publique - Hôpitaux de Paris,5,SPON
+135,State University of New York at Buffalo,5,SPON
+136,Lille Catholic University,5,SPON
+137,University of Alabama at Birmingham,5,SPON
+138,PHASE3,6,PHASE
+139,PHASE2,6,PHASE
+140,PHASE1,6,PHASE
+141,PHASE4,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,TERMINATED,7,STATUS
+146,NOT_YET_RECRUITING,7,STATUS
+147,ACTIVE_NOT_RECRUITING,7,STATUS
+148,WITHDRAWN,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,SUSPENDED,7,STATUS
+151,NCT01236053 Cancer in Patients With Gabapentin (GPRD),10|113|143,TRIAL
+152,NCT01403402 Congenital Muscle Disease Study of Patient and Family Reported Medical Information,144,TRIAL
+153,NCT00722046 Multiple IV Dose Study Of PF-04360365 In Patients With Mild To Moderate Alzheimer's Disease,13|115|139|143,TRIAL
+154,NCT05703217 C Mill Virtual Reality Applied Rehabilitation and Classical Rehabilitation on Gait and Balance in Parkins...,9|143,TRIAL
+155,NCT05150990 Technology and Family Thriving Study,12|16|143,TRIAL
+156,NCT07373431 Biomarkers for Epilepsy Development and the Effect of Physical Exercise in Children With Autism,10|143,TRIAL
+157,NCT04606953 Working Memory Training in Older Adults With Mild Cognitive Impairment : Impacts on Cognition and Ecologi...,12|15|143,TRIAL
+158,NCT00975481 A Study To Evaluate The Abuse Potential Of Single Oral Doses Of Dimebon (Latrepirdine) In Healthy Recreat...,13|43|115|140|143,TRIAL
+159,NCT05554835 Global Registry and Natural History Study for Mitochondrial Disorders,144,TRIAL
+160,NCT05887466 Study to Evaluate the Safety and Efficacy of ESC-derived Dopamine Progenitor Cell Therapy in PD Patients,14|140|143,TRIAL
+161,NCT06829680 Investigation of the Effects of Pilates Training Combined with Whole Body Vibration on Balance and Mobili...,8|143,TRIAL
+162,NCT06061939 Effects of Blood Flow Restriction Training on Middle-aged People With Multiple Sclerosis,143,TRIAL
+163,NCT06535308 BnH-015B Clinical Trial in Moderate Alzheimer's Disease,12|140|144,TRIAL
+164,NCT03743467 Study on the Visual Condition in Parkinson's Disease,9,TRIAL
+165,NCT07304154 A Study Evaluating the Safety and Efficacy of KITE-363 in Relapsed/Refractory Autoimmune Neurologic Diseases,140|144,TRIAL
+166,NCT06921109 Assessment of the Effectiveness of Virtual Reality as a Learning Tool for Relaxation Techniques in Reduci...,11|144,TRIAL
+167,NCT05011175 Exercise Habits: A Survey of Individuals With Parkinson's Disease Living in the Community,9|143,TRIAL
+168,NCT04715685 Mind Body Balance for Pediatric Migraine,20|144,TRIAL
+169,NCT07681219 LRRK2 (Leucine-Rich Repeat Kinase 2) Parkinson's Disease Fingerprint,146,TRIAL
+170,NCT07069244 Investigation of the Relationship Between Periodontitis and Alzheimer's Disease in Terms of Blood Parameters,143,TRIAL
+171,NCT06674772 Molecular Phenotyping of Migraine Patients According to Sex and Age Through CGRP Quantification,11|144,TRIAL
+172,NCT06248281 Be Cool: An Innovative and Holistic Psychoeducational Program for Multiple Sclerosis Individuals,8|143,TRIAL
+173,NCT06122415 The Swedish BioFINDER - Memory Clinic Study,15|144,TRIAL
+174,NCT04210115 Study of Pembrolizumab (MK-3475) Versus Placebo in Participants With Esophageal Carcinoma Who Are Receivi...,120|138|143,TRIAL
+175,NCT04045990 Network Modulation in Alzheimer's Disease,12|119|143,TRIAL
+176,NCT02533882 Lakeshore Examination of Activity and Disability Exercise Response Study,8|22|137|143,TRIAL
+177,NCT07168694 A Real-world Study About the Impact of Siponimod Treatment on Secondary Progressive Multiple Sclerosis Pa...,116|143,TRIAL
+178,NCT06600880 Neuronavigation-guided FUS-induced BBB Opening in Alzheimer's Disease Patients and Its Effects on Brain A...,140|146,TRIAL
+179,NCT05515679 The BRAIN App: Building Relationships Using Artificial Intelligence and Nostalgia,16|143,TRIAL
+180,NCT02740634 Molecular and Structural Imaging in Alzheimer's Disease: A Longitudinal Study,117|144,TRIAL

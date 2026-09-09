@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Psychiatry and behavioral health clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Schizophrenia,2,COND
+9,Bipolar Disorder,2,COND
+10,Major Depressive Disorder,2,COND
+11,Anxiety,2,COND
+12,Depression,2,COND
+13,Alcohol Use Disorder,2,COND
+14,Schizoaffective Disorder,2,COND
+15,Major Depression,2,COND
+16,Substance Use Disorders,2,COND
+17,Tobacco Use Disorder,2,COND
+18,"Depressive Disorder, Major",2,COND
+19,Psychosis,2,COND
+20,Opioid Use Disorder,2,COND
+21,Psychotic Disorders,2,COND
+22,Bipolar Depression,2,COND
+23,Bipolar I Disorder,2,COND
+24,Treatment Resistant Depression,2,COND
+25,Suicidal Ideation,2,COND
+26,Generalized Anxiety Disorder,2,COND
+27,Anxiety Disorders,2,COND
+28,Substance Use,2,COND
+29,Substance-Related Disorders,2,COND
+30,Major Depressive Disorder (MDD),2,COND
+31,Stress,2,COND
+32,Nicotine Dependence,2,COND
+33,Alcohol Abuse,2,COND
+34,Mood Disorders,2,COND
+35,Healthy,2,COND
+36,Panic Disorder,2,COND
+37,Cognitive Impairment,2,COND
+38,Placebo,3,INTR
+39,Olanzapine,3,INTR
+40,Aripiprazole,3,INTR
+41,Bupropion,3,INTR
+42,JNJ-39393406,3,INTR
+43,Treatment as usual,3,INTR
+44,Risperidone,3,INTR
+45,Escitalopram,3,INTR
+46,Sertraline,3,INTR
+47,Vortioxetine,3,INTR
+48,Fluoxetine,3,INTR
+49,Cognitive Behavioral Therapy,3,INTR
+50,Contingency Management,3,INTR
+51,VNS Therapy,3,INTR
+52,Venlafaxine,3,INTR
+53,Lurasidone,3,INTR
+54,Duloxetine,3,INTR
+55,Standard Care,3,INTR
+56,RO4995819,3,INTR
+57,Control,3,INTR
+58,SEP-363856,3,INTR
+59,metyrapone & oxazepam,3,INTR
+60,Music,3,INTR
+61,Lithium carbonate,3,INTR
+62,Lamotrigine,3,INTR
+63,Problem Solving Therapy,3,INTR
+64,Paliperidone ER,3,INTR
+65,Illness Management and Recovery,3,INTR
+66,no intervention,3,INTR
+67,Lithium,3,INTR
+68,Quetiapine XR,3,INTR
+69,PF-02545920,3,INTR
+70,LY2216684,3,INTR
+71,SSRI,3,INTR
+72,CBT,3,INTR
+73,Magstim Rapid2 Stimulator,3,INTR
+74,Desvenlafaxine,3,INTR
+75,Transcranial Magnetic Stimulation,3,INTR
+76,Dextromethorphan,3,INTR
+77,Oxytocin,3,INTR
+78,Anxiety Severity,4,OUTC
+79,Depression Severity,4,OUTC
+80,PTSD Checklist,4,OUTC
+81,Patient Health Questionnaire-9 (PHQ-9),4,OUTC
+82,7-day Point Prevalence Abstinence - Self Reported,4,OUTC
+83,7-day Point Prevalence Abstinence - Bio-Verified,4,OUTC
+84,30-day Point Prevalence Abstinence - Self Reported,4,OUTC
+85,30-day Point Prevalence Abstinence - Bio-Verified,4,OUTC
+86,Sleep Quality,4,OUTC
+87,Cognition,4,OUTC
+88,Clinical Severity,4,OUTC
+89,Drinks per Drinking Day,4,OUTC
+90,Alcohol Dependence/Craving,4,OUTC
+91,Subjective Pain Level,4,OUTC
+92,change in MADRS,4,OUTC
+93,Weight,4,OUTC
+94,Brief Psychiatric Rating Scale (BPRS),4,OUTC
+95,Craving,4,OUTC
+96,Cognitive Performance,4,OUTC
+97,Attentional Bias to Marijuana Specific Stimuli Measured Via Analysis of Eye Movements,4,OUTC
+98,Stress as Assessed by the Perceived Stress Scale,4,OUTC
+99,Anxiety as Assessed by the Zung Self-Rated Anxiety Scale,4,OUTC
+100,Stress as Assessed by the Visual Analogue Stress Scale-Current (VASS-C),4,OUTC
+101,Symptomatic improvement,4,OUTC
+102,Side-effects of medication,4,OUTC
+103,Treatment Retention,4,OUTC
+104,Accumulated physiological stress,4,OUTC
+105,Delirium,4,OUTC
+106,Insomnia,4,OUTC
+107,Cue-reactivity,4,OUTC
+108,9-item Patient Health Questionnaire (PHQ-9),4,OUTC
+109,7-item Generalized Anxiety Disorder Measure (GAD-7),4,OUTC
+110,6-item PTSD Checklist (PCL-6),4,OUTC
+111,Generalized Anxiety Disorder-7 (GAD-7),4,OUTC
+112,change from baseline in treatment utilization using the National Epidemiological Study of Alcohol and Related Conditi...,4,OUTC
+113,Centre for Addiction and Mental Health,5,SPON
+114,VA Office of Research and Development,5,SPON
+115,Eli Lilly and Company,5,SPON
+116,"Otsuka Pharmaceutical Development & Commercialization, Inc",5,SPON
+117,Massachusetts General Hospital,5,SPON
+118,Yale University,5,SPON
+119,Mclean Hospital,5,SPON
+120,"University of California, San Francisco",5,SPON
+121,"University of North Carolina, Chapel Hill",5,SPON
+122,University of Cincinnati,5,SPON
+123,"University of California, Los Angeles",5,SPON
+124,Mayo Clinic,5,SPON
+125,University of Pittsburgh,5,SPON
+126,"University of Wisconsin, Madison",5,SPON
+127,Central South University,5,SPON
+128,"The University of Texas Health Science Center, Houston",5,SPON
+129,Stanford University,5,SPON
+130,National Institute of Mental Health (NIMH),5,SPON
+131,US Department of Veterans Affairs,5,SPON
+132,Northwell Health,5,SPON
+133,AstraZeneca,5,SPON
+134,New York State Psychiatric Institute,5,SPON
+135,H. Lundbeck A/S,5,SPON
+136,Icahn School of Medicine at Mount Sinai,5,SPON
+137,University of Minnesota,5,SPON
+138,PHASE2,6,PHASE
+139,PHASE3,6,PHASE
+140,PHASE4,6,PHASE
+141,PHASE1,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,NOT_YET_RECRUITING,7,STATUS
+146,TERMINATED,7,STATUS
+147,WITHDRAWN,7,STATUS
+148,ACTIVE_NOT_RECRUITING,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,SUSPENDED,7,STATUS
+151,NCT00538629 Non Interventional Study In Bipolar Disorder And Schizophrenia With Zeldox,8|9|66|143,TRIAL
+152,"NCT00247572 Safety, Tolerability and Abuse Liability Study of Intravenous NRP104 in Adults With Stimulant Abuse Histo...",138|143,TRIAL
+153,"NCT04446039 Non-interventional, Retrospective Cohort Study to Explore Antidepressant Treatment in Korea",15|45|143,TRIAL
+154,NCT05772221 The Role of Social Determinants in Cardiovascular Health and Vascular Function,10|143,TRIAL
+155,NCT04027075 Mindfulness Mobile App to Reduce Adolescent Substance Use,143,TRIAL
+156,NCT03927053 Consequences of Marijuana Use in HIV-infected Youth,143,TRIAL
+157,NCT06604429 Quality of Life Variations Among Adolescent Females Following Virtual Reality Games Approach,143,TRIAL
+158,NCT03891186 Efficacy of Metacognitive Training for Schizophrenia - a Study Protocol,8|143,TRIAL
+159,NCT03857438 Correlation of Audiovisual Features With Clinical Variables and Neurocognitive Functions in Bipolar Disor...,143,TRIAL
+160,"NCT02132832 Buspirone, Stress, and Attentional Bias to Marijuana Cues",38|97|128|138|143,TRIAL
+161,"NCT04578756 Open-Label, Flexible-dose Study to Evaluate the Long-Term Safety and Tolerability of Cariprazine in the T...",8|23|139|143,TRIAL
+162,NCT06981351 Matching Treatments to Cognitive Deficits in Offenders With Substance Use Disorders,144,TRIAL
+163,NCT06129500 CBT for Problematic Impulsive Behaviours in Bipolar Disorder: A Case Series / CBT-PIB,9|150,TRIAL
+164,NCT05837598 Adapting the Tumor Board Model for Mental Illness and Cancer,117,TRIAL
+165,NCT05443724 A Study to Evaluate Safety and Tolerability of CVL-231 (Emraclidine) in Adult Participants With Schizophr...,8|138|146,TRIAL
+166,NCT00001656 Comparison of Clozapine vs Olanzapine in Childhood-Onset Psychotic Disorders,39|130|140|143,TRIAL
+167,"NCT06264050 Psychological Support Group and Its Effects on Mood, Anxiety and Coping",11,TRIAL
+168,NCT04459000 Substance Use Treatment and Access to Resources (STARS) Project,16|144,TRIAL
+169,NCT07569198 Ketamine With Dialectical Behavioural Therapy (DBT) for Suicidality in Individuals With Treatment-Resista...,138|144,TRIAL
+170,NCT06248203 Teachers Leading the Front Lines - Adolescent,121|144,TRIAL
+171,NCT04873453 CBD for the Treatment of Alcohol Use Disorder,13|38|89|138|143,TRIAL
+172,NCT01919970 Exposure-Focused Family-Based CBT for Youth With ASD and Comorbid Anxiety,43|49|143,TRIAL
+173,NCT00709202 Efficacy and Tolerability Study of Betahistine to Ameliorate Antipsychotic Associated Weight Gain,8|14|138|143,TRIAL
+174,NCT07593443 Application for Arts-Based Social Prescribing,11|145,TRIAL
+175,NCT07503093 Pilot Study of Sensor-Informed Smartphone-based Mental Health Interventions for Mood in Early Psychosis,11|19|119|145,TRIAL
+176,NCT07305688 Climate Anxiety in a Young Population at Risk of Suicide,11|25|144,TRIAL
+177,NCT07242105 Optimizing Brain Excitability in Depression,10|129|144,TRIAL
+178,NCT07184879 Comparison of Five Anesthetic Delivery Systems for Palatal Infiltration,143,TRIAL
+179,"NCT06729918 The Effect of Virtual Reality on Affective Awareness, Empathy, Clinical Decision Making in Nursing Students",143,TRIAL
+180,NCT06577740 Group-based and Dual-task Focused Otago Exercises in Geriatric Individuals With Kinesiophobia,143,TRIAL

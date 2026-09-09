@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Gastroenterology and hepatology clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Ulcerative Colitis,2,COND
+9,Hepatocellular Carcinoma,2,COND
+10,Crohn Disease,2,COND
+11,Liver Cirrhosis,2,COND
+12,Crohn's Disease,2,COND
+13,Cirrhosis,2,COND
+14,MASH - Metabolic Dysfunction-Associated Steatohepatitis,2,COND
+15,Inflammatory Bowel Disease,2,COND
+16,Liver Fibrosis,2,COND
+17,Ulcerative Colitis (UC),2,COND
+18,"Carcinoma, Hepatocellular",2,COND
+19,Inflammatory Bowel Diseases,2,COND
+20,MASH,2,COND
+21,Liver Cancer,2,COND
+22,MASLD/MASH (Metabolic Dysfunction-Associated Steatotic Liver Disease / Metabolic Dysfunction-Associated Steatohepatitis),2,COND
+23,Metabolic Dysfunction-Associated Steatohepatitis (MASH),2,COND
+24,"Colitis, Ulcerative",2,COND
+25,MASLD,2,COND
+26,Obesity,2,COND
+27,Metabolic Dysfunction-Associated Steatohepatitis,2,COND
+28,Chronic Hepatitis C,2,COND
+29,Sarcopenia,2,COND
+30,MASH With Fibrosis,2,COND
+31,Hepatocellular Carcinoma (HCC),2,COND
+32,Crohn Disease (CD),2,COND
+33,MASLD - Metabolic Dysfunction-Associated Steatotic Liver Disease,2,COND
+34,Advanced Hepatocellular Carcinoma,2,COND
+35,Chronic Hepatitis B,2,COND
+36,Colorectal Cancer,2,COND
+37,Non-alcoholic Fatty Liver Disease,2,COND
+38,Placebo,3,INTR
+39,Sorafenib,3,INTR
+40,Nivolumab,3,INTR
+41,V565,3,INTR
+42,Apatinib Mesylate,3,INTR
+43,natalizumab,3,INTR
+44,Fecal microbiota transplantation,3,INTR
+45,Camrelizumab,3,INTR
+46,No treatment given,3,INTR
+47,Efimosfermin alfa,3,INTR
+48,Resmetirom,3,INTR
+49,thalidomide,3,INTR
+50,Adalimumab,3,INTR
+51,Vandetanib,3,INTR
+52,Vitamin D,3,INTR
+53,certolizumab pegol,3,INTR
+54,No intervention,3,INTR
+55,tofacitinib,3,INTR
+56,Ipilimumab,3,INTR
+57,Rifaximin,3,INTR
+58,Ribavirin (RBV),3,INTR
+59,Laboratory Biomarker Analysis,3,INTR
+60,Liver biopsy,3,INTR
+61,Transient elastography,3,INTR
+62,ASCs injection,3,INTR
+63,Biospecimen Collection,3,INTR
+64,TACE,3,INTR
+65,Ustekinumab,3,INTR
+66,Colonoscopy,3,INTR
+67,Liver transplantation,3,INTR
+68,Etrasimod,3,INTR
+69,Lenvatinib,3,INTR
+70,Terlipressin,3,INTR
+71,Radical surgery,3,INTR
+72,Infliximab,3,INTR
+73,Ozanimod,3,INTR
+74,Questionnaire,3,INTR
+75,Recombinant Human Serum Albumin,3,INTR
+76,Human serum albumin,3,INTR
+77,Durvalumab,3,INTR
+78,Overall survival,4,OUTC
+79,Overall survival (OS),4,OUTC
+80,Assessment of miricorilant PK parameters,4,OUTC
+81,Incidence of adverse events (AEs),4,OUTC
+82,Adverse events,4,OUTC
+83,Number of participants with clinical laboratory abnormalities,4,OUTC
+84,Clinical disease activity assessment,4,OUTC
+85,Progression-free survival (PFS),4,OUTC
+86,Change from baseline of markers of insulin sensitivity and glycemic control,4,OUTC
+87,To define pharmacokinetics (PK) profile of CG-0416 and its active metabolite CG-0400,4,OUTC
+88,Objective Response Rate,4,OUTC
+89,Survival,4,OUTC
+90,Percentage of Participants With Sustained Virologic Response 12 Weeks Post-treatment (SVR12),4,OUTC
+91,Percentage of Participants With Post-treatment Relapse,4,OUTC
+92,Mortality,4,OUTC
+93,Patient reported outcomes,4,OUTC
+94,Efficacy associated with VV-14303 in participants with MASH,4,OUTC
+95,Progression-free Survival,4,OUTC
+96,Time to progression,4,OUTC
+97,Tumor response,4,OUTC
+98,Quality of Life,4,OUTC
+99,Mean Change From the 6 Months Prior to Treatment With Adalimumab to the 6 Months After Beginning Treatment With Adali...,4,OUTC
+100,Percentage of Participants With On-treatment Virologic Failure,4,OUTC
+101,Inflammatory Bowel Disease Questionnaire (IBDQ),4,OUTC
+102,Percentage of Participants Who Achieved Clinical Response (Decrease in CDAI ≥ 70 Points From Baseline) Plus a Reducti...,4,OUTC
+103,Clinical Remission,4,OUTC
+104,Progression free survival (PFS),4,OUTC
+105,Objective response rate (ORR),4,OUTC
+106,Child Pugh Score,4,OUTC
+107,Examination of liver function,4,OUTC
+108,MELD Score,4,OUTC
+109,Number of participants with AKI : Improvement or worsening of renal functions in both groups,4,OUTC
+110,Number of participants with Hepatic Encephalopathy in both groups,4,OUTC
+111,Number of participants with Hyponatremia in both groups,4,OUTC
+112,Diuretic tolerability : Dose tolerated in both groups,4,OUTC
+113,"Institute of Liver and Biliary Sciences, India",5,SPON
+114,AbbVie,5,SPON
+115,Sun Yat-sen University,5,SPON
+116,Assistance Publique - Hôpitaux de Paris,5,SPON
+117,Pfizer,5,SPON
+118,GlaxoSmithKline,5,SPON
+119,National Cancer Institute (NCI),5,SPON
+120,"Janssen Research & Development, LLC",5,SPON
+121,Chinese University of Hong Kong,5,SPON
+122,Bristol-Myers Squibb,5,SPON
+123,"Sixth Affiliated Hospital, Sun Yat-sen University",5,SPON
+124,Novo Nordisk A/S,5,SPON
+125,Boehringer Ingelheim,5,SPON
+126,Biogen,5,SPON
+127,Mayo Clinic,5,SPON
+128,Northwestern University,5,SPON
+129,Bayer,5,SPON
+130,University of British Columbia,5,SPON
+131,University of Michigan,5,SPON
+132,Hoffmann-La Roche,5,SPON
+133,Gilead Sciences,5,SPON
+134,Sagimet Biosciences Inc,5,SPON
+135,Eli Lilly and Company,5,SPON
+136,Regeneron Pharmaceuticals,5,SPON
+137,Tanta University,5,SPON
+138,PHASE2,6,PHASE
+139,PHASE3,6,PHASE
+140,PHASE1,6,PHASE
+141,PHASE4,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,NOT_YET_RECRUITING,7,STATUS
+146,TERMINATED,7,STATUS
+147,WITHDRAWN,7,STATUS
+148,ACTIVE_NOT_RECRUITING,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,SUSPENDED,7,STATUS
+151,NCT00087191 EF5 and Motexafin Lutetium in Detecting Tumor Cells in Patients With Abdominal or Non-Small Cell Lung Cancer,119|146,TRIAL
+152,NCT07083557 Routine Validation and Reproducibility Testing of Laboratory Assays and Research Techniques Used for Endo...,144,TRIAL
+153,NCT02595866 Testing the Addition of an Experimental Medication MK-3475 (Pembrolizumab) to Usual Anti-Retroviral Medic...,119|140|143,TRIAL
+154,NCT07476703 Expanded Studies on the SCAPIS Stockholm Reexamination Cohort,144,TRIAL
+155,NCT06998693 A Single-Center Observational Study on the Impact of Symptom Assessment Timing on the Short-Term Efficacy...,143,TRIAL
+156,NCT05061537 Study of PF-07263689 in Participants With Selected Advanced Solid Tumors,117|140|146,TRIAL
+157,NCT03533582 Cisplatin and Combination Chemotherapy in Treating Children and Young Adults With Hepatoblastoma or Liver...,63|139|148,TRIAL
+158,NCT04157985 Evaluating Length of Treatment With PD-1/PD-L1 Inhibitor in Advanced Solid Tumors,139|143,TRIAL
+159,NCT06587646 VirtuAl Technology to Improve the Management of Perianal Crohn&#39;s (VAMP) - PROSPECTIVE,84|144,TRIAL
+160,NCT02246686 Efficacy/Safety Pilot Study to Investigate Iberogast N's Efficacy in Mild to Moderate Colitis Ulcerosa Pa...,24|38|129|138|146,TRIAL
+161,NCT02143401 Navitoclax and Sorafenib Tosylate in Treating Patients With Relapsed or Refractory Solid Tumors,13|59|119|140|143,TRIAL
+162,NCT05945537 A Study of INI-822 in Healthy Volunteers and Participants With Metabolic Dysfunction-Associated Steatohep...,27|81|140|144,TRIAL
+163,NCT05651724 Global Research Initiative for Patients Screening on MASH,20|25|144,TRIAL
+164,NCT07692165 A Phase Ib/IIa Study of INT-210 Capsules in Participants With Active Ulcerative Colitis,17|140|144,TRIAL
+165,"NCT06715540 Safety, Pharmacodynamics, Pharmacokinetics, and Immunogenicity of Ascending Doses BCD-261 in Healthy Subj...",140|144,TRIAL
+166,NCT05458531 Monitoring of Inflammatory Conditions,10|74|143,TRIAL
+167,NCT04283994 Project to Improve Communication About Serious Illness--Hospital Study: Comparative Effectiveness Trial (...,143,TRIAL
+168,NCT02013492 Propranolol Hydrochloride in Treating Patients With Locally Recurrent or Metastatic Solid Tumors That Can...,142|143,TRIAL
+169,NCT07553663 Evaluating the Pharmacokinetics and Safety of Miricorilant,80|140|144,TRIAL
+170,"NCT07491458 A Trial to Investigate Safety, Exposure, and Efficacy of HU6 Compared With Placebo in Adult Participants...",14|38|138|144,TRIAL
+171,NCT06986382 Phase 1b/2a Trial of Allogeneic HSCT From an HLA-partially Matched Related or Unrelated Donor After TCRab...,10|140|145,TRIAL
+172,NCT05075811 Study of Ossium Mesenchymal Stem Cells for the Treatment of Pouch Fistulas in the Setting of Crohn's Disease,38|140|146,TRIAL
+173,NCT03302403 Clinical Study of Redirected Autologous T Cells With a Chimeric Antigen Receptor in Patients With Maligna...,1,TRIAL
+174,"NCT01658878 An Immuno-therapy Study to Evaluate the Effectiveness, Safety and Tolerability of Nivolumab or Nivolumab...",9|39|40|122|140|143,TRIAL
+175,NCT02776553 A Physical Activity Program in End-state Liver Disease,143,TRIAL
+176,NCT07639801 68Ga-FAPI-PSMA PET Imaging for the Diagnosis of Solid Tumors,9|145,TRIAL
+177,NCT07113717 Post Operative Hospital at Home After Colorectal Surgery,145,TRIAL
+178,NCT06588699 Digoxin In NASH (CODIN),38|138|144,TRIAL
+179,NCT06446908 Acceptability and Feasibility of a New Approach to Engage Patients With Steatotic Liver Disease in Physic...,20|145,TRIAL
+180,NCT05333978 Optoacoustic Detection of Inflammation Using MSOT Device,146,TRIAL

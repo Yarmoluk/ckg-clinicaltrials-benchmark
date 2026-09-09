@@ -1,0 +1,181 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Metabolic and endocrine disease clinical trial landscape,,AREA
+2,Condition landscape,1,FRAME
+3,Intervention landscape,1,FRAME
+4,Endpoint landscape,1,FRAME
+5,Sponsor landscape,1,FRAME
+6,Trial design landscape,1,FRAME
+7,Recruitment and status landscape,1,FRAME
+8,Obesity,2,COND
+9,"Diabetes Mellitus, Type 2",2,COND
+10,Type 2 Diabetes,2,COND
+11,Hypercholesterolemia,2,COND
+12,Type 2 Diabetes Mellitus,2,COND
+13,NAFLD,2,COND
+14,Non-Alcoholic Fatty Liver Disease,2,COND
+15,Dyslipidemia,2,COND
+16,Thyroid Cancer,2,COND
+17,Hyperlipidemia,2,COND
+18,Metabolic Syndrome,2,COND
+19,Cardiovascular Diseases,2,COND
+20,Hypertension,2,COND
+21,Diabetes Mellitus,2,COND
+22,Dyslipidemias,2,COND
+23,Diabetes,2,COND
+24,Overweight,2,COND
+25,Morbid Obesity,2,COND
+26,Atherosclerosis,2,COND
+27,Nonalcoholic Steatohepatitis,2,COND
+28,NASH - Nonalcoholic Steatohepatitis,2,COND
+29,Insulin Resistance,2,COND
+30,Hypertriglyceridemia,2,COND
+31,Nonalcoholic Fatty Liver Disease,2,COND
+32,Thyroid Eye Disease,2,COND
+33,Nonalcoholic Steatohepatitis (NASH),2,COND
+34,Thyroid Nodule,2,COND
+35,"Fatty Liver, Nonalcoholic",2,COND
+36,Overweight and Obesity,2,COND
+37,Obesity & Overweight,2,COND
+38,Placebo,3,INTR
+39,Metformin,3,INTR
+40,PF-04950615 (RN316),3,INTR
+41,No intervention,3,INTR
+42,Rosuvastatin,3,INTR
+43,Sitagliptin,3,INTR
+44,Thyroidectomy,3,INTR
+45,exercise,3,INTR
+46,Dexmedetomidine Hydrochloride,3,INTR
+47,Semaglutide,3,INTR
+48,Tirzepatide,3,INTR
+49,Atorvastatin,3,INTR
+50,Pitavastatin,3,INTR
+51,Simvastatin,3,INTR
+52,Pioglitazone,3,INTR
+53,Rosiglitazone,3,INTR
+54,laboratory biomarker analysis,3,INTR
+55,JTT-302,3,INTR
+56,Bariatric surgery,3,INTR
+57,Niaspan,3,INTR
+58,Comparator: Placebo,3,INTR
+59,Testosterone,3,INTR
+60,Dexamethasone,3,INTR
+61,biphasic insulin aspart 30,3,INTR
+62,Standard of care,3,INTR
+63,Lisinopril,3,INTR
+64,Ketamine infusion,3,INTR
+65,Echopulse,3,INTR
+66,Cyclophosphamide,3,INTR
+67,PF-06427878,3,INTR
+68,Dapagliflozin,3,INTR
+69,Alirocumab,3,INTR
+70,Mediterranean Diet,3,INTR
+71,Placebo Oral Tablet,3,INTR
+72,Control,3,INTR
+73,Biospecimen Collection,3,INTR
+74,CGM,3,INTR
+75,Telephone-Based Intervention,3,INTR
+76,"bariatric endoscopy, mainly intragastric balloons, plication of the stomach too",3,INTR
+77,NNC0194-0499,3,INTR
+78,The feasibility and acceptability of the PAW intervention will be examined via self-report psychosocial questionnaires,4,OUTC
+79,Plasma PK parameters of PXL770,4,OUTC
+80,Body composition,4,OUTC
+81,Quality of life,4,OUTC
+82,HbA1c,4,OUTC
+83,Weight,4,OUTC
+84,Lipid profile,4,OUTC
+85,Body fat percentage (%),4,OUTC
+86,Waist circumference (cm),4,OUTC
+87,Physical activity,4,OUTC
+88,Blood pressure,4,OUTC
+89,Change in body weight,4,OUTC
+90,dismobility score calculated from the results reported in secondary outcomes,4,OUTC
+91,Weight (Kg),4,OUTC
+92,Height (cm),4,OUTC
+93,Hip circumference (cm),4,OUTC
+94,Brachial circumference (cm),4,OUTC
+95,Calf circumference (cm),4,OUTC
+96,Body Mass Index (Kg/m²),4,OUTC
+97,T-score (DS),4,OUTC
+98,Z-score (DS),4,OUTC
+99,Fat mass,4,OUTC
+100,Fat-free mass (%),4,OUTC
+101,Fat mas index (Kg/m²),4,OUTC
+102,Ratio of android to gynoid fat mass,4,OUTC
+103,Visceral adipose tissue (Kg),4,OUTC
+104,Fat-free mass index (kg/m²),4,OUTC
+105,Appendicular fat-free mass index (Kg/m²),4,OUTC
+106,Bone mass (Kg),4,OUTC
+107,Daily caloric intake (Kcal/24h),4,OUTC
+108,Daily protein intake (in g and as a percentage of total caloric intake),4,OUTC
+109,Daily carbohydrate intake (in g and as a percentage of total caloric intake),4,OUTC
+110,Daily fat intake (in g and as a percentage of total caloric intake),4,OUTC
+111,Nutritional status assessment,4,OUTC
+112,Risk of undernutrition,4,OUTC
+113,Assiut University,5,SPON
+114,Novo Nordisk A/S,5,SPON
+115,Merck Sharp & Dohme LLC,5,SPON
+116,GlaxoSmithKline,5,SPON
+117,AstraZeneca,5,SPON
+118,Maastricht University Medical Center,5,SPON
+119,Cairo University,5,SPON
+120,"National Heart, Lung, and Blood Institute (NHLBI)",5,SPON
+121,Organon and Co,5,SPON
+122,Pfizer,5,SPON
+123,University of Aarhus,5,SPON
+124,Boehringer Ingelheim,5,SPON
+125,The University of Hong Kong,5,SPON
+126,Sanofi,5,SPON
+127,Mayo Clinic,5,SPON
+128,"University of Colorado, Denver",5,SPON
+129,Washington University School of Medicine,5,SPON
+130,University of Illinois at Chicago,5,SPON
+131,Amgen,5,SPON
+132,National Taiwan University Hospital,5,SPON
+133,Corcept Therapeutics,5,SPON
+134,"Nanjing First Hospital, Nanjing Medical University",5,SPON
+135,Pfizer's Upjohn has merged with Mylan to form Viatris Inc,5,SPON
+136,VA Office of Research and Development,5,SPON
+137,"Par Pharmaceutical, Inc",5,SPON
+138,PHASE2,6,PHASE
+139,PHASE3,6,PHASE
+140,PHASE1,6,PHASE
+141,PHASE4,6,PHASE
+142,EARLY_PHASE1,6,PHASE
+143,COMPLETED,7,STATUS
+144,RECRUITING,7,STATUS
+145,TERMINATED,7,STATUS
+146,WITHDRAWN,7,STATUS
+147,ACTIVE_NOT_RECRUITING,7,STATUS
+148,NOT_YET_RECRUITING,7,STATUS
+149,ENROLLING_BY_INVITATION,7,STATUS
+150,SUSPENDED,7,STATUS
+151,AVAILABLE,7,STATUS
+152,APPROVED_FOR_MARKETING,7,STATUS
+153,NCT03047369 The Myelin Disorders Biorepository Project,144,TRIAL
+154,NCT00655655 Everolimus and Vatalanib in Treating Patients With Advanced Solid Tumors,127|140|143,TRIAL
+155,NCT04483180 Work Package 2 Phase 1 - Beverages Study,36|143,TRIAL
+156,NCT05642143 Deep Phenotyping of Bone Disease in Type 2 Diabetes and Relations to Diabetic Neuropathy,10,TRIAL
+157,"NCT05417880 Vitamin D, K2 Plus Empagliflozin Combination in Type Two Diabetes Mellitus",21|82|139,TRIAL
+158,"NCT02772900 Aging, Nitrate, Endothelial Function and Muscle Oxygenation",20|38|143,TRIAL
+159,NCT04507074 The Effect of Traction Forces in People With Obesity Suffering From Chronic Low Back Pain,8|143,TRIAL
+160,"NCT05773183 Exploring the Relationship Between Androgen Metabolism, Metabolic Disease and Skeletal Muscle Energy Bala...",59,TRIAL
+161,"NCT03914300 Testing the Combination of Cabozantinib, Nivolumab, and Ipilimumab (CaboNivoIpi) for Advanced Differentia...",73|138|147,TRIAL
+162,NCT02612662 A Study to Assess the Safety and Tolerability of Single Doses of AZD4076 in Healthy Male Subjects,38|117|140|143,TRIAL
+163,NCT00859989 A Weight-Loss Program in Helping Obese Black Women Lose Weight,8|130|139,TRIAL
+164,NCT06270082 Study of IK-595 in RAS- or RAF-altered Advanced Tumors,140|145,TRIAL
+165,NCT06048367 Carbon Nanoparticle-Loaded Iron [CNSI-Fe(II)] in the Treatment of Advanced Solid Tumor,140|143,TRIAL
+166,"NCT05276063 A Phase 2b, Study of Linsitinib in Subjects With Active, Moderate to Severe Thyroid Eye Disease (TED)",32|38|138|143,TRIAL
+167,NCT05130346 Effects of Mindfulness Based Stress Reduction Intervention in Patients With Non-alcoholic Fatty Liver Dis...,14|35|146,TRIAL
+168,NCT03811470 China Diabetes Registry by Metabolic Management Center,12|144,TRIAL
+169,NCT03569735 Nanshan Elderly Cohort Study,12|20|144,TRIAL
+170,NCT02138214 Central Neck Dissection in Patients With Clinical Node Negative Thyroid Cancer,44|138|143,TRIAL
+171,NCT01243151 Safety And Tolerability Of Multiple Doses Of PF-04950615 (RN316) In Subjects With Hypercholesterolemia,11|15|40|122|140|143,TRIAL
+172,NCT00828945 Compliance With Treatment For Patients With Hyperlipidemia,17|135|143,TRIAL
+173,NCT06923735 Nutrition Apps in Occupational Healthcare (Pilot Study of the FOODNUTRI Project),36|149,TRIAL
+174,NCT06604650 Community Park-Based Programs for Health Promotion: Active Older Adults Prospective Cohort Study,20|24|144,TRIAL
+175,NCT05858138 To Explore the Effectiveness of Jing-Si Herbal Tea Against Non-alcoholic Fatty Liver Disease,143,TRIAL
+176,NCT04248335 Effect of Obesity on Proton Pump Inhibitors,13|141|143,TRIAL
+177,NCT03810846 Feasibility and Safety of Walking Football in Patients With Type 2 Diabetes,9|143,TRIAL
+178,NCT07417618 INcreTin-based thERapies for Cardiovascular Event PrevenTion in Patients With and Without ASCVD (INTERCEP...,10|24|47|143,TRIAL
+179,NCT07057739 Fentanyl and Dexmedetomidine as Adjuvants to Bupivacaine in Ultrasound-guided Superficial Cervical Plexus...,143,TRIAL
+180,NCT05144750 Fruit and Vegetable Prescription in the Community Health Center Setting,9|21|143,TRIAL

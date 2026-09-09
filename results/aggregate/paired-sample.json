@@ -1,0 +1,582 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "sample": "20 stratified queries/domain, seed=42; same query IDs for all three systems",
+  "domains": 12,
+  "paired_queries": 240,
+  "systems": {
+    "ckg": {
+      "n": 240,
+      "macro_f1": 0.4690508333333333,
+      "mean_tokens": 231.77083333333334,
+      "cost_usd": 0.121385,
+      "prompt_tokens": 39185,
+      "completion_tokens": 16440,
+      "total_tokens": 55625
+    },
+    "rag": {
+      "n": 240,
+      "macro_f1": 0.12996958333333333,
+      "mean_tokens": 3231.116666666667,
+      "cost_usd": 0.913036,
+      "prompt_tokens": 741076,
+      "completion_tokens": 34392,
+      "total_tokens": 775468
+    },
+    "baseline": {
+      "n": 240,
+      "macro_f1": 0.07844625000000001,
+      "mean_tokens": 336.4166666666667,
+      "cost_usd": 0.34795600000000004,
+      "prompt_tokens": 13936,
+      "completion_tokens": 66804,
+      "total_tokens": 80740
+    }
+  },
+  "missing_counts": {
+    "ckg": 0,
+    "rag": 0,
+    "baseline": 0
+  },
+  "ckg_vs_rag": {
+    "f1_ratio": 3.608927729885518,
+    "absolute_lift": 0.33908125,
+    "token_reduction_ratio": 13.940997752808988,
+    "cost_reduction_ratio": 7.5218190056432,
+    "wins": 223,
+    "losses": 17,
+    "ties": 0,
+    "win_rate": 0.9291666666666667
+  },
+  "ckg_vs_baseline": {
+    "f1_ratio": 5.979263933372637,
+    "absolute_lift": 0.3906045833333333,
+    "token_reduction_ratio": 1.451505617977528,
+    "cost_reduction_ratio": 2.8665485850805292,
+    "wins": 237,
+    "losses": 3,
+    "ties": 0,
+    "win_rate": 0.9875
+  },
+  "rag_vs_baseline": {
+    "f1_ratio": 1.6567979136457551,
+    "absolute_lift": 0.051523333333333324,
+    "wins": 153,
+    "losses": 26,
+    "ties": 61,
+    "win_rate": 0.6375
+  },
+  "by_type": {
+    "T1_entity": {
+      "ckg": {
+        "n": 72,
+        "macro_f1": 0.2020875,
+        "mean_tokens": 250.875,
+        "cost_usd": 0.046955,
+        "prompt_tokens": 10840,
+        "completion_tokens": 7223,
+        "total_tokens": 18063
+      },
+      "rag": {
+        "n": 72,
+        "macro_f1": 0.11579305555555555,
+        "mean_tokens": 3244.2083333333335,
+        "cost_usd": 0.272147,
+        "prompt_tokens": 223942,
+        "completion_tokens": 9641,
+        "total_tokens": 233583
+      },
+      "baseline": {
+        "n": 72,
+        "macro_f1": 0.059675,
+        "mean_tokens": 330.5138888888889,
+        "cost_usd": 0.104217,
+        "prompt_tokens": 3692,
+        "completion_tokens": 20105,
+        "total_tokens": 23797
+      },
+      "n": 72
+    },
+    "T2_dependency": {
+      "ckg": {
+        "n": 72,
+        "macro_f1": 0.5029513888888889,
+        "mean_tokens": 181.01388888888889,
+        "cost_usd": 0.023389,
+        "prompt_tokens": 10444,
+        "completion_tokens": 2589,
+        "total_tokens": 13033
+      },
+      "rag": {
+        "n": 72,
+        "macro_f1": 0.0052763888888888895,
+        "mean_tokens": 3277.8194444444443,
+        "cost_usd": 0.277203,
+        "prompt_tokens": 225703,
+        "completion_tokens": 10300,
+        "total_tokens": 236003
+      },
+      "baseline": {
+        "n": 72,
+        "macro_f1": 0.0017847222222222223,
+        "mean_tokens": 360.31944444444446,
+        "cost_usd": 0.11398700000000002,
+        "prompt_tokens": 3932,
+        "completion_tokens": 22011,
+        "total_tokens": 25943
+      },
+      "n": 72
+    },
+    "T3_path": {
+      "ckg": {
+        "n": 36,
+        "macro_f1": 0.8429416666666667,
+        "mean_tokens": 249.41666666666666,
+        "cost_usd": 0.019083,
+        "prompt_tokens": 6453,
+        "completion_tokens": 2526,
+        "total_tokens": 8979
+      },
+      "rag": {
+        "n": 36,
+        "macro_f1": 0.24358888888888888,
+        "mean_tokens": 3229.4166666666665,
+        "cost_usd": 0.141379,
+        "prompt_tokens": 109979,
+        "completion_tokens": 6280,
+        "total_tokens": 116259
+      },
+      "baseline": {
+        "n": 36,
+        "macro_f1": 0.1966527777777778,
+        "mean_tokens": 333.8888888888889,
+        "cost_usd": 0.050316,
+        "prompt_tokens": 2446,
+        "completion_tokens": 9574,
+        "total_tokens": 12020
+      },
+      "n": 36
+    },
+    "T4_aggregate": {
+      "ckg": {
+        "n": 12,
+        "macro_f1": 0.8709250000000001,
+        "mean_tokens": 138.41666666666666,
+        "cost_usd": 0.002657,
+        "prompt_tokens": 1412,
+        "completion_tokens": 249,
+        "total_tokens": 1661
+      },
+      "rag": {
+        "n": 12,
+        "macro_f1": 0.15231666666666666,
+        "mean_tokens": 2724.9166666666665,
+        "cost_usd": 0.037903,
+        "prompt_tokens": 31398,
+        "completion_tokens": 1301,
+        "total_tokens": 32699
+      },
+      "baseline": {
+        "n": 12,
+        "macro_f1": 0.0,
+        "mean_tokens": 187.91666666666666,
+        "cost_usd": 0.008875000000000001,
+        "prompt_tokens": 600,
+        "completion_tokens": 1655,
+        "total_tokens": 2255
+      },
+      "n": 12
+    },
+    "T5_cross_concept": {
+      "ckg": {
+        "n": 48,
+        "macro_f1": 0.4377583333333333,
+        "mean_tokens": 289.3541666666667,
+        "cost_usd": 0.029301,
+        "prompt_tokens": 10036,
+        "completion_tokens": 3853,
+        "total_tokens": 13889
+      },
+      "rag": {
+        "n": 48,
+        "macro_f1": 0.24747291666666668,
+        "mean_tokens": 3269.25,
+        "cost_usd": 0.184404,
+        "prompt_tokens": 150054,
+        "completion_tokens": 6870,
+        "total_tokens": 156924
+      },
+      "baseline": {
+        "n": 48,
+        "macro_f1": 0.15255208333333334,
+        "mean_tokens": 348.4375,
+        "cost_usd": 0.07056100000000001,
+        "prompt_tokens": 3266,
+        "completion_tokens": 13459,
+        "total_tokens": 16725
+      },
+      "n": 48
+    }
+  },
+  "by_domain": {
+    "ct-cardiovascular": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.48769,
+        "mean_tokens": 222.65,
+        "cost_usd": 0.009769,
+        "prompt_tokens": 3124,
+        "completion_tokens": 1329,
+        "total_tokens": 4453
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.12903499999999998,
+        "mean_tokens": 3208.4,
+        "cost_usd": 0.076336,
+        "prompt_tokens": 61126,
+        "completion_tokens": 3042,
+        "total_tokens": 64168
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.079505,
+        "mean_tokens": 351.7,
+        "cost_usd": 0.030526,
+        "prompt_tokens": 1161,
+        "completion_tokens": 5873,
+        "total_tokens": 7034
+      },
+      "n": 20
+    },
+    "ct-gastro-hepatology": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.45585000000000003,
+        "mean_tokens": 231.2,
+        "cost_usd": 0.010048,
+        "prompt_tokens": 3268,
+        "completion_tokens": 1356,
+        "total_tokens": 4624
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.09520999999999999,
+        "mean_tokens": 3245.5,
+        "cost_usd": 0.07775,
+        "prompt_tokens": 61700,
+        "completion_tokens": 3210,
+        "total_tokens": 64910
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.057515000000000004,
+        "mean_tokens": 358.1,
+        "cost_usd": 0.03135,
+        "prompt_tokens": 1115,
+        "completion_tokens": 6047,
+        "total_tokens": 7162
+      },
+      "n": 20
+    },
+    "ct-hematologic-malignancies": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.5102949999999999,
+        "mean_tokens": 240.0,
+        "cost_usd": 0.010576,
+        "prompt_tokens": 3356,
+        "completion_tokens": 1444,
+        "total_tokens": 4800
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.137965,
+        "mean_tokens": 3273.45,
+        "cost_usd": 0.077409,
+        "prompt_tokens": 62484,
+        "completion_tokens": 2985,
+        "total_tokens": 65469
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.093745,
+        "mean_tokens": 349.3,
+        "cost_usd": 0.030074000000000004,
+        "prompt_tokens": 1214,
+        "completion_tokens": 5772,
+        "total_tokens": 6986
+      },
+      "n": 20
+    },
+    "ct-immunology-autoimmune": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.43049,
+        "mean_tokens": 230.05,
+        "cost_usd": 0.010440999999999999,
+        "prompt_tokens": 3141,
+        "completion_tokens": 1460,
+        "total_tokens": 4601
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.12854000000000002,
+        "mean_tokens": 3255.25,
+        "cost_usd": 0.075613,
+        "prompt_tokens": 62478,
+        "completion_tokens": 2627,
+        "total_tokens": 65105
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.065405,
+        "mean_tokens": 333.85,
+        "cost_usd": 0.028865000000000002,
+        "prompt_tokens": 1130,
+        "completion_tokens": 5547,
+        "total_tokens": 6677
+      },
+      "n": 20
+    },
+    "ct-infectious-disease-vaccines": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.45338500000000004,
+        "mean_tokens": 257.85,
+        "cost_usd": 0.011221,
+        "prompt_tokens": 3641,
+        "completion_tokens": 1516,
+        "total_tokens": 5157
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.14950999999999998,
+        "mean_tokens": 3244.75,
+        "cost_usd": 0.076931,
+        "prompt_tokens": 61886,
+        "completion_tokens": 3009,
+        "total_tokens": 64895
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.090675,
+        "mean_tokens": 330.4,
+        "cost_usd": 0.028032,
+        "prompt_tokens": 1252,
+        "completion_tokens": 5356,
+        "total_tokens": 6608
+      },
+      "n": 20
+    },
+    "ct-metabolic-endocrine": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.421175,
+        "mean_tokens": 244.15,
+        "cost_usd": 0.010839,
+        "prompt_tokens": 3394,
+        "completion_tokens": 1489,
+        "total_tokens": 4883
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.12086000000000001,
+        "mean_tokens": 3198.45,
+        "cost_usd": 0.076289,
+        "prompt_tokens": 60889,
+        "completion_tokens": 3080,
+        "total_tokens": 63969
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.07718,
+        "mean_tokens": 328.8,
+        "cost_usd": 0.028248000000000002,
+        "prompt_tokens": 1158,
+        "completion_tokens": 5418,
+        "total_tokens": 6576
+      },
+      "n": 20
+    },
+    "ct-nephrology-renal": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.48599500000000007,
+        "mean_tokens": 227.5,
+        "cost_usd": 0.009698,
+        "prompt_tokens": 3263,
+        "completion_tokens": 1287,
+        "total_tokens": 4550
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.127985,
+        "mean_tokens": 3233.15,
+        "cost_usd": 0.076979,
+        "prompt_tokens": 61584,
+        "completion_tokens": 3079,
+        "total_tokens": 64663
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.084855,
+        "mean_tokens": 342.55,
+        "cost_usd": 0.029579,
+        "prompt_tokens": 1169,
+        "completion_tokens": 5682,
+        "total_tokens": 6851
+      },
+      "n": 20
+    },
+    "ct-neurology-alzheimers": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.43980499999999995,
+        "mean_tokens": 222.3,
+        "cost_usd": 0.009638,
+        "prompt_tokens": 3148,
+        "completion_tokens": 1298,
+        "total_tokens": 4446
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.125575,
+        "mean_tokens": 3194.4,
+        "cost_usd": 0.07362,
+        "prompt_tokens": 61455,
+        "completion_tokens": 2433,
+        "total_tokens": 63888
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.06083499999999999,
+        "mean_tokens": 331.5,
+        "cost_usd": 0.028618,
+        "prompt_tokens": 1133,
+        "completion_tokens": 5497,
+        "total_tokens": 6630
+      },
+      "n": 20
+    },
+    "ct-oncology-solid-tumors": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.526375,
+        "mean_tokens": 219.2,
+        "cost_usd": 0.009468,
+        "prompt_tokens": 3113,
+        "completion_tokens": 1271,
+        "total_tokens": 4384
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.12036500000000001,
+        "mean_tokens": 3247.35,
+        "cost_usd": 0.076331,
+        "prompt_tokens": 62101,
+        "completion_tokens": 2846,
+        "total_tokens": 64947
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.06819499999999999,
+        "mean_tokens": 344.05,
+        "cost_usd": 0.030013000000000005,
+        "prompt_tokens": 1098,
+        "completion_tokens": 5783,
+        "total_tokens": 6881
+      },
+      "n": 20
+    },
+    "ct-psychiatry-behavioral": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.48524,
+        "mean_tokens": 217.6,
+        "cost_usd": 0.00924,
+        "prompt_tokens": 3130,
+        "completion_tokens": 1222,
+        "total_tokens": 4352
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.11034,
+        "mean_tokens": 3210.95,
+        "cost_usd": 0.074091,
+        "prompt_tokens": 61751,
+        "completion_tokens": 2468,
+        "total_tokens": 64219
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.07765,
+        "mean_tokens": 308.35,
+        "cost_usd": 0.026455,
+        "prompt_tokens": 1095,
+        "completion_tokens": 5072,
+        "total_tokens": 6167
+      },
+      "n": 20
+    },
+    "ct-rare-genetic": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.46683,
+        "mean_tokens": 230.45,
+        "cost_usd": 0.009705,
+        "prompt_tokens": 3335,
+        "completion_tokens": 1274,
+        "total_tokens": 4609
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.170855,
+        "mean_tokens": 3226.05,
+        "cost_usd": 0.07503699999999999,
+        "prompt_tokens": 61892,
+        "completion_tokens": 2629,
+        "total_tokens": 64521
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.10191000000000001,
+        "mean_tokens": 316.95,
+        "cost_usd": 0.026839000000000002,
+        "prompt_tokens": 1214,
+        "completion_tokens": 5125,
+        "total_tokens": 6339
+      },
+      "n": 20
+    },
+    "ct-respiratory-pulmonary": {
+      "ckg": {
+        "n": 20,
+        "macro_f1": 0.46548,
+        "mean_tokens": 238.3,
+        "cost_usd": 0.010742,
+        "prompt_tokens": 3272,
+        "completion_tokens": 1494,
+        "total_tokens": 4766
+      },
+      "rag": {
+        "n": 20,
+        "macro_f1": 0.143395,
+        "mean_tokens": 3235.7,
+        "cost_usd": 0.07665,
+        "prompt_tokens": 61730,
+        "completion_tokens": 2984,
+        "total_tokens": 64714
+      },
+      "baseline": {
+        "n": 20,
+        "macro_f1": 0.083885,
+        "mean_tokens": 341.45,
+        "cost_usd": 0.029357,
+        "prompt_tokens": 1197,
+        "completion_tokens": 5632,
+        "total_tokens": 6829
+      },
+      "n": 20
+    }
+  }
+}
