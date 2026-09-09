@@ -34,3 +34,27 @@ Yarmoluk-McCreary v0.6.2 paper.
 Create and validate the package locally, commit it to this repository, and push
 to the private GitHub remote. Public visibility remains a separate owner decision
 after review.
+
+## Integrity-v2 Correction Plan
+
+The first independent model audit found that the frozen arithmetic is internally
+consistent but that token-set F1 and annotation-assisted CKG retrieval do not
+support a relationship-reasoning claim. Preserve those artifacts as the audit
+trail and run a separate corrected evaluation.
+
+1. Select exactly four questions of each T1-T5 type per domain, for 240 total
+   questions and 48 questions per type. Rotate T4 taxonomy categories across
+   domains so the sample is not limited to singleton AREA queries.
+2. Resolve CKG retrieval exclusively from the natural-language question. The
+   retrieval function must receive no concept IDs, path IDs, taxonomy IDs, or
+   ground-truth labels.
+3. Require both CKG and RAG to return the same compact JSON answer schema. Score
+   taxonomy classification, dependency sets, ordered path edges, aggregate sets,
+   and directed dependency relations instead of unordered word overlap.
+4. Include a deterministic question-echo control, retain token-set F1 only as a
+   diagnostic, and record evidence recall separately from answer correctness.
+5. Stamp every row and run manifest with model, prompt, retrieval settings, seed,
+   timestamp, git commit, pricing, selected query IDs, and hashes of frozen inputs.
+6. Add unit and integrity tests before any API call. Then run the minimum matched
+   CKG/RAG evaluation with Claude Haiku 4.5 and publish a separate corrected
+   report without modifying the Yarmoluk-McCreary paper.

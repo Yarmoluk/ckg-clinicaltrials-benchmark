@@ -1,0 +1,59 @@
+{
+  "api_base": "https://clinicaltrials.gov/api/v2/studies",
+  "docs": {
+    "chapters": 5,
+    "docs_dir": "/Users/danielyarmoluk/projects/ckg-benchmark/corpus/ct-cardiovascular/docs"
+  },
+  "domain_id": "ct-cardiovascular",
+  "graph": {
+    "domain_id": "ct-cardiovascular",
+    "domain_label": "Cardiovascular disease",
+    "edge_count": 213,
+    "node_count": 180,
+    "source_coverage": 0.9444444444444444,
+    "taxonomy_counts": {
+      "AREA": 1,
+      "COND": 30,
+      "FRAME": 6,
+      "INTR": 40,
+      "OUTC": 35,
+      "PHASE": 5,
+      "SPON": 25,
+      "STATUS": 9,
+      "TRIAL": 29
+    },
+    "trial_count": 477
+  },
+  "label": "Cardiovascular disease",
+  "outputs": {
+    "corpus": "results/clinicaltrials/ct-cardiovascular/corpus.json",
+    "graph": "benchmark/domains/ct-cardiovascular/learning-graph.csv",
+    "provenance": "benchmark/domains/ct-cardiovascular/sources.json",
+    "queries": "benchmark/queries/queries_ct-cardiovascular.jsonl",
+    "summary": "results/clinicaltrials/ct-cardiovascular/summary.json"
+  },
+  "queries": [
+    {
+      "field": "query.cond",
+      "term": "heart failure"
+    },
+    {
+      "field": "query.cond",
+      "term": "atrial fibrillation"
+    },
+    {
+      "field": "query.cond",
+      "term": "coronary artery disease"
+    },
+    {
+      "field": "query.cond",
+      "term": "hypertension"
+    },
+    {
+      "field": "query.cond",
+      "term": "stroke"
+    }
+  ],
+  "source": "ClinicalTrials.gov API v2",
+  "trial_count": 477
+}

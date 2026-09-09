@@ -1,0 +1,59 @@
+{
+  "api_base": "https://clinicaltrials.gov/api/v2/studies",
+  "docs": {
+    "chapters": 5,
+    "docs_dir": "/Users/danielyarmoluk/projects/ckg-benchmark/corpus/ct-nephrology-renal/docs"
+  },
+  "domain_id": "ct-nephrology-renal",
+  "graph": {
+    "domain_id": "ct-nephrology-renal",
+    "domain_label": "Nephrology and renal disease",
+    "edge_count": 226,
+    "node_count": 180,
+    "source_coverage": 0.9555555555555556,
+    "taxonomy_counts": {
+      "AREA": 1,
+      "COND": 30,
+      "FRAME": 6,
+      "INTR": 40,
+      "OUTC": 35,
+      "PHASE": 5,
+      "SPON": 25,
+      "STATUS": 10,
+      "TRIAL": 28
+    },
+    "trial_count": 474
+  },
+  "label": "Nephrology and renal disease",
+  "outputs": {
+    "corpus": "results/clinicaltrials/ct-nephrology-renal/corpus.json",
+    "graph": "benchmark/domains/ct-nephrology-renal/learning-graph.csv",
+    "provenance": "benchmark/domains/ct-nephrology-renal/sources.json",
+    "queries": "benchmark/queries/queries_ct-nephrology-renal.jsonl",
+    "summary": "results/clinicaltrials/ct-nephrology-renal/summary.json"
+  },
+  "queries": [
+    {
+      "field": "query.cond",
+      "term": "chronic kidney disease"
+    },
+    {
+      "field": "query.cond",
+      "term": "diabetic kidney disease"
+    },
+    {
+      "field": "query.cond",
+      "term": "kidney transplant"
+    },
+    {
+      "field": "query.cond",
+      "term": "IgA nephropathy"
+    },
+    {
+      "field": "query.cond",
+      "term": "acute kidney injury"
+    }
+  ],
+  "source": "ClinicalTrials.gov API v2",
+  "trial_count": 474
+}

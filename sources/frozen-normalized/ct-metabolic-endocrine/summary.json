@@ -1,0 +1,59 @@
+{
+  "api_base": "https://clinicaltrials.gov/api/v2/studies",
+  "docs": {
+    "chapters": 5,
+    "docs_dir": "/Users/danielyarmoluk/projects/ckg-benchmark/corpus/ct-metabolic-endocrine/docs"
+  },
+  "domain_id": "ct-metabolic-endocrine",
+  "graph": {
+    "domain_id": "ct-metabolic-endocrine",
+    "domain_label": "Metabolic and endocrine disease",
+    "edge_count": 224,
+    "node_count": 180,
+    "source_coverage": 0.9611111111111111,
+    "taxonomy_counts": {
+      "AREA": 1,
+      "COND": 30,
+      "FRAME": 6,
+      "INTR": 40,
+      "OUTC": 35,
+      "PHASE": 5,
+      "SPON": 25,
+      "STATUS": 10,
+      "TRIAL": 28
+    },
+    "trial_count": 471
+  },
+  "label": "Metabolic and endocrine disease",
+  "outputs": {
+    "corpus": "results/clinicaltrials/ct-metabolic-endocrine/corpus.json",
+    "graph": "benchmark/domains/ct-metabolic-endocrine/learning-graph.csv",
+    "provenance": "benchmark/domains/ct-metabolic-endocrine/sources.json",
+    "queries": "benchmark/queries/queries_ct-metabolic-endocrine.jsonl",
+    "summary": "results/clinicaltrials/ct-metabolic-endocrine/summary.json"
+  },
+  "queries": [
+    {
+      "field": "query.cond",
+      "term": "type 2 diabetes"
+    },
+    {
+      "field": "query.cond",
+      "term": "obesity"
+    },
+    {
+      "field": "query.cond",
+      "term": "nonalcoholic steatohepatitis"
+    },
+    {
+      "field": "query.cond",
+      "term": "dyslipidemia"
+    },
+    {
+      "field": "query.cond",
+      "term": "thyroid disease"
+    }
+  ],
+  "source": "ClinicalTrials.gov API v2",
+  "trial_count": 471
+}

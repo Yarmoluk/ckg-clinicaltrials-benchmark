@@ -1,0 +1,59 @@
+{
+  "api_base": "https://clinicaltrials.gov/api/v2/studies",
+  "docs": {
+    "chapters": 5,
+    "docs_dir": "/Users/danielyarmoluk/projects/ckg-benchmark/corpus/ct-psychiatry-behavioral/docs"
+  },
+  "domain_id": "ct-psychiatry-behavioral",
+  "graph": {
+    "domain_id": "ct-psychiatry-behavioral",
+    "domain_label": "Psychiatry and behavioral health",
+    "edge_count": 220,
+    "node_count": 180,
+    "source_coverage": 0.9555555555555556,
+    "taxonomy_counts": {
+      "AREA": 1,
+      "COND": 30,
+      "FRAME": 6,
+      "INTR": 40,
+      "OUTC": 35,
+      "PHASE": 5,
+      "SPON": 25,
+      "STATUS": 8,
+      "TRIAL": 30
+    },
+    "trial_count": 474
+  },
+  "label": "Psychiatry and behavioral health",
+  "outputs": {
+    "corpus": "results/clinicaltrials/ct-psychiatry-behavioral/corpus.json",
+    "graph": "benchmark/domains/ct-psychiatry-behavioral/learning-graph.csv",
+    "provenance": "benchmark/domains/ct-psychiatry-behavioral/sources.json",
+    "queries": "benchmark/queries/queries_ct-psychiatry-behavioral.jsonl",
+    "summary": "results/clinicaltrials/ct-psychiatry-behavioral/summary.json"
+  },
+  "queries": [
+    {
+      "field": "query.cond",
+      "term": "major depressive disorder"
+    },
+    {
+      "field": "query.cond",
+      "term": "schizophrenia"
+    },
+    {
+      "field": "query.cond",
+      "term": "bipolar disorder"
+    },
+    {
+      "field": "query.cond",
+      "term": "anxiety disorder"
+    },
+    {
+      "field": "query.cond",
+      "term": "substance use disorder"
+    }
+  ],
+  "source": "ClinicalTrials.gov API v2",
+  "trial_count": 474
+}

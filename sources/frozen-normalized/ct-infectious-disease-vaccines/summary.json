@@ -1,0 +1,59 @@
+{
+  "api_base": "https://clinicaltrials.gov/api/v2/studies",
+  "docs": {
+    "chapters": 5,
+    "docs_dir": "/Users/danielyarmoluk/projects/ckg-benchmark/corpus/ct-infectious-disease-vaccines/docs"
+  },
+  "domain_id": "ct-infectious-disease-vaccines",
+  "graph": {
+    "domain_id": "ct-infectious-disease-vaccines",
+    "domain_label": "Infectious disease and vaccines",
+    "edge_count": 255,
+    "node_count": 180,
+    "source_coverage": 0.9,
+    "taxonomy_counts": {
+      "AREA": 1,
+      "COND": 30,
+      "FRAME": 6,
+      "INTR": 40,
+      "OUTC": 35,
+      "PHASE": 5,
+      "SPON": 25,
+      "STATUS": 9,
+      "TRIAL": 29
+    },
+    "trial_count": 493
+  },
+  "label": "Infectious disease and vaccines",
+  "outputs": {
+    "corpus": "results/clinicaltrials/ct-infectious-disease-vaccines/corpus.json",
+    "graph": "benchmark/domains/ct-infectious-disease-vaccines/learning-graph.csv",
+    "provenance": "benchmark/domains/ct-infectious-disease-vaccines/sources.json",
+    "queries": "benchmark/queries/queries_ct-infectious-disease-vaccines.jsonl",
+    "summary": "results/clinicaltrials/ct-infectious-disease-vaccines/summary.json"
+  },
+  "queries": [
+    {
+      "field": "query.cond",
+      "term": "COVID-19"
+    },
+    {
+      "field": "query.cond",
+      "term": "influenza"
+    },
+    {
+      "field": "query.cond",
+      "term": "HIV"
+    },
+    {
+      "field": "query.cond",
+      "term": "respiratory syncytial virus"
+    },
+    {
+      "field": "query.cond",
+      "term": "hepatitis B"
+    }
+  ],
+  "source": "ClinicalTrials.gov API v2",
+  "trial_count": 493
+}

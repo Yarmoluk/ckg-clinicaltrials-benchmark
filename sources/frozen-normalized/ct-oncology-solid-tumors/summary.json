@@ -1,0 +1,59 @@
+{
+  "api_base": "https://clinicaltrials.gov/api/v2/studies",
+  "docs": {
+    "chapters": 5,
+    "docs_dir": "/Users/danielyarmoluk/projects/ckg-benchmark/corpus/ct-oncology-solid-tumors/docs"
+  },
+  "domain_id": "ct-oncology-solid-tumors",
+  "graph": {
+    "domain_id": "ct-oncology-solid-tumors",
+    "domain_label": "Oncology - solid tumors",
+    "edge_count": 227,
+    "node_count": 180,
+    "source_coverage": 0.9444444444444444,
+    "taxonomy_counts": {
+      "AREA": 1,
+      "COND": 30,
+      "FRAME": 6,
+      "INTR": 40,
+      "OUTC": 35,
+      "PHASE": 5,
+      "SPON": 25,
+      "STATUS": 10,
+      "TRIAL": 28
+    },
+    "trial_count": 446
+  },
+  "label": "Oncology - solid tumors",
+  "outputs": {
+    "corpus": "results/clinicaltrials/ct-oncology-solid-tumors/corpus.json",
+    "graph": "benchmark/domains/ct-oncology-solid-tumors/learning-graph.csv",
+    "provenance": "benchmark/domains/ct-oncology-solid-tumors/sources.json",
+    "queries": "benchmark/queries/queries_ct-oncology-solid-tumors.jsonl",
+    "summary": "results/clinicaltrials/ct-oncology-solid-tumors/summary.json"
+  },
+  "queries": [
+    {
+      "field": "query.cond",
+      "term": "non-small cell lung cancer"
+    },
+    {
+      "field": "query.cond",
+      "term": "breast cancer"
+    },
+    {
+      "field": "query.cond",
+      "term": "colorectal cancer"
+    },
+    {
+      "field": "query.cond",
+      "term": "prostate cancer"
+    },
+    {
+      "field": "query.cond",
+      "term": "solid tumor"
+    }
+  ],
+  "source": "ClinicalTrials.gov API v2",
+  "trial_count": 446
+}

@@ -1,0 +1,59 @@
+{
+  "api_base": "https://clinicaltrials.gov/api/v2/studies",
+  "docs": {
+    "chapters": 5,
+    "docs_dir": "/Users/danielyarmoluk/projects/ckg-benchmark/corpus/ct-respiratory-pulmonary/docs"
+  },
+  "domain_id": "ct-respiratory-pulmonary",
+  "graph": {
+    "domain_id": "ct-respiratory-pulmonary",
+    "domain_label": "Respiratory and pulmonary disease",
+    "edge_count": 218,
+    "node_count": 180,
+    "source_coverage": 0.9611111111111111,
+    "taxonomy_counts": {
+      "AREA": 1,
+      "COND": 30,
+      "FRAME": 6,
+      "INTR": 40,
+      "OUTC": 35,
+      "PHASE": 5,
+      "SPON": 25,
+      "STATUS": 8,
+      "TRIAL": 30
+    },
+    "trial_count": 480
+  },
+  "label": "Respiratory and pulmonary disease",
+  "outputs": {
+    "corpus": "results/clinicaltrials/ct-respiratory-pulmonary/corpus.json",
+    "graph": "benchmark/domains/ct-respiratory-pulmonary/learning-graph.csv",
+    "provenance": "benchmark/domains/ct-respiratory-pulmonary/sources.json",
+    "queries": "benchmark/queries/queries_ct-respiratory-pulmonary.jsonl",
+    "summary": "results/clinicaltrials/ct-respiratory-pulmonary/summary.json"
+  },
+  "queries": [
+    {
+      "field": "query.cond",
+      "term": "asthma"
+    },
+    {
+      "field": "query.cond",
+      "term": "COPD"
+    },
+    {
+      "field": "query.cond",
+      "term": "pulmonary fibrosis"
+    },
+    {
+      "field": "query.cond",
+      "term": "pulmonary hypertension"
+    },
+    {
+      "field": "query.cond",
+      "term": "sleep apnea"
+    }
+  ],
+  "source": "ClinicalTrials.gov API v2",
+  "trial_count": 480
+}
