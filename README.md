@@ -1,3 +1,5 @@
+# CKG ClinicalTrials.gov Benchmark
+
 ![CKG ClinicalTrials.gov benchmark social card](assets/social/ckg-clinicaltrials-linkedin.png)
 
 This repository evaluates a Compressed Knowledge Graph (CKG) as an AI context
