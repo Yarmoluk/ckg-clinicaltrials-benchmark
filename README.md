@@ -45,6 +45,46 @@ authorship with the separate Yarmoluk-McCreary CKG benchmark paper.
 - Use the [MCP companion design](MCP.md) as the next step for exposing the
   benchmark to agent clients.
 
+## How to Use This
+
+Use this repository in three layers: inspect the published result, verify the
+frozen artifacts, then adapt the evaluation pattern to a domain where
+relationships matter.
+
+| User | Start here | What to do |
+| --- | --- | --- |
+| Technical reviewer | [`INTEGRITY_V3_REPORT.md`](INTEGRITY_V3_REPORT.md) | Read the limitations first, then run the verifier against the frozen artifacts. |
+| Life sciences team | [`benchmark/manifest.json`](benchmark/manifest.json) and [`sources/README.md`](sources/README.md) | Inspect the domain structure, relationship types, and provenance model before mapping an internal corpus. |
+| RAG or platform team | [`evaluation/`](evaluation/) | Compare the included CKG, raw-prose RAG, no-context, and question-echo controls, then substitute your own retrieval stack. |
+| Semantic-layer team | [`benchmark/domains/`](benchmark/domains/) | Treat the graphs as an example of metric-like relationships: entity, dependency, path, aggregate, and cross-concept queries. |
+| Agent/MCP builder | [`MCP.md`](MCP.md) | Expose the frozen benchmark through read-only tools so agents can inspect domains, relationships, outputs, and limitations. |
+
+To verify the current result locally:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r evaluation/requirements.txt
+python evaluation/test_integrity_v3.py
+OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+python evaluation/verify_integrity_v3.py
+```
+
+To adapt the benchmark for an internal life sciences or semantic-layer use
+case, keep the evaluation shape but replace the corpus and schema:
+
+1. Choose a bounded corpus: protocols, trial records, medical-affairs claims,
+   regulatory references, metric definitions, or lineage metadata.
+2. Define the relationships the organization needs agents to recover.
+3. Build a frozen CKG and a matching prose corpus from the same approved
+   sources.
+4. Freeze a representative question set across entity, dependency, path,
+   aggregate, and cross-concept tasks.
+5. Run CKG, your RAG stack, and no-context controls with the same model and
+   scoring rules.
+6. Have subject-matter reviewers inspect misses before using the workflow in
+   production.
+
 ## Hardened Headline Result
 
 Integrity-v3 uses annotation-blind CKG retrieval, identical retrieval queries
